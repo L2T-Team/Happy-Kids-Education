@@ -1,0 +1,92 @@
+/*全局基础样式*/
+/*小屏幕下(手机类)的样式*/
+@media only screen and (max-width: 601px) {
+    .container {
+        width: 95%;
+    }
+    .page-header {
+        height: 86px;
+    }
+}
+
+/*中等屏幕下(平板类)的样式*/
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+    .container {
+        width: 90%;
+    }
+    .page-header {
+        height: 86px;
+        /* display: flex; */
+    }
+}
+
+/*大屏幕下(桌面类)的样式*/
+@media only screen and (min-width: 993px) {
+    .container {
+        width: 90%;
+        max-width: 1125px;
+    }
+    .page-header {
+        padding-top: 5px;
+        display: flex;
+    }
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* font-family: Montserrat; */
+}
+
+.page-header {
+    /* height: 86px; */
+    /* display: flex; */
+    align-items: center;
+}
+
+.page-body {
+    flex: 1;
+}
+
+.page-footer {
+    height: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-image: url(../image/footer.png);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Montserrat;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.page-header .nav-link {
+    color: #5D5D5D;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.lang-select-wrap {
+    position: relative;
+    white-space: nowrap;
+}
+
+#lang-select {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    appearance: menulist-button;
+    font-size: inherit;
+}
