@@ -2,9 +2,25 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <meta name="renderer" content="webkit|ie-stand|ie-comp" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <title>Home | Happy Kids Education</title>
+    <link rel="icon" type="image/png" href="./static/picture/logo2.png" />
     <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="common.css" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -17,7 +33,7 @@
       <label for="drop" class="toggle menu_label">Menu</label>
       <input type="checkbox" id="drop" />
       <ul class="menu">
-        <li><a href="#" class="nav__list_active_item">Home</a></li>
+        <li><a href="./home.html" class="nav__list_active_item">Home</a></li>
         <li><a href="#">About</a></li>
         <li>
           <!-- First Tier Drop Down -->
@@ -33,48 +49,56 @@
         </li>
         <li><a href="#">Gallery</a></li>
         <li><a href="#">News</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="./contact.html">Contact</a></li>
       </ul>
     </nav>
-    <section class="header"></section>
-    <section class="body">
+    <header class="header"></header>
+    <main class="body">
       <section class="courses">
         <div class="courses_item">
-          <img src="../static/picture/cover3.png" />
-          <h2>Robotics</h2>
-          <p>Professional programming skills</p>
-          <p>Mastery of mechanical structures</p>
-          <p>Rapid debugging and optimization methods</p>
-          <p>Swift planning of competition strategies</p>
+          <a href="#">
+            <img src="../static/picture/cover3.png" />
+            <h2>Robotics</h2>
+            <p>Professional programming skills</p>
+            <p>Mastery of mechanical structures</p>
+            <p>Rapid debugging and optimization methods</p>
+            <p>Swift planning of competition strategies</p>
+          </a>
         </div>
         <div class="courses_item">
-          <img src="../static/picture/cover4.png" />
-          <h2>Coding</h2>
-          <p>Gain an in-depth understanding of programming fundamentals</p>
-          <p>
-            Prepare for AP Computer Science, as well as USACO, ACSL and other
-            competitions
-          </p>
+          <a href="#">
+            <img src="../static/picture/cover4.png" />
+            <h2>Coding</h2>
+            <p>Gain an in-depth understanding of programming fundamentals</p>
+            <p>
+              Prepare for AP Computer Science, as well as USACO, ACSL and other
+              competitions
+            </p>
+          </a>
         </div>
         <div class="courses_item">
-          <img src="../static/picture/cover5.png" />
-          <h2>Digital Art</h2>
-          <p>
-            Enhance critical thinking by analyzing color, composition, and
-            design elements
-          </p>
-          <p>
-            Improve visual communication skills to express and share ideas
-            effectively
-          </p>
+          <a href="#">
+            <img src="../static/picture/cover5.png" />
+            <h2>Digital Art</h2>
+            <p>
+              Enhance critical thinking by analyzing color, composition, and
+              design elements
+            </p>
+            <p>
+              Improve visual communication skills to express and share ideas
+              effectively
+            </p>
+          </a>
         </div>
         <div class="courses_item">
-          <img src="../static/picture/cover2.png" />
-          <h2>Mentorship</h2>
-          <p>Team of experienced educators</p>
-          <p>Targeted learning approach</p>
-          <p>Personalized guidance for individual academic goals</p>
-          <p>Clear STEM specialization planning</p>
+          <a href="#">
+            <img src="../static/picture/cover2.png" />
+            <h2>Mentorship</h2>
+            <p>Team of experienced educators</p>
+            <p>Targeted learning approach</p>
+            <p>Personalized guidance for individual academic goals</p>
+            <p>Clear STEM specialization planning</p>
+          </a>
         </div>
       </section>
       <section class="aboutUs">
@@ -178,61 +202,69 @@
         <h1>NEWS</h1>
         <div class="news__items">
           <div class="news__item">
-            <img src="../static/picture/2.jpg" />
-            <div class="news__item_content">
-              <p class="news__item_calendar">
-                <i class="fa fa-calendar"></i> December 12, 2023
-              </p>
+            <a href="#">
+              <img src="../static/picture/2.jpg" />
+              <div class="news__item_content">
+                <p class="news__item_calendar">
+                  <i class="fa fa-calendar"></i> December 12, 2023
+                </p>
 
-              <h3>Empowering Young Minds for Success around the Globe!</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam,
-              </p>
-            </div>
+                <h3>Empowering Young Minds for Success around the Globe!</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam,
+                </p>
+              </div>
+            </a>
           </div>
           <div class="news__item">
-            <img src="../static/picture/04.png" />
-            <div class="news__item_content">
-              <p class="news__item_calendar">
-                <i class="fa fa-calendar"></i> December 12, 2023
-              </p>
-              <h3>Empowering Young Minds for Success around the Globe!</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam,
-              </p>
-            </div>
+            <a href="#">
+              <img src="../static/picture/04.png" />
+              <div class="news__item_content">
+                <p class="news__item_calendar">
+                  <i class="fa fa-calendar"></i> December 12, 2023
+                </p>
+                <h3>Empowering Young Minds for Success around the Globe!</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam,
+                </p>
+              </div>
+            </a>
           </div>
           <div class="news__item">
-            <img src="../static/picture/05.png" />
-            <div class="news__item_content">
-              <p class="news__item_calendar">
-                <i class="fa fa-calendar"></i> December 12, 2023
-              </p>
-              <h3>Empowering Young Minds for Success around the Globe!</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam,
-              </p>
-            </div>
+            <a href="#">
+              <img src="../static/picture/05.png" />
+              <div class="news__item_content">
+                <p class="news__item_calendar">
+                  <i class="fa fa-calendar"></i> December 12, 2023
+                </p>
+                <h3>Empowering Young Minds for Success around the Globe!</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam,
+                </p>
+              </div>
+            </a>
           </div>
           <div class="news__item">
-            <img src="../static/picture/06.png" />
-            <div class="news__item_content">
-              <p class="news__item_calendar">
-                <i class="fa fa-calendar"></i> December 12, 2023
-              </p>
-              <h3>Empowering Young Minds for Success around the Globe!</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam,
-              </p>
-            </div>
+            <a href="#">
+              <img src="../static/picture/06.png" />
+              <div class="news__item_content">
+                <p class="news__item_calendar">
+                  <i class="fa fa-calendar"></i> December 12, 2023
+                </p>
+                <h3>Empowering Young Minds for Success around the Globe!</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam,
+                </p>
+              </div>
+            </a>
           </div>
         </div>
       </section>
@@ -276,8 +308,8 @@
           </form>
         </div>
       </section>
-    </section>
-    <section class="footer">
+    </main>
+    <footer class="footer">
       <div class="footer__container">
         <div class="footer__column">
           <img class="footer__column_title" src="../static/picture/logo.png" />
@@ -337,6 +369,6 @@
         Copyright 2024 <span>Happy Kids Education, California</span> All Rights
         Reserved
       </p>
-    </section>
+    </footer>
   </body>
 </html>
