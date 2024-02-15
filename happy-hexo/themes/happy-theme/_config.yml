@@ -3,10 +3,12 @@ menu:
   Home: /
   About: /about
   Courses: 
-    - Robotics: /robotics
-    - Coding: /coding
-    - Digital Art: /digital-art
-    - Mentorship: /mentorship
+    url: /courses
+    children:
+      Robotics: /robotics
+      Coding: /coding
+      Digital Art: /digital-art
+      Mentorship: /mentorship
   Gallery: /gallery
   News: /news
   Contact: /contact
