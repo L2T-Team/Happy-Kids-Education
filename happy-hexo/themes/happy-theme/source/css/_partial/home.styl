@@ -1,0 +1,227 @@
+$color-1 = #fff
+$color-2 = #ababab
+$color-3 = #000
+$color-4 = #f29956
+$color-5 = #61b9f5
+$color-6 = #b8b8b8
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans)
+
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif)
+
+*
+    margin 0
+    padding 0
+
+body
+    font-family "Open Sans", sans-serif
+
+.toggle
+[id^="drop"]
+    display none
+
+nav
+    background-color $color-1
+    margin-top 1rem
+    padding 1rem 1.5rem
+    width 80%
+    max-width 1280px
+    position fixed
+    left 50%
+    transform translate(-50%, 0)
+    border-radius 7px
+    display flex
+    justify-content space-between
+    align-items center
+    z-index 99999
+
+    ul
+        padding 0
+        margin 0
+        list-style none
+        position relative
+        display flex
+        justify-content space-around
+        gap 1.5rem
+        color $color-2
+
+        li
+            margin 0px
+            display inline-block
+            background-color $color-1
+
+            &:hover
+                >ul
+                    display inherit
+
+        ul
+            display none
+            position absolute
+            padding-top 0.5rem
+
+            li
+                display list-item
+                position relative
+                padding 0.5rem 1rem
+
+            ul
+                li
+                    position relative
+                    top -60px
+                    left 170px
+
+    a
+        display block
+        color $color-2
+        text-decoration none
+
+        &:hover
+            color $color-3
+
+li
+    >a
+        &:only-child
+            &:after
+                content ""
+
+@media all and (max-width: 900px)
+    nav
+        width 85%
+
+@media all and (max-width: 768px)
+    nav
+        margin 0
+        width 90%
+        padding-inline 2rem
+        flex-wrap wrap
+
+        ul
+            margin 1rem
+            flex-basis 100%
+
+            li
+                display block
+                width 100%
+                padding-block 0.5rem
+
+            ul
+                float none
+                position static
+                color $color-1
+
+                ul
+                    a
+                        padding 0 80px
+
+                    li
+                        position static
+
+                li
+                    display block
+                    width 100%
+
+    .toggle + a
+    .menu
+        display none
+
+    .menu_label
+        float right
+        font-weight 600
+
+    .toggle
+        display block
+        text-decoration none
+        border none
+        cursor pointer
+
+        &:hover
+            color $color-3
+
+    [id^="drop"]:checked
+        +ul
+            display block
+
+    nav ul ul .toggle
+    nav ul ul a
+        padding 0 40px
+
+    nav ul ul li:hover > ul
+    nav ul li:hover > ul
+        display none
+
+@media all and (max-width: 330px)
+    nav
+        ul
+            li
+                display block
+                width 94%
+
+.nav__logo
+    width 250px
+    height 100%
+
+.nav__list_active_item
+    color $color-4
+
+    &:hover
+        color $color-4
+
+.header
+    background-image url("./picture/012.png")
+    height 29rem
+    background-position center
+    background-repeat no-repeat
+    background-size cover
+
+.body
+    background-color gray
+
+.courses
+    display flex
+    justify-content space-between
+    position relative
+    top -2rem
+    width 80%
+    max-width 1280px
+    margin 0 auto 10rem
+    gap 1rem
+
+.courses_item
+    background-color $color-1
+    width 20rem
+    padding-bottom 2rem
+    border-radius 10px
+    overflow hidden
+    cursor pointer
+    transition all 0.2s ease-in-out
+
+    &:hover
+        transform scale(1.07)
+        border solid 2px $color-5
+
+    &:active
+        transform scale(1)
+        border solid 2px $color-5
+    img
+
+        width 100%
+
+    h2
+        color $color-5
+        text-align center
+        margin-bottom 1rem
+
+    p
+        color $color-6
+        font-size 0.9rem
+        margin-bottom 0.7rem
+        padding 0 1.5rem
+
+.aboutUs
+    width 80%
+    max-width 1280px
+    margin 0 auto
+    display flex
+    gap 4rem
+
+.aboutUs__content

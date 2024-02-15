@@ -1,7 +1,14 @@
 # Header
 menu:
   Home: /
-  Archives: /archives
+  About: /about
+  Courses: /courses
+  Gallery: /gallery
+  News: /news
+  Contact: /contact
+
+title: Happy Kids Education
+
 rss: /atom.xml
 banner: "images/banner.jpg"
 
