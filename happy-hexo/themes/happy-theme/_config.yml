@@ -2,7 +2,11 @@
 menu:
   Home: /
   About: /about
-  Courses: /courses
+  Courses: 
+    - Robotics: /robotics
+    - Coding: /coding
+    - Digital Art: /digital-art
+    - Mentorship: /mentorship
   Gallery: /gallery
   News: /news
   Contact: /contact
