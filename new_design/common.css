@@ -15,6 +15,7 @@
   --h4-font-size: calc(0.553846153846154vw + 23.9261538461539px);
   --h5-font-size: calc(0.461538461538462vw + 19.9384615384615px);
   --h6-font-size: calc(0.384615384615385vw + 16.6153846153846px);
+  --p-font-size: calc(0.192307692307692vw + 14.3076923076923px);
 }
 
 * {
@@ -47,6 +48,10 @@ h4 {
   margin-bottom: 1rem;
 }
 
+p {
+  font-size: var(--p-font-size);
+}
+
 .padding_container {
   padding: 0 var(--globalPadding);
   width: 100%;
@@ -68,6 +73,9 @@ h4 {
   .flex_card_4 {
     width: 100%;
   }
+  .flex_card_5 {
+    width: calc(50% - 1rem);
+  }
   .bottom_gap {
     margin-bottom: var(--small-gap);
   }
@@ -80,6 +88,9 @@ h4 {
   }
   .flex_card_4 {
     width: calc(50% - 1rem);
+  }
+  .flex_card_5 {
+    width: calc(33.333% - 1rem);
   }
   .bottom_gap {
     margin-bottom: var(--medium-gap);
@@ -97,6 +108,10 @@ h4 {
   .flex_card_4 {
     width: calc(25% - 1rem);
   }
+  .flex_card_5 {
+    width: calc(20% - 1rem);
+  }
+
   .bottom_gap {
     margin-bottom: var(--huge-gap);
   }
