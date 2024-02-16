@@ -101,9 +101,47 @@ p {
 }
 
 .flex_card_wrap {
+  width: 100%;
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
+}
+.secondary-hero {
+  height: 90vh;
+}
+
+.secondary-hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(32, 16, 3, 0.7); 
+  z-index: 1;
+  height: 90vh;
+}
+
+.secondary-hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+}
+
+.secondary-hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--text-color);
+  font-size: var(--h1-font-size);
+  font-weight: 700;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 1rem;
+  border-radius: 10px;
+  z-index : 2;
 }
 
 @media only screen and (max-width: 768px) {

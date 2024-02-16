@@ -1,0 +1,14 @@
+<section class="advantages bottom_gap padding_container">
+  <h1>OUR ADVANTAGES</h1>
+  <div class="advantages__items flex_card_wrap">
+    <% for (var i in theme.advantages) { %>
+      <div class="advantages__item flex_card_3">
+        <i class="fa fa-check-square fa-4x" aria-hidden="true"></i>
+        <h4><%- i %></h4>
+        <p>
+          <%- theme.advantages[i] %>
+        </p>
+      </div>
+    <% } %>
+  </div>
+</section>
