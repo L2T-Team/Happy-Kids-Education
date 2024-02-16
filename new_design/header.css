@@ -136,7 +136,7 @@ li > a:only-child:after {
 
   nav ul ul .toggle,
   nav ul ul a {
-    padding: 0 40px;
+    padding: 0 0px;
   }
 
   nav ul ul ul a {
@@ -147,6 +147,10 @@ li > a:only-child:after {
     float: none;
     position: static;
     color: #ffffff;
+  }
+
+  nav ul li:hover > ul {
+    box-shadow: none;
   }
 
   nav ul ul li:hover > ul,
