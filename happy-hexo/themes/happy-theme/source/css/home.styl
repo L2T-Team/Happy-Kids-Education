@@ -203,9 +203,14 @@ input:checked + .slide-container .nav label {
   font-size: var(--h4-font-size);
 }
 
-.courses_item p {
-  margin-bottom: 0.7rem;
+.courses_item ul {
+  list-style: square;
   padding: 0 2rem;
+}
+
+.courses_item li {
+  margin-bottom: 0.7rem;
+  color: var(--text-color);
 }
 
 /* ======== ABOUT US ========  */
@@ -301,26 +306,22 @@ input:checked + .slide-container .nav label {
   color: #fff;
 }
 
-.gallery__content button {
+button {
   margin-top: 1rem;
   padding: 1.2rem 4rem;
   border-radius: 10px;
   outline: none;
   border: none;
+  background: var(--accentColor);
+  font-family: "Karla", sans-serif;
 }
 
-.gallery__content button a {
+button a {
   text-decoration: none;
   color: #222222;
   border-radius: 10px;
   font-weight: 600;
   font-size: 1.1rem;
-}
-
-.slide-content button a {
-  text-decoration: none;
-  color: #fff;
-  font-family: "Karla", sans-serif;
 }
 
 .gallery__items {
@@ -350,7 +351,6 @@ input:checked + .slide-container .nav label {
 }
 
 .news__item {
-  height: max-content;
   border-radius: 10px;
   overflow: hidden;
   margin-bottom: 2rem;
@@ -378,10 +378,21 @@ input:checked + .slide-container .nav label {
   padding: 1rem;
 }
 
-.news__item_content h3 {
+.news__item_content p {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+
+.news__item_content h2 {
   margin-bottom: 1rem;
   color: #282828;
   font-size: var(--h6-font-size);
+   display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
 }
 
 /* ======== CONTACT ========  */
@@ -425,17 +436,12 @@ input:checked + .slide-container .nav label {
   resize: vertical;
 }
 
-.contact__form form button,
-.slide-content button {
-  background-color: #ee761c;
-  color: #fff;
-  border: none;
-  outline: none;
-  border-radius: 10px;
-
-  font-size: 1.1rem;
-  padding: 1rem;
-  cursor: pointer;
+.contact__form form button {
+  width: fit-content;
+  margin: 0 auto;  
+  font-family: "Karla", sans-serif;
+  font-size: var(--p-font-size);
+  font-weight: 600;
 }
 
 .contact-wrapper {

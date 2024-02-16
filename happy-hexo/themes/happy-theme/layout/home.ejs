@@ -13,7 +13,7 @@
           <input type="radio" name="radio-buttons" id="img-1" checked />
           <li class="slide-container">
             <div class="slide-image">
-              <img src="..\static\picture\04.png">
+              <img src="<%- url_for('/css/images/coding-avatar.png') %>">
             </div>
             <div class="slide-content">
               <h1>Welcome to Happy Kids</h1>
@@ -32,7 +32,7 @@
           <input type="radio" name="radio-buttons" id="img-2" />
           <li class="slide-container">
             <div class="slide-image">
-              <img src="..\static\picture\09.png">
+              <img src="<%- url_for('/css/images/robotic-avatar.png') %>">
             </div>
             <div class="carousel-controls">
               <label for="img-1" class="prev-slide">
@@ -46,7 +46,7 @@
           <input type="radio" name="radio-buttons" id="img-3" />
           <li class="slide-container">
             <div class="slide-image">
-              <img src="..\static\picture\02.png">
+              <img src="<%- url_for('/css/images/about_us.jpg') %>">
             </div>
             <div class="carousel-controls">
               <label for="img-2" class="prev-slide">
@@ -67,53 +67,19 @@
     </div>
     <main class="body">
       <section class="courses flex_card_wrap padding_container bottom_gap">
-        
-        <div class="courses_item zoom flex_card_4">
-          <a href="./robotics.html">
-            <img src="<%- url_for(theme.menu['Courses'].children['Robotics'].avatar) %>" />
-            <h2>Robotics</h2>
-            <p><%- theme.menu['Courses'].children['Robotics'].description[0] %></p>
-            <p>Professional programming skills</p>
-            <p>Mastery of mechanical structures</p>
-            <p>Rapid debugging and optimization methods</p>
-            <p>Swift planning of competition strategies</p>
-          </a>
-        </div>
-        <div class="courses_item zoom flex_card_4">
-          <a href="./coding.html">
-            <img src="../static/picture/cover4.png" />
-            <h2>Coding</h2>
-            <p>Gain an in-depth understanding of programming fundamentals</p>
-            <p>
-              Prepare for AP Computer Science, as well as USACO, ACSL and other
-              competitions
-            </p>
-          </a>
-        </div>
-        <div class="courses_item zoom flex_card_4">
-          <a href="./digital.html">
-            <img src="../static/picture/cover5.png" />
-            <h2>Digital Art</h2>
-            <p>
-              Enhance critical thinking by analyzing color, composition, and
-              design elements
-            </p>
-            <p>
-              Improve visual communication skills to express and share ideas
-              effectively
-            </p>
-          </a>
-        </div>
-        <div class="courses_item zoom flex_card_4">
-          <a href="./mentorship.html">
-            <img src="../static/picture/cover2.png" />
-            <h2>Mentorship</h2>
-            <p>Team of experienced educators</p>
-            <p>Targeted learning approach</p>
-            <p>Personalized guidance for individual academic goals</p>
-            <p>Clear STEM specialization planning</p>
-          </a>
-        </div>
+        <% for (var i in theme.menu['Courses'].children){ %>
+          <div class="courses_item zoom flex_card_4">
+            <a href="<%- url_for(theme.menu['Courses'].url + theme.menu['Courses'].children[i].url) %>">
+              <img src="<%- url_for(theme.menu['Courses'].children[i].avatar) %>" />
+              <h2><%- i %></h2>
+              <ul>
+                <% for (var h in theme.menu['Courses'].children[i].descriptions){ %>
+                  <li> <%- theme.menu['Courses'].children[i].descriptions[h] %></li>
+                <% } %>
+                </ul>
+            </a>
+          </div>
+        <% } %>
       </section>
       <section class="aboutUs padding_container bottom_gap">
         <img src="<%- url_for('/css/images/about_us.jpg') %>" />
@@ -132,77 +98,24 @@
       <section class="advantages bottom_gap padding_container">
         <h1>OUR ADVANTAGES</h1>
         <div class="advantages__items flex_card_wrap">
-          <div class="advantages__item flex_card_3">
-            <i class="fa fa-check-square fa-4x" aria-hidden="true"></i>
-            <h4>ROBOTICS AND PROGRAMMING COMPETITIONS</h4>
-            <p>
-              A fast track to world-class competitions, widely recognized by
-              top-tier universities.
-            </p>
-          </div>
-          <div class="advantages__item flex_card_3">
-            <i class="fa fa-check-square fa-4x" aria-hidden="true"></i>
-            <h4>INDEPENDENT LEARNING</h4>
-            <p>
-              We prioritize fostering children's self-directed learning,
-              avoiding forceful parental study methods and promoting growth in
-              freedom.
-            </p>
-          </div>
-          <div class="advantages__item flex_card_3">
-            <i class="fa fa-check-square fa-4x" aria-hidden="true"></i>
-            <h4>STEAM CAREER PLANNING</h4>
-            <p>
-              We provide clear STEM career planning, offering comprehensive
-              support on the academic journey with a one-stop service.
-            </p>
-          </div>
-          <div class="advantages__item flex_card_3">
-            <i class="fa fa-check-square fa-4x" aria-hidden="true"></i>
-            <h4>IGNITING LEARNING PASSTION</h4>
-            <p>
-              Through inspiring children's self-learning abilities in a joyful
-              atmosphere, we guide them to actively explore, fostering stronger
-              academic interests.
-            </p>
-          </div>
-          <div class="advantages__item flex_card_3">
-            <i class="fa fa-check-square fa-4x" aria-hidden="true"></i>
-            <h4>EXPORT INSIGHTS</h4>
-            <p>
-              We host events with industry and academic exports from prestigious
-              universites, giving children valuable opportunities to interact
-              and gain insights for their future development.
-            </p>
-          </div>
-          <div class="advantages__item flex_card_3">
-            <i class="fa fa-check-square fa-4x" aria-hidden="true"></i>
-            <h4>CRAFTSMAN SPIRIT</h4>
-            <p>
-              We focus on meticulous craftsmanship, dedicated to instilling a
-              craftsman's spirit, nurturing children's creativity and unique
-              perspectives.
-            </p>
-          </div>
-          <div class="advantages__item flex_card_3">
-            <i class="fa fa-check-square fa-4x" aria-hidden="true"></i>
-            <h4>EXPORT GUIDANCE</h4>
-            <p>
-              Our experts priorize outcome-oriented teaching, focusing on
-              goal-oriented learning and offering personalized guidance to help
-              each child achieve academic success.
-            </p>
-          </div>
+          <% for (var i in theme.advantages) { %>
+            <div class="advantages__item flex_card_3">
+              <i class="fa fa-check-square fa-4x" aria-hidden="true"></i>
+              <h4><%- i %></h4>
+              <p>
+                <%- theme.advantages[i] %>
+              </p>
+            </div>
+          <% } %>
         </div>
       </section>
       <section class="gallery bottom_gap">
         <div class="gallery__content padding_container">
           <h1>OUR GALLERY</h1>
           <div class="gallery__items flex_card_wrap">
-            <img class="flex_card_4" src="../static/picture/2K3A7908 (1).jpg" />
-            <img class="flex_card_4" src="../static/picture/2K3A7893.jpg" />
-            <img class="flex_card_4" src="../static/picture/2K3A7867.jpg" />
-            <img class="flex_card_4" src="../static/picture/2K3A7856.jpg" />
+            <% for (let i = 0; i < 4; i++) { %>
+             <img class="flex_card_4" src="<%- url_for(theme.galleries[i]) %>" />
+            <% } %>
           </div>
           <button><a href="./gallery.html">View All</a></button>
         </div>
@@ -210,71 +123,23 @@
       <section class="news padding_container bottom_gap">
         <h1>NEWS</h1>
         <div class="news__items flex_card_wrap">
-          <div class="news__item zoom flex_card_4">
-            <a href="./news_detail.html">
-              <img src="../static/picture/2.jpg" />
-              <div class="news__item_content">
-                <p class="news__item_calendar">
-                  <i class="fa fa-calendar"></i> December 12, 2023
-                </p>
-  
-                <h3>Empowering Young Minds for Success around the Globe!</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam,
-                </p>
-              </div>
-            </a>
-          </div>
-          <div class="news__item zoom flex_card_4">
-            <a href="./news_detail.html">
-              <img src="../static/picture/04.png" />
-              <div class="news__item_content">
-                <p class="news__item_calendar">
-                  <i class="fa fa-calendar"></i> December 12, 2023
-                </p>
-                <h3>Empowering Young Minds for Success around the Globe!</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam,
-                </p>
-              </div>
-            </a>
-          </div>
-          <div class="news__item zoom flex_card_4">
-            <a href="./news_detail.html">
-              <img src="../static/picture/05.png" />
-              <div class="news__item_content">
-                <p class="news__item_calendar">
-                  <i class="fa fa-calendar"></i> December 12, 2023
-                </p>
-                <h3>Empowering Young Minds for Success around the Globe!</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam,
-                </p>
-              </div>
-            </a>
-          </div>
-          <div class="news__item zoom flex_card_4">
-            <a href="./news_detail.html">
-              <img src="../static/picture/06.png" />
-              <div class="news__item_content">
-                <p class="news__item_calendar">
-                  <i class="fa fa-calendar"></i> December 12, 2023
-                </p>
-                <h3>Empowering Young Minds for Success around the Globe!</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam,
-                </p>
-              </div>
-            </a>
-          </div>
+          <% for (var i in site.posts.toArray()) { %>
+            <div class="news__item zoom flex_card_3">
+              <a href="<%- url_for(site.posts.toArray()[i].path) %>">
+                <img src="<%- url_for(site.posts.toArray()[i].featuredImage) %>" />
+                <div class="news__item_content">
+                  <p class="news__item_calendar">
+                    <i class="fa fa-calendar"></i> <%- date(site.posts.toArray()[i].date) %>
+                  </p>
+                  
+                  <h2><%- site.posts.toArray()[i].title %></h2>
+                  <p>
+                    <%- site.posts.toArray()[i]._content %><br>
+                  </p>
+                </div>
+              </a>
+            </div>
+          <% } %>
         </div>
       </section>
       <section class="contact padding_container bottom_gap">
@@ -287,7 +152,7 @@
                 </path>
               </svg>
             </div>
-            <a href="https://www.google.com/maps?q=latitude,longitude" target="_blank" class="address">1311 Grand Ave,<br>Suite 170, Glendora, CA</a>
+            <a href="https://www.google.com/maps/place/1311+S+Grand+Ave,+Glendora,+CA+91740,+USA/@34.115753,-117.8758009,17z/data=!3m1!4b1!4m6!3m5!1s0x80c3288176af4619:0xe23fbe4696ca9883!8m2!3d34.1157486!4d-117.8732206!16s%2Fg%2F11bw3_0cpn?entry=ttu" target="_blank" class="address">1311 Grand Ave,<br>Suite 170, Glendora, CA</a>
             <img class="map-image" src="https://img.freepik.com/premium-vector/dotted-world-map-white-background_132079-967.jpg" alt="Map Image">
           </div>
           <div class="contact__form">
@@ -302,7 +167,7 @@
                 <option value="mercedes">Mercedes</option>
                 <option value="audi">Audi</option>
               </select>
-              <button type="submit">Let's Get Started</button>
+              <button type="submit">Let's Get Started!</button>
             </form>
           </div>
         </div>
