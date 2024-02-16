@@ -1,3 +1,5 @@
+@import url("common.css");
+
 /* ======== HEADER ========  */
 .header {
   background-image: url("../static/picture/012.png");
@@ -10,33 +12,29 @@
 /* ======== BODY ========  */
 .body {
   background-color: blanchedalmond;
+  width: 100vw;
   padding-bottom: 2rem;
 }
 
+
+
 /* ======== COURSES ========  */
+
 .courses {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
 
   position: relative;
   top: -2rem;
-  width: 80%;
-  max-width: 1280px;
-  margin: 0 auto 10rem;
-  gap: 0.8rem;
+  width: 100%;
 
-  box-sizing: border-box;
+  box-sizzing: border-box;
 }
 
 .courses_item {
   background-color: #fff;
-  width: 300px;
   padding-bottom: 2rem;
-  margin-bottom: 2rem;
 
   border-radius: 10px;
-  overflow: hidden;
 
   cursor: pointer;
 
@@ -54,7 +52,7 @@
 .courses_item h2 {
   color: #61b9f5;
   text-align: center;
-  margin-bottom: 1rem;
+  font-size: var(--h4-font-size);
 }
 
 .courses_item p {
@@ -63,28 +61,9 @@
   margin-bottom: 0.7rem;
   padding: 0 2rem;
 }
-@media all and (max-width: 1100px) {
-  .courses {
-    gap: 2rem;
-    top: 1rem;
-  }
-  .courses_item {
-    flex: 0.6;
-    min-width: 300px;
-  }
-}
-
-@media all and (max-width: 900px) {
-  .courses {
-    justify-content: space-evenly;
-    width: 90%;
-  }
-}
 
 /* ======== ABOUT US ========  */
 .aboutUs {
-  width: 80%;
-  max-width: 1280px;
   margin: 0 auto 10rem;
   display: flex;
   gap: 4rem;
@@ -98,7 +77,6 @@
 }
 
 .aboutUs__content h1 {
-  font-size: 3rem;
   margin-bottom: 1.3rem;
   color: #282828;
 }
@@ -115,52 +93,39 @@
 
   .aboutUs img {
     margin: 0 auto;
-    width: 90%;
-    height: max-content;
-  }
-}
-
-@media all and (max-width: 900px) {
-  .aboutUs {
-    width: 90%;
-  }
-
-  .aboutUs img {
     width: 100%;
+    height: max-content;
   }
 }
 
 /* ======== ADVANTAGES ========  */
 .advantages {
-  width: 80%;
-  max-width: 1280px;
-  margin: 0 auto 10rem;
-
   text-align: center;
 }
 
 .advantages h1 {
-  font-size: 3rem;
   margin-bottom: 3rem;
   color: #282828;
 }
 
+.advantages h4 {
+  font-size: var(--h6-font-size);
+}
+
 .advantages__items {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   position: relative;
-  gap: 2rem;
 
+  width: 100%;
   flex-wrap: wrap;
   color: #282828;
 }
 
 .advantages__item {
   background-color: #fff;
-  max-width: 350px;
   padding: 1rem 1.5rem 2rem;
-  margin-bottom: 1rem;
+  height: 280px;
 
   text-align: left;
 }
@@ -175,26 +140,6 @@
   margin-top: 1rem;
 }
 
-@media all and (max-width: 1574px) {
-  .advantages__items {
-    justify-content: center;
-  }
-}
-
-@media all and (max-width: 1080px) {
-  .advantages__item {
-    justify-content: center;
-    align-items: center;
-    max-width: 500px;
-  }
-}
-
-@media all and (max-width: 900px) {
-  .advantages {
-    width: 90%;
-  }
-}
-
 /* ======== GALLERY ========  */
 .gallery {
   background-color: #282828;
@@ -202,15 +147,12 @@
 }
 
 .gallery__content {
-  width: 80%;
-  max-width: 1280px;
   margin: 0 auto 3rem;
 
   text-align: center;
 }
 
 .gallery__content h1 {
-  font-size: 3rem;
   margin-bottom: 2rem;
   color: #fff;
 }
@@ -232,49 +174,22 @@
 
 .gallery__items {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .gallery__items img {
-  width: 300px;
   height: 320px;
   margin-bottom: 2rem;
   border-radius: 10px;
-}
-
-@media all and (max-width: 1080px) {
-  .gallery__items {
-    justify-content: center;
-    gap: 2rem;
-  }
-}
-
-@media all and (max-width: 900px) {
-  .gallery__content {
-    width: 90%;
-  }
-
-  .gallery__items img {
-    width: 350px;
-    height: 390px;
-    margin-bottom: 2rem;
-    border-radius: 10px;
-  }
+  object-fit: cover;
 }
 
 /* ======== NEWS ========  */
 .news {
-  width: 80%;
-  max-width: 1280px;
-  margin: 8rem auto 10rem;
-
   text-align: center;
 }
 
 .news h1 {
-  font-size: 3rem;
-  margin-bottom: 3rem;
+
   color: #282828;
 }
 
@@ -285,7 +200,6 @@
 }
 
 .news__item {
-  width: 300px;
   height: max-content;
   border-radius: 10px;
   overflow: hidden;
@@ -315,48 +229,19 @@
 .news__item_content h3 {
   margin-bottom: 1rem;
   color: #282828;
+  font-size: var(--h6-font-size);
 }
 
 .news__item_content p {
   color: #ababab;
 }
 
-@media all and (max-width: 1165px) {
-  .news__items {
-    justify-content: center;
-    gap: 2rem;
-  }
-
-  .news__item {
-    justify-content: center;
-    align-items: center;
-    width: 410px;
-  }
-}
-
-@media all and (max-width: 1040px) {
-  .news__item {
-    width: 500px;
-  }
-}
-
-@media all and (max-width: 900px) {
-  .news {
-    width: 90%;
-  }
-}
-
 /* ======== CONTACT ========  */
 .contact {
-  width: 80%;
-  max-width: 1280px;
-  margin: 8rem auto 10rem;
-
   text-align: center;
 }
 
 .contact h1 {
-  font-size: 3rem;
   margin-bottom: 3rem;
   color: #282828;
 }
@@ -389,7 +274,7 @@
   color: #858586;
   font-weight: 540;
   font-size: 1.1rem;
-  
+
   resize: vertical;
 }
 

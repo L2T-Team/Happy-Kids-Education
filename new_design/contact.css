@@ -1,3 +1,6 @@
+@import url('common.css');
+
+
 a {
   text-decoration: none;
 }
@@ -20,18 +23,13 @@ a {
 
 /* ======== CARDS ========  */
 .cards {
-  width: 80%;
-  max-width: 1280px;
   margin: 2rem auto;
 
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
   gap: 1rem;
 }
 
 .card {
-  width: 230px;
   border: solid 1px #ee761c;
   text-align: center;
   padding: 1rem;
@@ -41,7 +39,7 @@ a {
 }
 
 .card__qr {
-  width: 200px !important;
+  width: 60% !important;
   height: auto !important;
 
 }
@@ -55,6 +53,7 @@ a {
 .card h2 {
   margin-bottom: 1rem;
   color: #282828;
+  font-size: var(--h4-font-size);
 }
 
 .card p {
@@ -94,8 +93,6 @@ a {
 
 /* ======== CONTAINER ========  */
 .container {
-  width: 80%;
-  max-width: 1280px;
   margin: 2rem auto;
 
   display: flex;
