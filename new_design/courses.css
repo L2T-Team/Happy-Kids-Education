@@ -53,6 +53,7 @@
   flex-wrap: wrap;
   color: #282828;
   margin-bottom: 3rem;
+  justify-content: space-evenly;
 }
 
 .key__item {
