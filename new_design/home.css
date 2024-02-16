@@ -1,226 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
-* {
-  margin: 0;
-  padding: 0;
-}
-body {
-  font-family: "Open Sans", sans-serif;
-}
-
-/* ======== NAVIGATION ========  */
-.toggle,
-[id^="drop"] {
-  display: none;
-}
-
-/* Giving a background-color to the nav container. */
-nav {
-  background-color: #fff;
-  margin-top: 1rem;
-  padding: 1rem 1.5rem;
-  width: 80%;
-  max-width: 1280px;
-
-  position: fixed;
-  left: 50%;
-  transform: translate(-50%, 0);
-
-  border-radius: 7px;
-  background-color: #fff;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  z-index: 99999;
-}
-
-/* Removing padding, margin and "list-style" from the "ul",
- * and adding "position:reltive" */
-nav ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  position: relative;
-
-  display: flex;
-  justify-content: space-around;
-  gap: 1.5rem;
-
-  color: #ababab;
-}
-
-/* Positioning the navigation items inline */
-nav ul li {
-  margin: 0px;
-  display: inline-block;
-  background-color: #fff;
-}
-
-/* Styling the links */
-nav a {
-  display: block;
-  color: #ababab;
-  text-decoration: none;
-}
-
-/* Background color change on Hover */
-nav a:hover {
-  color: #282828;
-}
-
-/* Hide Dropdowns by Default
- * and giving it a position of absolute */
-nav ul ul {
-  display: none;
-  position: absolute;
-  padding-top: 0.5rem;
-  /* has to be the same number as the "line-height" of "nav a" */
-}
-
-/* Display Dropdowns on Hover */
-nav ul li:hover > ul {
-  display: inherit;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-}
-
-/* Fisrt Tier Dropdown */
-nav ul ul li {
-  display: list-item;
-  position: relative;
-
-  padding: 0.5rem 1rem;
-}
-
-/* Second, Third and more Tiers	
- * We move the 2nd and 3rd etc tier dropdowns to the left
- * by the amount of the width of the first tier.
-*/
-nav ul ul ul li {
-  position: relative;
-  top: -60px;
-  /* has to be the same number as the "width" of "nav ul ul li" */
-  left: 170px;
-}
-
-/* Change ' +' in order to change the Dropdown symbol */
-li > a:only-child:after {
-  content: "";
-}
-
-/* Media Queries
---------------------------------------------- */
-@media all and (max-width: 900px) {
-  nav {
-    width: 85%;
-  }
-}
-
-@media all and (max-width: 768px) {
-  nav {
-    margin: 0;
-    width: 90%;
-    padding-inline: 2rem;
-
-    flex-wrap: wrap;
-  }
-
-  /* Hide the navigation menu by default */
-  /* Also hide the  */
-  .toggle + a,
-  .menu {
-    display: none;
-  }
-
-  .menu_label {
-    float: right;
-    font-weight: 600;
-  }
-
-  /* Stylinf the toggle lable */
-  .toggle {
-    display: block;
-    text-decoration: none;
-    border: none;
-    cursor: pointer;
-  }
-
-  .toggle:hover {
-    color: #282828;
-  }
-
-  nav ul {
-    margin: 1rem;
-    flex-basis: 100%;
-  }
-
-  /* Display Dropdown when clicked on Parent Lable */
-  [id^="drop"]:checked + ul {
-    display: block;
-  }
-
-  /* Change menu item's width to 100% */
-  nav ul li {
-    display: block;
-    width: 100%;
-    padding-block: 0.5rem;
-  }
-
-  nav ul ul .toggle,
-  nav ul ul a {
-    padding: 0 40px;
-  }
-
-  nav ul ul ul a {
-    padding: 0 80px;
-  }
-
-  /* Hide Dropdowns by Default */
-  nav ul ul {
-    float: none;
-    position: static;
-    color: #ffffff;
-    /* has to be the same number as the "line-height" of "nav a" */
-  }
-
-  /* Hide menus on hover */
-  nav ul ul li:hover > ul,
-  nav ul li:hover > ul {
-    display: none;
-  }
-
-  /* Fisrt Tier Dropdown */
-  nav ul ul li {
-    display: block;
-    width: 100%;
-  }
-
-  nav ul ul ul li {
-    position: static;
-    /* has to be the same number as the "width" of "nav ul ul li" */
-  }
-}
-
-@media all and (max-width: 330px) {
-  nav ul li {
-    display: block;
-    width: 94%;
-  }
-}
-
-.nav__logo {
-  width: 250px;
-  height: 100%;
-}
-
-.nav__list_active_item {
-  color: #f29956;
-}
-.nav__list_active_item:hover {
-  color: #f29956;
-}
-
 /* ======== HEADER ========  */
 .header {
   background-image: url("../static/picture/012.png");
@@ -247,7 +24,9 @@ li > a:only-child:after {
   width: 80%;
   max-width: 1280px;
   margin: 0 auto 10rem;
-  gap: 1rem;
+  gap: 0.8rem;
+
+  box-sizing: border-box;
 }
 
 .courses_item {
@@ -261,6 +40,12 @@ li > a:only-child:after {
 
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+
+  box-sizing: border-box;
+}
+
+.courses_item a {
+  text-decoration: none;
 }
 
 .courses_item:hover {
@@ -289,12 +74,21 @@ li > a:only-child:after {
   margin-bottom: 0.7rem;
   padding: 0 2rem;
 }
+@media all and (max-width: 1100px) {
+  .courses {
+    gap: 2rem;
+    top: 1rem;
+  }
+  .courses_item {
+    flex: 0.6;
+    min-width: 300px;
+  }
+}
 
 @media all and (max-width: 900px) {
   .courses {
     justify-content: space-evenly;
-    width: 100%;
-    top: 1rem;
+    width: 90%;
   }
 }
 
@@ -334,6 +128,16 @@ li > a:only-child:after {
     margin: 0 auto;
     width: 90%;
     height: max-content;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .aboutUs {
+    width: 90%;
+  }
+
+  .aboutUs img {
+    width: 100%;
   }
 }
 
@@ -385,6 +189,17 @@ li > a:only-child:after {
 @media all and (max-width: 1080px) {
   .advantages__items {
     justify-content: center;
+  }
+  .advantages__item {
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .advantages {
+    width: 90%;
   }
 }
 
@@ -449,6 +264,19 @@ li > a:only-child:after {
   }
 }
 
+@media all and (max-width: 900px) {
+  .gallery__content {
+    width: 90%;
+  }
+
+  .gallery__items img {
+    width: 350px;
+    height: 390px;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+  }
+}
+
 /* ======== NEWS ========  */
 .news {
   width: 80%;
@@ -471,13 +299,27 @@ li > a:only-child:after {
 }
 
 .news__item {
-  width: 310px;
+  width: 300px;
   height: max-content;
   border-radius: 10px;
   overflow: hidden;
   margin-bottom: 2rem;
   text-align: left;
   background-color: #fff;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.news__item a {
+  text-decoration: none;
+}
+
+.news__item:hover {
+  transform: translateY(-3px);
+}
+
+.news__item:active {
+  transform: translateY(0);
 }
 
 .news__item img {
@@ -502,10 +344,28 @@ li > a:only-child:after {
   color: #ababab;
 }
 
-@media all and (max-width: 1080px) {
+@media all and (max-width: 1165px) {
   .news__items {
     justify-content: center;
     gap: 2rem;
+  }
+
+  .news__item {
+    justify-content: center;
+    align-items: center;
+    width: 410px;
+  }
+}
+
+@media all and (max-width: 1040px) {
+  .news__item {
+    width: 500px;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .news {
+    width: 90%;
   }
 }
 
@@ -529,7 +389,7 @@ li > a:only-child:after {
   justify-content: flex-end;
 }
 
-.contact form {
+.contact__form form {
   display: flex;
   flex-direction: column;
   text-align: right;
@@ -540,9 +400,9 @@ li > a:only-child:after {
   background-color: #fff;
 }
 
-.contact form input,
-.contact form textarea,
-.contact form select {
+.contact__form form input,
+.contact__form form textarea,
+.contact__form form select {
   background-color: #f3f3ff;
   outline: none;
   border: none;
@@ -552,9 +412,11 @@ li > a:only-child:after {
   color: #858586;
   font-weight: 540;
   font-size: 1.1rem;
+  
+  resize: vertical;
 }
 
-.contact form button {
+.contact__form form button {
   background-color: #ee761c;
   color: #fff;
   border: none;
@@ -562,111 +424,5 @@ li > a:only-child:after {
 
   font-size: 1.1rem;
   padding: 1rem;
-}
-
-/* ======== FOOTER ========  */
-.footer {
-  background-color: #f3f3f3;
-  padding-top: 5rem;
-}
-
-.footer__container {
-  width: 80%;
-  max-width: 1280px;
-  margin: 0 auto;
-
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.footer__column {
-  width: fit-content;
-  display: flex;
-  flex-direction: column;
-}
-
-.footer__column_title {
-  margin-bottom: 2rem;
-  color: #ee761c;
-}
-
-.footer__column p {
-  width: 220px;
-  color: #828282;
-  margin-bottom: 0.7rem;
-}
-
-.footer__column a {
-  color: #828282;
-  text-decoration: none;
-  margin-bottom: 0.7rem;
-
-  display: flex;
-  align-items: center;
-}
-
-.footer__column a i {
-  width: 25px;
-}
-
-.footer__column img {
-  width: 210px;
-}
-
-@media all and (max-width: 640px) {
-  .footer__container {
-    flex-direction: column;
-  }
-
-  .footer__column {
-    margin-bottom: 2rem;
-  }
-}
-
-.footer__contact {
-  width: 80%;
-  max-width: 1280px;
-  margin: 2rem auto;
-
-  display: flex;
-  gap: 1.5rem;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.footer__contact div {
-  background-color: #ebebeb;
-  border: solid 1px rgba(0, 0, 0, 0.1);
-  padding: 1rem 1.5rem;
-  width: 350px;
-
-  display: flex;
-  gap: 0.7rem;
-  align-items: center;
-}
-
-.footer__contact i {
-  color: #ee761c;
-}
-
-.footer__contact p {
-  color: #828282;
-}
-
-.footer__divide {
-  border: none;
-  border-top: solid 0.5px #828282;
-  background-color: #828282;
-}
-
-.footer__copyRight{
-  color: #828282;
-  text-align: center;
-  padding: 1.5rem 0;
-}
-
-.footer__copyRight span{
-  color: #ee761c;
+  cursor: pointer;
 }
