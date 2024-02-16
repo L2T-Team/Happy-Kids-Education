@@ -43,6 +43,7 @@ a {
 .card__qr {
   width: 200px !important;
   height: auto !important;
+
 }
 
 .card img {
@@ -135,6 +136,8 @@ a {
   color: #858586;
   font-weight: 540;
   font-size: 1.1rem;
+
+  resize: vertical;
 }
 
 .contact__form form button {
