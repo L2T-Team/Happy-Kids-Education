@@ -4,6 +4,7 @@
 /* ======== COMMMON ========  */
 :root {
   --globalPadding: calc(17.5862068965517vw + -58.3103448275862px);
+  --accentColor: #ee761c;
   overflow-x: hidden;
   --huge-gap: 100px;
   --medium-gap: 50px;

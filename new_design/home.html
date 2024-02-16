@@ -34,7 +34,13 @@
   <nav>
     <img class="nav__logo" src="../static/picture/logo.png" alt="logo" />
 
-    <label for="drop" class="toggle menu_label">Menu</label>
+    <label for="drop" class="toggle menu_label">
+      <svg viewBox="0 0 100 80" width="35" height="30">
+        <rect width="100" height="15" rx="10"></rect>
+        <rect y="30" width="100" height="15" rx="10"></rect>
+        <rect y="60" width="100" height="15" rx="10"></rect>
+      </svg>
+    </label>
     <input type="checkbox" id="drop" />
     <ul class="menu">
       <li><a href="./home.html" class="nav__list_active_item">Home</a></li>
@@ -63,11 +69,11 @@
         <li class="slide-container">
           <div class="slide-image">
             <img src="..\static\picture\04.png">
-            <div class="slide-content">
-              <h1>Welcome to Happy Kids</h1>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur molestias ratione sunt quidem reiciendis atque a ipsum vel provident earum architecto dolor pariatur officiis consectetur, optio impedit. Itaque, dolorum praesentium.</p>
-              <button type="submit">Find out more!</button>
-            </div>
+          </div>
+          <div class="slide-content">
+            <h1>Welcome to Happy Kids</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur molestias ratione sunt quidem reiciendis atque a ipsum vel provident earum architecto dolor pariatur officiis consectetur, optio impedit. Itaque, dolorum praesentium.</p>
+            <button><a href="./gallery.html">Find Out More!</a></button>
           </div>
           <div class="carousel-controls">
             <label for="img-3" class="prev-slide">
@@ -331,20 +337,32 @@
     </section>
     <section class="contact padding_container bottom_gap">
       <h1>CONTACT US</h1>
-      <div class="contact__form">
-        <form>
-          <input type="text" name="fullName" id="fullName" placeholder="Full Name*" required />
-          <input type="text" name="phoneNumber" id="phoneNumber" placeholder="Phone Number" />
-          <input type="email" name="email" id="email" placeholder="Email Address*" required />
-          <textarea name="message" id="message" rows="5" placeholder="Message"></textarea>
-          <select name="services" id="services">
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="mercedes">Mercedes</option>
-            <option value="audi">Audi</option>
-          </select>
-          <button type="submit">Let's Get Started</button>
-        </form>
+      <div class="contact-wrapper">
+        <div class="map-container">
+          <div class="dot">
+            <svg aria-hidden="true" class="e-font-icon-svg e-fas-circle" viewBox="0 0 512 512">
+              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z">
+              </path>
+            </svg>
+          </div>
+          <a href="https://www.google.com/maps?q=latitude,longitude" target="_blank" class="address">1311 Grand Ave,<br>Suite 170, Glendora, CA</a>
+          <img class="map-image" src="https://img.freepik.com/premium-vector/dotted-world-map-white-background_132079-967.jpg" alt="Map Image">
+        </div>
+        <div class="contact__form">
+          <form>
+            <input type="text" name="fullName" id="fullName" placeholder="Full Name*" required />
+            <input type="text" name="phoneNumber" id="phoneNumber" placeholder="Phone Number" />
+            <input type="email" name="email" id="email" placeholder="Email Address*" required />
+            <textarea name="message" id="message" rows="5" placeholder="Message"></textarea>
+            <select name="services" id="services">
+              <option value="volvo">Volvo</option>
+              <option value="saab">Saab</option>
+              <option value="mercedes">Mercedes</option>
+              <option value="audi">Audi</option>
+            </select>
+            <button type="submit">Let's Get Started</button>
+          </form>
+        </div>
       </div>
     </section>
   </main>
