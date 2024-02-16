@@ -103,7 +103,7 @@
   width: 350px;
   background-color: #fff;
   border-radius: 5px;
-  border: solid 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   padding-bottom: 1.5rem;
 }
@@ -244,4 +244,46 @@
   .teacher-desc {
     width: 100%;
   }
+}
+
+/* ======== ADVANTAGES ========  */
+.advantages {
+  text-align: center;
+  margin-top: 3rem !important;
+}
+
+.advantages h1 {
+  margin-bottom: 3rem;
+  color: #282828;
+}
+
+.advantages h4 {
+  font-size: var(--h6-font-size);
+}
+
+.advantages__items {
+  display: flex;
+  position: relative;
+
+  width: 100%;
+  flex-wrap: wrap;
+  color: #282828;
+}
+
+.advantages__item {
+  background-color: #fff;
+  padding: 1rem 1.5rem 2rem;
+
+  text-align: left;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.advantages__item i {
+  color: #f29956;
+  margin-bottom: 1rem;
+}
+
+.advantages__item p {
+  color: #ababab;
+  margin-top: 1rem;
 }

@@ -5929,6 +5929,8 @@ a.close.disabled {
 }
 .carousel {
   position: relative;
+
+  min-height: 400px;
 }
 .carousel.pointer-event {
   -ms-touch-action: pan-y;
