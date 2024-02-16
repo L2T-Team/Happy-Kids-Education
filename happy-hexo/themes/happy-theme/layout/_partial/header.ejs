@@ -1,7 +1,13 @@
 <nav>
   <img class="nav__logo" src="<%- url_for('css/images/logo.png') %>" alt="logo" />
 
-  <label for="drop" class="toggle menu_label">Menu</label>
+  <label for="drop" class="toggle menu_label">
+    <svg viewBox="0 0 100 80" width="35" height="30">
+      <rect width="100" height="15" rx="10"></rect>
+      <rect y="30" width="100" height="15" rx="10"></rect>
+      <rect y="60" width="100" height="15" rx="10"></rect>
+    </svg>
+  </label>
   <input type="checkbox" id="drop" />
   <ul class="menu">
     <% for (var i in theme.menu){ %>
@@ -12,7 +18,7 @@
           <input type="checkbox" id="drop-1" />
           <ul>
             <% for (var j in theme.menu[i].children) { %>
-              <li><a href="<%- url_for(theme.menu[i].url + theme.menu[i].children[j]) %>"><%- j %></a></li>
+              <li><a href="<%- url_for(theme.menu[i].url + theme.menu[i].children[j].url) %>"><%- j %></a></li>
             <% } %>
           </ul>
         </li>

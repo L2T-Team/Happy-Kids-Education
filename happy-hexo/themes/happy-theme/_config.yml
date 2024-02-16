@@ -5,10 +5,21 @@ menu:
   Courses: 
     url: /courses
     children:
-      Robotics: /robotics
-      Coding: /coding
-      Digital Art: /digital-art
-      Mentorship: /mentorship
+      Robotics: 
+        url: /robotics
+        avatar: /css/images/robotic-avatar.png
+        description:
+          - "DesA"
+          - "DesB"
+      Coding: 
+        url: /coding
+        avatar: /css/images/coding-avatar.png
+      Digital Art: 
+        url: /digital-art
+        avatar: /css/images/digital-art-avatar.png
+      Mentorship: 
+        url: /mentorship
+        avatar: /css/images/mentorship-avatar.png
   Gallery: /gallery
   News: /news
   Contact: /contact

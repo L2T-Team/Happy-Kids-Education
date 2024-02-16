@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Karla")
+  
 // Config
 support-for-ie = false
 vendor-prefixes = webkit moz ms official
@@ -61,3 +63,22 @@ columns = main-column + _sidebar-column
 mq-mobile = "screen and (max-width: 479px)"
 mq-tablet = "screen and (min-width: 480px) and (max-width: 767px)"
 mq-normal = "screen and (min-width: 768px)"
+
+// Custom
+:root {
+  --globalPadding: calc(17.5862068965517vw + -58.3103448275862px);
+  --accentColor: #ee761c;
+  --text-color: #222222;
+  overflow-x: hidden;
+  --huge-gap: 100px;
+  --medium-gap: 50px;
+  --small-gap: 25px;
+
+  --h1-font-size: calc(0.957051282051282vw + 41.3446153846154px);
+  --h2-font-size: calc(0.798076923076923vw + 34.4469230769231px);
+  --h3-font-size: calc(0.66474358974359vw + 28.7069230769231px);
+  --h4-font-size: calc(0.553846153846154vw + 23.9261538461539px);
+  --h5-font-size: calc(0.461538461538462vw + 19.9384615384615px);
+  --h6-font-size: calc(0.384615384615385vw + 16.6153846153846px);
+  --p-font-size: calc(0.192307692307692vw + 14.3076923076923px);
+}

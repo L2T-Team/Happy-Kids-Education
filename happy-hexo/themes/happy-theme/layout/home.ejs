@@ -7,87 +7,306 @@
     <link rel="stylesheet" href="home.css" />
   </head>
   <body>
-    <section class="header"></section>
-    <section class="body">
-      <div class="courses">
-        <div class="courses_item">
-          <img src ="../static/picture/cover3.png" />
-          <h2>Robotics</h2>
-          <p>Professional programming skills</p>
-          <p>Mastery of mechanical structures</p>
-          <p>Rapid debugging and optimization methods</p>
-          <p>Swift planning of competition strategies</p>
-        </div>
-        <div class="courses_item">
-          <img src ="../static/picture/cover4.png" />
-          <h2>Coding</h2>
-          <p>Gain an in-depth understanding of programming fundamentals</p>
-          <p>
-            Prepare for AP Computer Science, as well as USACO, ACSL and other
-            competitions
-          </p>
-        </div>
-        <div class="courses_item">
-          <img src ="../static/picture/cover5.png" />
-          <h2>Digital Art</h2>
-          <p>
-            Enhance critical thinking by analyzing color, composition, and
-            design elements
-          </p>
-          <p>
-            Improve visual communication skills to express and share ideas
-            effectively
-          </p>
-        </div>
-        <div class="courses_item">
-          <img src ="../static/picture/cover2.png" />
-          <h2>Mentorship</h2>
-          <p>Team of experienced educators</p>
-          <p>Targeted learning approach</p>
-          <p>Personalized guidance for individual academic goals</p>
-          <p>Clear STEM specialization planning</p>
-        </div>
+    <div>
+      <div class="carousel">
+        <ul class="slides">
+          <input type="radio" name="radio-buttons" id="img-1" checked />
+          <li class="slide-container">
+            <div class="slide-image">
+              <img src="..\static\picture\04.png">
+            </div>
+            <div class="slide-content">
+              <h1>Welcome to Happy Kids</h1>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur molestias ratione sunt quidem reiciendis atque a ipsum vel provident earum architecto dolor pariatur officiis consectetur, optio impedit. Itaque, dolorum praesentium.</p>
+              <button><a href="./gallery.html">Find Out More!</a></button>
+            </div>
+            <div class="carousel-controls">
+              <label for="img-3" class="prev-slide">
+                <span>&lsaquo;</span>
+              </label>
+              <label for="img-2" class="next-slide">
+                <span>&rsaquo;</span>
+              </label>
+            </div>
+          </li>
+          <input type="radio" name="radio-buttons" id="img-2" />
+          <li class="slide-container">
+            <div class="slide-image">
+              <img src="..\static\picture\09.png">
+            </div>
+            <div class="carousel-controls">
+              <label for="img-1" class="prev-slide">
+                <span>&lsaquo;</span>
+              </label>
+              <label for="img-3" class="next-slide">
+                <span>&rsaquo;</span>
+              </label>
+            </div>
+          </li>
+          <input type="radio" name="radio-buttons" id="img-3" />
+          <li class="slide-container">
+            <div class="slide-image">
+              <img src="..\static\picture\02.png">
+            </div>
+            <div class="carousel-controls">
+              <label for="img-2" class="prev-slide">
+                <span>&lsaquo;</span>
+              </label>
+              <label for="img-1" class="next-slide">
+                <span>&rsaquo;</span>
+              </label>
+            </div>
+          </li>
+          <div class="carousel-dots">
+            <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+            <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+            <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+          </div>
+        </ul>
       </div>
-      <div class="aboutUs">
-        <img src ="../static/picture/about_us.png" />
+    </div>
+    <main class="body">
+      <section class="courses flex_card_wrap padding_container bottom_gap">
+        
+        <div class="courses_item zoom flex_card_4">
+          <a href="./robotics.html">
+            <img src="<%- url_for(theme.menu['Courses'].children['Robotics'].avatar) %>" />
+            <h2>Robotics</h2>
+            <p><%- theme.menu['Courses'].children['Robotics'].description[0] %></p>
+            <p>Professional programming skills</p>
+            <p>Mastery of mechanical structures</p>
+            <p>Rapid debugging and optimization methods</p>
+            <p>Swift planning of competition strategies</p>
+          </a>
+        </div>
+        <div class="courses_item zoom flex_card_4">
+          <a href="./coding.html">
+            <img src="../static/picture/cover4.png" />
+            <h2>Coding</h2>
+            <p>Gain an in-depth understanding of programming fundamentals</p>
+            <p>
+              Prepare for AP Computer Science, as well as USACO, ACSL and other
+              competitions
+            </p>
+          </a>
+        </div>
+        <div class="courses_item zoom flex_card_4">
+          <a href="./digital.html">
+            <img src="../static/picture/cover5.png" />
+            <h2>Digital Art</h2>
+            <p>
+              Enhance critical thinking by analyzing color, composition, and
+              design elements
+            </p>
+            <p>
+              Improve visual communication skills to express and share ideas
+              effectively
+            </p>
+          </a>
+        </div>
+        <div class="courses_item zoom flex_card_4">
+          <a href="./mentorship.html">
+            <img src="../static/picture/cover2.png" />
+            <h2>Mentorship</h2>
+            <p>Team of experienced educators</p>
+            <p>Targeted learning approach</p>
+            <p>Personalized guidance for individual academic goals</p>
+            <p>Clear STEM specialization planning</p>
+          </a>
+        </div>
+      </section>
+      <section class="aboutUs padding_container bottom_gap">
+        <img src="<%- url_for('/css/images/about_us.jpg') %>" />
         <div class="aboutUs__content">
           <h1>ABOUT US</h1>
           <p>
-            Welcome to Happy Kids Education, where we blend passion with
-            educational excellence to shape the future leaders of tomorrow. Our
-            commitment at Happy Kids Education is deeply rooted in a holistic
-            approach, integrating STEM education components such as robotics,
-            coding, digital art, career planning, and college consulting to
-            offer a comprehensive and enriching educational experience. Happy
-            Kids Education specializes in fostering a genuine love for learning
-            through cutting-edge programs that extend beyond the confines of
-            traditional education. We are dedicated to igniting students’
-            enthusiasm for technology, nurturing their creativity, and guiding
-            them towards academic success. Our unwavering emphasis on hands-on
-            practice ensures that students not only acquire theoretical
-            knowledge but also develop practical skills, forming a robust
-            foundation for their future endeavors. With an exceptional team of
-            educators, academic researchers, and industry professionals, we are
-            dedicated to creating a dynamic and stimulating environment that
-            fosters joyful learning. Our educators possess outstanding
-            credentials, having affiliations with prestigious institutions such
-            as Carnegie Mellon University, Harvard University, and UC Berkeley.
-            Our mission is to nurture the inherent abilities of young minds,
-            empowering them to thrive in our rapidly evolving world. Whether
-            students are immersing themselves in the captivating world of
-            robotics, exploring the intricacies of coding, expressing creativity
-            through digital art, or seeking expert guidance in career planning
-            and college consulting, Happy Kids Education stands as the ultimate
-            destination for comprehensive and forward-thinking education.<br />Join
-            us on this transformative journey as we empower students for a
-            bright future. At Happy Kids Education, we strongly believe in
-            unlocking the full potential of every child and preparing them for
-            success in the ever-changing landscape of the 21st century.
-            Together, let’s embark on the path to knowledge, creativity, and a
-            prosperous tomorrow.
+            Welcome to <b>Happy Kids Education</b>, where passion and excellence shape
+            future leaders. We offer holistic STEM education, including
+            robotics, coding, digital art, career planning, and college
+            consulting for a comprehensive learning experience. Our cutting-edge
+            programs foster a love for learning, technology enthusiasm, and
+            creativity, ensuring students develop practical skills for success.
           </p>
         </div>
-      </div>
-    </section>
+      </section>
+      <section class="advantages bottom_gap padding_container">
+        <h1>OUR ADVANTAGES</h1>
+        <div class="advantages__items flex_card_wrap">
+          <div class="advantages__item flex_card_3">
+            <i class="fa fa-check-square fa-4x" aria-hidden="true"></i>
+            <h4>ROBOTICS AND PROGRAMMING COMPETITIONS</h4>
+            <p>
+              A fast track to world-class competitions, widely recognized by
+              top-tier universities.
+            </p>
+          </div>
+          <div class="advantages__item flex_card_3">
+            <i class="fa fa-check-square fa-4x" aria-hidden="true"></i>
+            <h4>INDEPENDENT LEARNING</h4>
+            <p>
+              We prioritize fostering children's self-directed learning,
+              avoiding forceful parental study methods and promoting growth in
+              freedom.
+            </p>
+          </div>
+          <div class="advantages__item flex_card_3">
+            <i class="fa fa-check-square fa-4x" aria-hidden="true"></i>
+            <h4>STEAM CAREER PLANNING</h4>
+            <p>
+              We provide clear STEM career planning, offering comprehensive
+              support on the academic journey with a one-stop service.
+            </p>
+          </div>
+          <div class="advantages__item flex_card_3">
+            <i class="fa fa-check-square fa-4x" aria-hidden="true"></i>
+            <h4>IGNITING LEARNING PASSTION</h4>
+            <p>
+              Through inspiring children's self-learning abilities in a joyful
+              atmosphere, we guide them to actively explore, fostering stronger
+              academic interests.
+            </p>
+          </div>
+          <div class="advantages__item flex_card_3">
+            <i class="fa fa-check-square fa-4x" aria-hidden="true"></i>
+            <h4>EXPORT INSIGHTS</h4>
+            <p>
+              We host events with industry and academic exports from prestigious
+              universites, giving children valuable opportunities to interact
+              and gain insights for their future development.
+            </p>
+          </div>
+          <div class="advantages__item flex_card_3">
+            <i class="fa fa-check-square fa-4x" aria-hidden="true"></i>
+            <h4>CRAFTSMAN SPIRIT</h4>
+            <p>
+              We focus on meticulous craftsmanship, dedicated to instilling a
+              craftsman's spirit, nurturing children's creativity and unique
+              perspectives.
+            </p>
+          </div>
+          <div class="advantages__item flex_card_3">
+            <i class="fa fa-check-square fa-4x" aria-hidden="true"></i>
+            <h4>EXPORT GUIDANCE</h4>
+            <p>
+              Our experts priorize outcome-oriented teaching, focusing on
+              goal-oriented learning and offering personalized guidance to help
+              each child achieve academic success.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="gallery bottom_gap">
+        <div class="gallery__content padding_container">
+          <h1>OUR GALLERY</h1>
+          <div class="gallery__items flex_card_wrap">
+            <img class="flex_card_4" src="../static/picture/2K3A7908 (1).jpg" />
+            <img class="flex_card_4" src="../static/picture/2K3A7893.jpg" />
+            <img class="flex_card_4" src="../static/picture/2K3A7867.jpg" />
+            <img class="flex_card_4" src="../static/picture/2K3A7856.jpg" />
+          </div>
+          <button><a href="./gallery.html">View All</a></button>
+        </div>
+      </section>
+      <section class="news padding_container bottom_gap">
+        <h1>NEWS</h1>
+        <div class="news__items flex_card_wrap">
+          <div class="news__item zoom flex_card_4">
+            <a href="./news_detail.html">
+              <img src="../static/picture/2.jpg" />
+              <div class="news__item_content">
+                <p class="news__item_calendar">
+                  <i class="fa fa-calendar"></i> December 12, 2023
+                </p>
+  
+                <h3>Empowering Young Minds for Success around the Globe!</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam,
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="news__item zoom flex_card_4">
+            <a href="./news_detail.html">
+              <img src="../static/picture/04.png" />
+              <div class="news__item_content">
+                <p class="news__item_calendar">
+                  <i class="fa fa-calendar"></i> December 12, 2023
+                </p>
+                <h3>Empowering Young Minds for Success around the Globe!</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam,
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="news__item zoom flex_card_4">
+            <a href="./news_detail.html">
+              <img src="../static/picture/05.png" />
+              <div class="news__item_content">
+                <p class="news__item_calendar">
+                  <i class="fa fa-calendar"></i> December 12, 2023
+                </p>
+                <h3>Empowering Young Minds for Success around the Globe!</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam,
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="news__item zoom flex_card_4">
+            <a href="./news_detail.html">
+              <img src="../static/picture/06.png" />
+              <div class="news__item_content">
+                <p class="news__item_calendar">
+                  <i class="fa fa-calendar"></i> December 12, 2023
+                </p>
+                <h3>Empowering Young Minds for Success around the Globe!</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam,
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="contact padding_container bottom_gap">
+        <h1>CONTACT US</h1>
+        <div class="contact-wrapper">
+          <div class="map-container">
+            <div class="dot">
+              <svg aria-hidden="true" class="e-font-icon-svg e-fas-circle" viewBox="0 0 512 512">
+                <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z">
+                </path>
+              </svg>
+            </div>
+            <a href="https://www.google.com/maps?q=latitude,longitude" target="_blank" class="address">1311 Grand Ave,<br>Suite 170, Glendora, CA</a>
+            <img class="map-image" src="https://img.freepik.com/premium-vector/dotted-world-map-white-background_132079-967.jpg" alt="Map Image">
+          </div>
+          <div class="contact__form">
+            <form>
+              <input type="text" name="fullName" id="fullName" placeholder="Full Name*" required />
+              <input type="text" name="phoneNumber" id="phoneNumber" placeholder="Phone Number" />
+              <input type="email" name="email" id="email" placeholder="Email Address*" required />
+              <textarea name="message" id="message" rows="5" placeholder="Message"></textarea>
+              <select name="services" id="services">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+              </select>
+              <button type="submit">Let's Get Started</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
