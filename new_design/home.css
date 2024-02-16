@@ -39,23 +39,12 @@
   overflow: hidden;
 
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
 
   box-sizing: border-box;
 }
 
 .courses_item a {
   text-decoration: none;
-}
-
-.courses_item:hover {
-  transform: scale(1.02);
-  border: solid 2px #61b9f5;
-}
-
-.courses_item:active {
-  transform: scale(1);
-  border: solid 2px #61b9f5;
 }
 
 .courses_item img {
@@ -109,7 +98,7 @@
 }
 
 .aboutUs__content h1 {
-  font-size: 2.4rem;
+  font-size: 3rem;
   margin-bottom: 1.3rem;
   color: #282828;
 }
@@ -186,10 +175,13 @@
   margin-top: 1rem;
 }
 
-@media all and (max-width: 1080px) {
+@media all and (max-width: 1574px) {
   .advantages__items {
     justify-content: center;
   }
+}
+
+@media all and (max-width: 1080px) {
   .advantages__item {
     justify-content: center;
     align-items: center;
@@ -229,12 +221,6 @@
   border-radius: 10px;
   outline: none;
   border: none;
-  transition: all 0.2s ease-in-out;
-}
-
-.gallery__content button:hover {
-  transform: translateY(-1.5px);
-  transform: scale(1.01);
 }
 
 .gallery__content button a {
@@ -306,20 +292,11 @@
   margin-bottom: 2rem;
   text-align: left;
   background-color: #fff;
-  transition: all 0.2s ease-in-out;
   cursor: pointer;
 }
 
 .news__item a {
   text-decoration: none;
-}
-
-.news__item:hover {
-  transform: translateY(-3px);
-}
-
-.news__item:active {
-  transform: translateY(0);
 }
 
 .news__item img {
