@@ -25,7 +25,7 @@ nav {
 }
 
 nav ul {
-  padding: 0;
+  padding: 10px;
   margin: 0;
   list-style: none;
   position: relative;
@@ -33,19 +33,22 @@ nav ul {
   display: flex;
   justify-content: space-around;
   gap: 1.5rem;
+  background-color: #fff;
 
 }
 
 nav ul li {
   margin: 0px;
   display: inline-block;
-  background-color: #fff;
+  
+  font-weight: bold;
 }
 
 nav a {
   display: block;
   color: var(--text-color);
   text-decoration: none;
+  font-size: var(--p-font-size);
 }
 
 nav a:hover {
@@ -55,7 +58,7 @@ nav a:hover {
 nav ul ul {
   display: none;
   position: absolute;
-  padding-top: 0.5rem;
+  // padding-top: 0.5rem;
 }
 
 nav ul li:hover > ul {
@@ -89,10 +92,15 @@ li > a:only-child:after {
 @media all and (max-width: 768px) {
   nav {
     margin: 0;
-    width: 90%;
+    width: 100%;
     padding-inline: 2rem;
 
     flex-wrap: wrap;
+    height: 60px;
+  }
+
+  img.nav__logo {
+    object-fit: cover;
   }
 
   .toggle + a,
@@ -144,6 +152,7 @@ li > a:only-child:after {
     float: none;
     position: static;
     color: #ffffff;
+    margin: 0;
   }
 
   nav ul li:hover > ul {
@@ -182,4 +191,8 @@ li > a:only-child:after {
 }
 .nav__list_active_item:hover {
   color: #f29956;
+}
+
+.toggle.menu_label svg { 
+  fill: #646464;
 }
