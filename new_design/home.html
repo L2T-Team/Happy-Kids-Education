@@ -337,33 +337,7 @@
     </section>
     <section class="contact padding_container bottom_gap">
       <h1>CONTACT US</h1>
-      <div class="contact-wrapper">
-        <div class="map-container">
-          <div class="dot">
-            <svg aria-hidden="true" class="e-font-icon-svg e-fas-circle" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z">
-              </path>
-            </svg>
-          </div>
-          <a href="https://www.google.com/maps?q=latitude,longitude" target="_blank" class="address">1311 Grand Ave,<br>Suite 170, Glendora, CA</a>
-          <img class="map-image" src="https://img.freepik.com/premium-vector/dotted-world-map-white-background_132079-967.jpg" alt="Map Image">
-        </div>
-        <div class="contact__form">
-          <form>
-            <input type="text" name="fullName" id="fullName" placeholder="Full Name*" required />
-            <input type="text" name="phoneNumber" id="phoneNumber" placeholder="Phone Number" />
-            <input type="email" name="email" id="email" placeholder="Email Address*" required />
-            <textarea name="message" id="message" rows="5" placeholder="Message"></textarea>
-            <select name="services" id="services">
-              <option value="volvo">Volvo</option>
-              <option value="saab">Saab</option>
-              <option value="mercedes">Mercedes</option>
-              <option value="audi">Audi</option>
-            </select>
-            <button type="submit">Let's Get Started</button>
-          </form>
-        </div>
-      </div>
+      <%- partial('_partial/contact-container') %>
     </section>
   </main>
   <footer class="footer padding_container">
