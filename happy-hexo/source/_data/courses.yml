@@ -10,36 +10,26 @@ robotics:
   courses: 
     intro-to-robotic-engineering:
       name: Intro to Robotic Engineering
-      short-description: Intro to mechanical principles and programming design with VEX V5
+      shortDescription: Intro to mechanical principles and programming design with VEX V5
       long-description: Anticipate a comprehensive learning journey where you’ll gain foundational knowledge of the VEX VRC Robotics Competition. Dive into the intricacies of mechanical principles and programming design, actively fostering a keen interest in STEM disciplines through engaging, hands-on experiences. Our program aims to provide you with practical insights, collaborative projects, and essential technical skills, ensuring a strong foundation for continued exploration and success in the dynamic world of robotics and STEM.
       age: Any
       requirements: None
       level: Easy
       time: 2h/week
-      location: in person 
-      bestseller: true
-      number-of-rating: 238
+      location: In Person
+      noOfRating: 238
       featuredImage: /courses/robotics/intro-course-avatar.png
       url: /courses/robotics/intro-to-robotic-engineering
-    Introf to Robotic Engineering:
-      short-description: Intro to mechanical principles and programming design with VEX V5
-      long-description: Anticipate a comprehensive learning journey where you’ll gain foundational knowledge of the VEX VRC Robotics Competition. Dive into the intricacies of mechanical principles and programming design, actively fostering a keen interest in STEM disciplines through engaging, hands-on experiences. Our program aims to provide you with practical insights, collaborative projects, and essential technical skills, ensuring a strong foundation for continued exploration and success in the dynamic world of robotics and STEM.
-      age: Any
-      requirements: None
-      level: Easy
-      time: 2h/week
-      location: in person 
-      number-of-rating: 238
+    advanced-robotic-engineering:
+      name: Advanced Robotic Engineering - VEX Competition Edition
+      shortDescription: Let's bring your skills to the VEX VRC competition!
+      long-description: In this comprehensive course, you will immerse yourself in the dynamic world of competitive robotics, crafting your own robot tailored for active participation in the VEX VRC competition. From conceptualization to realization, the program takes you through the entire process of designing and optimizing your robot, integrating advanced mechanical principles and sophisticated programming design. This hands-on experience not only sharpens your technical skills but also empowers you to navigate the challenges of the VEX VRC competition with confidence and innovation. Gain a profound understanding of intricate mechanical concepts, refine your programming expertise, and emerge ready to excel in the dynamic and evolving field of robotics engineering.
+      age: 12-18
+      requirements: Successful completion of the Intro to Robotic Engineering course or enrollment for students in 9th grade and above.
+      level: Medium - Hard
+      time: 5h/week with Unlimited free training time
+      location: In Person 
+      noOfRating: 56
+      bestseller: true
       featuredImage: /courses/robotics/intro-course-avatar.png
-      url: /courses/robotics/intro-to-robotic-engineering2
-    Introf to Robotic Engineerinfg:
-      short-description: Intro to mechanical principles and programming design with VEX V5
-      long-description: Anticipate a comprehensive learning journey where you’ll gain foundational knowledge of the VEX VRC Robotics Competition. Dive into the intricacies of mechanical principles and programming design, actively fostering a keen interest in STEM disciplines through engaging, hands-on experiences. Our program aims to provide you with practical insights, collaborative projects, and essential technical skills, ensuring a strong foundation for continued exploration and success in the dynamic world of robotics and STEM.
-      age: Any
-      requirements: None
-      level: Easy
-      time: 2h/week
-      location: in person 
-      number-of-rating: 238
-      featuredImage: /courses/robotics/intro-course-avatar.png
-      url: /courses/robotics/intro-to-robotic-engineering3
+      url: /courses/robotics/intro-to-robotic-engineering

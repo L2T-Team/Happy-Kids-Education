@@ -4,7 +4,7 @@
     <h1><%- page.title %></h1>
   </div>
   <main class="page-body">
-    <div class="courses-listing-info padding_container">
+    <div class="courses-listing-info padding_container bottom_gap">
       <h2 class="title"><%- page.title %></h2>
         <p class="description__introduction">
           <%- site.data.courses[page.key].description %>
@@ -12,7 +12,7 @@
     </div>
       
     <% if (site.data.courses[page.key].highlights) { %>
-      <div class="key-highlight-info padding_container medium-top-gap">
+      <div class="key-highlight-info padding_container bottom_gap">
         <h2 class="title">Key Highlights</h2>
 
         <div class="advantages__items flex_card_wrap">
@@ -24,27 +24,24 @@
     <% } %>
 
     <% if (site.data.courses[page.key].cta) { %>
-      <div class="key-highlight-info padding_container medium-top-gap">
+      <div class="key-highlight-info padding_container">
         <p class="description__introduction">
           <%- site.data.courses[page.key].cta %>
         </p>
       </div>
     <% } %>
 
-    <section class="inner_courses padding_container medium-top-gap flex_card_wrap bottom_gap">
+    <section class="inner_courses padding_container medium-top-gap flex_card_wrap start bottom_gap">
       <% for (var i in site.data.courses[page.key].courses) { %>
         <%- partial('_widget/course-card', {
           featuredImage: site.data.courses[page.key].courses[i].featuredImage,
           bestseller: site.data.courses[page.key].courses[i].bestseller,
           title: site.data.courses[page.key].courses[i].name,
-          url: site.data.courses[page.key].courses[i].url
+          url: site.data.courses[page.key].courses[i].url,
+          description: site.data.courses[page.key].courses[i].shortDescription,
+          noOfRating: site.data.courses[page.key].courses[i].noOfRating
         }) %>
       <% } %>
     </section>
-
-    <main class="container">
-      <section class="courses">
-      </section>
-    </main>
   </main>
 </body>
