@@ -115,8 +115,8 @@
         <div class="gallery__content padding_container">
           <h1>OUR GALLERY</h1>
           <div class="gallery__items flex_card_wrap">
-            <% for (let i = 0; i < 4; i++) { %>
-             <img class="flex_card_4" src="<%- url_for(theme.galleries[i]) %>" />
+            <% for (let i = 0; i < 3; i++) { %>
+              <%- partial('_widget/modal-img', {imgUrl: site.data.common.galleries[i].path, alt: site.data.common.galleries[i].alt}) %>
             <% } %>
           </div>
           <button><a href="./gallery.html">View All</a></button>
