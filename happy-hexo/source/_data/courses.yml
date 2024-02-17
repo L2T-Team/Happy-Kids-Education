@@ -70,7 +70,7 @@ coding:
       noOfRating: 23
       featuredImage: /courses/coding/python.png
     java:
-      name: Scratch
+      name: Java
       shortDescription: Industry level programming - Data Structure and Object Oriented Programming
       longDescription: Embark on an exciting coding journey with our specially tailored Java Programming Course, designed specifically for middle school students and beyond. Explore the core principles of Java programming, utilizing it to unravel the structure and interpretation of computer programs. Immerse yourself in the intricacies of Java, fostering a genuine passion for coding and technology through hands-on, interactive experiences. This meticulously crafted program provides practical insights, encourages collaborative coding projects, and equips participants with essential programming skills. It establishes a strong foundation for ongoing exploration and success in the dynamic fields of computer science and STEM.
       age: High School
