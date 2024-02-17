@@ -118,7 +118,8 @@
 .course__top img {
   position: relative;
   width: 100%;
-  height: 200px;
+  height: 260px;
+  object-fit: cover;
 }
 
 .course__label {
@@ -140,7 +141,7 @@
 
 .course__title {
   color: #282828;
-  font-size: 1.3rem;
+  font-size: var(--h6-font-size);
   margin-bottom: 2rem;
 }
 
@@ -162,10 +163,6 @@
 @media all and (max-width: 900px) {
   .courses {
     justify-content: center;
-  }
-
-  .inner_course__item {
-    width: 400px;
   }
 }
 
