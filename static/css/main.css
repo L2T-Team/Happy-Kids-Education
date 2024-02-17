@@ -75,6 +75,10 @@ body {
     margin-top: 30px;
 }
 
+.mt80 {
+    margin-top: 80px;
+}
+
 .lang-select-wrap {
     position: relative;
     white-space: nowrap;

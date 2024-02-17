@@ -1,0 +1,24 @@
+<nav>
+  <img class="nav__logo" src="<%- url_for('css/images/logo.png') %>" alt="logo" />
+
+  <label for="drop" class="toggle menu_label">Menu</label>
+  <input type="checkbox" id="drop" />
+  <ul class="menu">
+    <% for (var i in theme.menu){ %>
+      <% if (theme.menu[i].children) { %>
+        <li>
+          <label for="drop-1" class="toggle"><%- i %></label>
+          <a href="#"><%- i %></a>
+          <input type="checkbox" id="drop-1" />
+          <ul>
+            <% for (var j in theme.menu[i].children) { %>
+              <li><a href="<%- url_for(theme.menu[i].url + theme.menu[i].children[j]) %>"><%- j %></a></li>
+            <% } %>
+          </ul>
+        </li>
+      <% } else { %>
+        <li><a href="<%- url_for(theme.menu[i]) %>"><%- i %></a></li>
+      <% } %>
+    <% } %>
+  </ul>
+</nav>
