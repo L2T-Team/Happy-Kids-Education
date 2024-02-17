@@ -27,6 +27,12 @@ body
   font-family: "Karla", sans-serif;
   -webkit-text-size-adjust: 100%
 
+.small-bottom-gap
+  margin-bottom: var(--small-gap)
+
+.medium-top-gap 
+  margin-top: var(--medium-gap)
+
 .outer
   clearfix()
   max-width: (column-width + gutter-width) * columns + gutter-width
@@ -73,7 +79,7 @@ h2 {
   font-size: var(--h2-font-size);
   margin-bottom: 2rem;
   font-weight: 700;
-  line-height: 1.5rem;
+  line-height: 1.6rem;
 }
 
 h3 {
@@ -86,7 +92,7 @@ h4 {
   font-size: var(--h4-font-size);
   margin-bottom: 1rem;
   font-weight: 600;
-  line-height: 1.5rem;
+  line-height: 1.7rem;
 }
 
 p {
@@ -135,7 +141,7 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
   color: var(--text-color);
-  font-size: var(--h1-font-size);
+  font-size: var(--h2-font-size);
   font-weight: 700;
   text-align: center;
   background: rgba(255, 255, 255, 0.7);
@@ -196,10 +202,6 @@ p {
   .bottom_gap {
     margin-bottom: var(--huge-gap);
   }
-
-  .flex_card_wrap {
-    justify-content: space-between;
-  }
 }
 
 if sidebar and sidebar isnt bottom
@@ -221,6 +223,7 @@ if sidebar is left
 @import "_partial/highlight"
 @import "_partial/mobile"
 @import "home";
+@import "courses";
 
 if sidebar
   @import "_partial/sidebar"

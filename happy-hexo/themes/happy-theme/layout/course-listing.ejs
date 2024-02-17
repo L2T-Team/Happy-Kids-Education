@@ -1,0 +1,50 @@
+<body>
+  <div class="secondary-hero small-bottom-gap">
+    <img src="<%- url_for(page.featuredImage) %>" alt="about" />
+    <h1><%- page.title %></h1>
+  </div>
+  <main class="page-body">
+    <div class="courses-listing-info padding_container">
+      <h2 class="title"><%- page.title %></h2>
+        <p class="description__introduction">
+          <%- site.data.courses[page.key].description %>
+        </p>
+    </div>
+      
+    <% if (site.data.courses[page.key].highlights) { %>
+      <div class="key-highlight-info padding_container medium-top-gap">
+        <h2 class="title">Key Highlights</h2>
+
+        <div class="advantages__items flex_card_wrap">
+          <% for (var i in site.data.courses[page.key].highlights) { %>
+            <%- partial('_widget/advantage', {title: i, content: site.data.courses[page.key].highlights[i], height: '320px'}) %>
+          <% } %>
+        </div>
+      </div>
+    <% } %>
+
+    <% if (site.data.courses[page.key].cta) { %>
+      <div class="key-highlight-info padding_container medium-top-gap">
+        <p class="description__introduction">
+          <%- site.data.courses[page.key].cta %>
+        </p>
+      </div>
+    <% } %>
+
+    <section class="inner_courses padding_container medium-top-gap flex_card_wrap bottom_gap">
+      <% for (var i in site.data.courses[page.key].courses) { %>
+        <%- partial('_widget/course-card', {
+          featuredImage: site.data.courses[page.key].courses[i].featuredImage,
+          bestseller: site.data.courses[page.key].courses[i].bestseller,
+          title: i,
+          url: site.data.courses[page.key].courses[i].url
+        }) %>
+      <% } %>
+    </section>
+
+    <main class="container">
+      <section class="courses">
+      </section>
+    </main>
+  </main>
+</body>

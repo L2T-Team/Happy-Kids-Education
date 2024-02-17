@@ -1,29 +1,44 @@
-robotics: "abce"
-#   name: "Robotics Courses"
-#   description: "Learn about robotics, including the history of robotics, as well as design and control of robots."
-#   courses:
-#     - title: "Robotics: Aerial Robotics"
-#       url: "https://www.coursera.org/learn/robotics-flight"
-#       provider: "Coursera"
-#       description: "Learn about the mechanics of flight and the design of quadrotor flying robots."
-#       image: "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/3d/3d3e00f3e311e6b3e3e3e3e3e3e3e3/Robotics-Aerial-Robotics.jpg?auto=format%2Ccompress&dpr=1&w=150&h=150&fit=fill&bg=FFF"
-#     - title: "Robotics: Computational Motion Planning"
-#       url: "https://www.coursera.org/learn/robotics-motion-planning"
-#       provider: "Coursera"
-#       description: "Learn how to plan efficient motion strategies for robots and autonomous vehicles."
-#       image: "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/3d/3d3e00f3e311e6b3e3e3e3e3e3e3e3/Robotics-Computational-Motion-Planning.jpg?auto=format%2Ccompress&dpr=1&w=150&h=150&fit=fill&bg=FFF"
-#     - title: "Robotics: Perception"
-#       url: "https://www.coursera.org/learn/robotics-perception"
-#       provider: "Coursera"
-#       description: "Learn about how robots perceive the world around them."
-#       image: "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/3d/3d3e00f3e311e6b3e3e3e3e3e3e3e3/Robotics-Perception.jpg?auto=format%2Ccompress&dpr=1&w=150&h=150&fit=fill&bg=FFF"
-#     - title: "Robotics: Estimation and Learning"
-# coding: 
-#   name: "Coding Courses"
-#   description: "Learn about coding, including the basics of coding, and how to code in C and C++."
-#   courses:
-#     - title: "Coding for Everyone: C and C++"
-#       url: "https://www.coursera.org/learn/c-for-everyone"
-#       provider: "Coursera"
-#       description: "This course is for everyone who has never programmed before."
-#       image: "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/3d/3d3e00f3e311e6b3e3e3e3e3e3e3e3/Coding-for-Everyone-C-and-C.jpg?auto=format%2Ccompress&dpr=1&w=150&h=150&fit=fill&bg=FFF"
+robotics: 
+  description: Welcome to the VEX Robotics Class at Happy Kids Robotics, where we spark the curiosity of students spanning from elementary to high school, leading them on an exciting adventure into the dynamic world of robotics. Our meticulously crafted program is designed to instill a profound passion for teamwork, cultivate innovative thinking, and nurture problem-solving skills, offering students an engaging platform to apply scientific and engineering principles. Embracing a project-oriented approach, VEX Robotics holds widespread acknowledgment from prestigious universities, amplifying its value as a comprehensive educational experience.
+  highlights:
+    TEAMWORK AND COLLABORATION: Immerse yourself in the importance of collaboration as our VEX Robotics Class encourages students to tackle challenging projects together, refining their teamwork skills along the way.
+    APPLIED SCIENCE AND ENGINEERING: Embark on a hands-on journey, moving beyond theoretical concepts to apply scientific and engineering principles in practical activities, fostering a tangible understanding of these foundational ideas.
+    RECOGNITION BY PRESTIGIOUS SCHOOLS: VEX Robotics holds widespread recognition among major prestigious schools, serving as a valuable asset to students’ educational portfolios and showcasing their commitment to excellence.
+    SKILL ENHANCEMENT: Our program extends beyond robotics, enriching children’s logical abilities, engineering basics, and programming skills, establishing a robust foundation for their academic and professional endeavors.
+    STAND OUT IN APPLICATIONS: Participation in the VEX Robotics Class not only enriches students’ skill sets but also positions them uniquely in high school and college applications, highlighting their dedication to innovation and continuous learning.
+  cta: Join us in the exploration of robotics excellence at Happy Kids Education, where students not only construct robots but also lay the groundwork for success in future academic and professional pursuits. Discover the transformative power of VEX robotics as we nurture the engineers and innovators of tomorrow!
+  courses: 
+    Intro to Robotic Engineering:
+      short-description: Intro to mechanical principles and programming design with VEX V5
+      long-description: Anticipate a comprehensive learning journey where you’ll gain foundational knowledge of the VEX VRC Robotics Competition. Dive into the intricacies of mechanical principles and programming design, actively fostering a keen interest in STEM disciplines through engaging, hands-on experiences. Our program aims to provide you with practical insights, collaborative projects, and essential technical skills, ensuring a strong foundation for continued exploration and success in the dynamic world of robotics and STEM.
+      age: Any
+      requirements: None
+      level: Easy
+      time: 2h/week
+      location: in person 
+      bestseller: true
+      number-of-rating: 238
+      featuredImage: /courses/robotics/intro-course-avatar.png
+      url: /courses/robotics/intro-to-robotic-engineering
+    Introf to Robotic Engineering:
+      short-description: Intro to mechanical principles and programming design with VEX V5
+      long-description: Anticipate a comprehensive learning journey where you’ll gain foundational knowledge of the VEX VRC Robotics Competition. Dive into the intricacies of mechanical principles and programming design, actively fostering a keen interest in STEM disciplines through engaging, hands-on experiences. Our program aims to provide you with practical insights, collaborative projects, and essential technical skills, ensuring a strong foundation for continued exploration and success in the dynamic world of robotics and STEM.
+      age: Any
+      requirements: None
+      level: Easy
+      time: 2h/week
+      location: in person 
+      number-of-rating: 238
+      featuredImage: /courses/robotics/intro-course-avatar.png
+      url: /courses/robotics/intro-to-robotic-engineering2
+    Introf to Robotic Engineerinfg:
+      short-description: Intro to mechanical principles and programming design with VEX V5
+      long-description: Anticipate a comprehensive learning journey where you’ll gain foundational knowledge of the VEX VRC Robotics Competition. Dive into the intricacies of mechanical principles and programming design, actively fostering a keen interest in STEM disciplines through engaging, hands-on experiences. Our program aims to provide you with practical insights, collaborative projects, and essential technical skills, ensuring a strong foundation for continued exploration and success in the dynamic world of robotics and STEM.
+      age: Any
+      requirements: None
+      level: Easy
+      time: 2h/week
+      location: in person 
+      number-of-rating: 238
+      featuredImage: /courses/robotics/intro-course-avatar.png
+      url: /courses/robotics/intro-to-robotic-engineering3
