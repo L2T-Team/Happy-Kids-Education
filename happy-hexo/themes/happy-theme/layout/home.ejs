@@ -20,7 +20,7 @@
                 <h1>Welcome to Happy Kids Education!</h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur molestias ratione sunt quidem reiciendis atque a ipsum vel provident earum architecto dolor pariatur officiis consectetur, optio impedit. Itaque, dolorum praesentium.</p>
               </div>
-              <button><a href="./gallery.html">Find Out More!</a></button>
+              <button><a href="<%- url_for('courses/robotics') %>">Find Out More!</a></button>
             </div>
             <div class="carousel-controls">
               <label for="img-3" class="prev-slide">
@@ -119,7 +119,7 @@
               <%- partial('_widget/modal-img', {imgUrl: site.data.common.galleries[i].path, alt: site.data.common.galleries[i].alt}) %>
             <% } %>
           </div>
-          <button><a href="./gallery.html">View All</a></button>
+          <button><a href="<%- url_for('gallery') %>">View All</a></button>
         </div>
       </section>
       <section class="news padding_container bottom_gap">
