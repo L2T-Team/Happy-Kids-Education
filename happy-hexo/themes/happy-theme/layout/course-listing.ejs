@@ -25,23 +25,31 @@
 
     <% if (site.data.courses[page.key].cta) { %>
       <div class="key-highlight-info padding_container">
-        <p class="description__introduction">
+        <div class="description__introduction">
           <%- site.data.courses[page.key].cta %>
-        </p>
+        </div>
       </div>
     <% } %>
 
-    <section class="inner_courses padding_container medium-top-gap flex_card_wrap start bottom_gap">
-      <% for (var i in site.data.courses[page.key].courses) { %>
-        <%- partial('_widget/course-card', {
-          featuredImage: site.data.courses[page.key].courses[i].featuredImage,
-          bestseller: site.data.courses[page.key].courses[i].bestseller,
-          title: site.data.courses[page.key].courses[i].name,
-          courseUrl: 'courses/' + page.key + '/' + i,
-          description: site.data.courses[page.key].courses[i].shortDescription,
-          noOfRating: site.data.courses[page.key].courses[i].noOfRating
-        }) %>
-      <% } %>
-    </section>
+    <% if (site.data.courses[page.key].courses) { %>
+      <section class="inner_courses padding_container medium-top-gap flex_card_wrap start bottom_gap">
+        <% for (var i in site.data.courses[page.key].courses) { %>
+          <%- partial('_widget/course-card', {
+            featuredImage: site.data.courses[page.key].courses[i].featuredImage,
+            bestseller: site.data.courses[page.key].courses[i].bestseller,
+            title: site.data.courses[page.key].courses[i].name,
+            courseUrl: 'courses/' + page.key + '/' + i,
+            description: site.data.courses[page.key].courses[i].shortDescription,
+            noOfRating: site.data.courses[page.key].courses[i].noOfRating
+          }) %>
+        <% } %>
+      </section>
+    <% } %>
+    
+    <% if (site.data.courses[page.key].instructors) { %>
+      <section class="padding_container bottom_gap">
+        <%- partial('_partial/instructors') %>
+      </section>
+    <% } %> 
   </main>
 </body>
