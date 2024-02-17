@@ -8,7 +8,8 @@ robotics:
     STAND OUT IN APPLICATIONS: Participation in the VEX Robotics Class not only enriches students’ skill sets but also positions them uniquely in high school and college applications, highlighting their dedication to innovation and continuous learning.
   cta: Join us in the exploration of robotics excellence at Happy Kids Education, where students not only construct robots but also lay the groundwork for success in future academic and professional pursuits. Discover the transformative power of VEX robotics as we nurture the engineers and innovators of tomorrow!
   courses: 
-    Intro to Robotic Engineering:
+    intro-to-robotic-engineering:
+      name: Intro to Robotic Engineering
       short-description: Intro to mechanical principles and programming design with VEX V5
       long-description: Anticipate a comprehensive learning journey where you’ll gain foundational knowledge of the VEX VRC Robotics Competition. Dive into the intricacies of mechanical principles and programming design, actively fostering a keen interest in STEM disciplines through engaging, hands-on experiences. Our program aims to provide you with practical insights, collaborative projects, and essential technical skills, ensuring a strong foundation for continued exploration and success in the dynamic world of robotics and STEM.
       age: Any

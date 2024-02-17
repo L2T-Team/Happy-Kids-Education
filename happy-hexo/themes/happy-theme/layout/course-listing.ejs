@@ -36,7 +36,7 @@
         <%- partial('_widget/course-card', {
           featuredImage: site.data.courses[page.key].courses[i].featuredImage,
           bestseller: site.data.courses[page.key].courses[i].bestseller,
-          title: i,
+          title: site.data.courses[page.key].courses[i].name,
           url: site.data.courses[page.key].courses[i].url
         }) %>
       <% } %>
