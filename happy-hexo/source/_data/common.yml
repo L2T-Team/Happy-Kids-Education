@@ -9,3 +9,8 @@ galleries:
     alt: "Collaboration"
   - path: courses/robotics/intro-course-avatar.png
     alt: "Introduction to Robotics"
+
+heroImgs: 
+  - path: courses/coding/coding-avatar.png
+  - path: data/about_us.jpg
+  - path: data/robotic-avatar.png

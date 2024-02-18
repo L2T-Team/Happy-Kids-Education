@@ -13,7 +13,7 @@
           <input type="radio" name="radio-buttons" id="img-1" checked />
           <li class="slide-container">
             <div class="slide-image">
-              <img src="<%- url_for('/css/images/coding-avatar.png') %>">
+              <img src="<%- url_for(site.data.common.heroImgs[0].path)  %>">
             </div>
             <div class="slide-content-wrapper">
               <div class="slide-content">
@@ -34,7 +34,7 @@
           <input type="radio" name="radio-buttons" id="img-2" />
           <li class="slide-container">
             <div class="slide-image">
-              <img src="<%- url_for('/css/images/robotic-avatar.png') %>">
+              <img src="<%- url_for(site.data.common.heroImgs[1].path) %>">
             </div>
             <div class="carousel-controls">
               <label for="img-1" class="prev-slide">
@@ -48,7 +48,7 @@
           <input type="radio" name="radio-buttons" id="img-3" />
           <li class="slide-container">
             <div class="slide-image">
-              <img src="<%- url_for('/css/images/about_us.jpg') %>">
+              <img src="<%- url_for(site.data.common.heroImgs[2].path)  %>">
             </div>
             <div class="carousel-controls">
               <label for="img-2" class="prev-slide">
