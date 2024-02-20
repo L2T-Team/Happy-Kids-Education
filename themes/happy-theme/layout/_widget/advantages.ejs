@@ -1,0 +1,8 @@
+<section class="advantages bottom_gap padding_container">
+  <h2 class="small-bottom-gap">OUR ADVANTAGES</h2>
+  <div class="advantages__items flex_card_wrap">
+    <% for (var i in theme.advantages) { %>
+      <%- partial('_widget/advantage', {title: i, content: theme.advantages[i], height: '280px'}) %>
+    <% } %>
+  </div>
+</section>

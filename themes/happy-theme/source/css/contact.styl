@@ -1,0 +1,147 @@
+@import url('common.css');
+
+a {
+  text-decoration: none;
+}
+
+/* ======== HEADER ========  */
+.header {
+  background-image: url("../static/picture/07.png");
+  height: 29rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+  font-size: 2rem;
+}
+
+/* ======== CARDS ========  */
+.cards {
+  margin: 2rem auto;
+
+  display: flex;
+  gap: 1rem;
+}
+
+.card {
+  border: solid 1px #ee761c;
+  text-align: center;
+  padding: 1rem;
+
+  transition: all 0.15s ease-in-out;
+  height: 250px;
+}
+
+.card__qr {
+  // width: 60% !important;
+  width: auto !important;
+  height: 80% !important;
+
+}
+
+.card img {
+  width: 50px;
+  height: 100px;
+  margin-bottom: 1rem;
+}
+
+.card h2 {
+  margin-bottom: 1rem;
+  color: #282828;
+  font-size: var(--h4-font-size);
+}
+
+.card p {
+  color: #ababab;
+}
+
+.card:hover {
+  background-color: #ee761c;
+}
+.card:hover img {
+  filter: brightness(11);
+}
+
+.card:hover p,
+.card:hover h2 {
+  color: #fff;
+}
+
+/* ======== CONTAINER ========  */
+.container {
+  margin: 2rem auto;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.container__map {
+  width: 100%;
+  height: auto;
+}
+
+/*  */
+.contact__form {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contact__form form {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  padding: 1.7rem;
+  border-radius: 10px;
+
+  background-color: #fff;
+  border: solid 1px rgba(0, 0, 0, 0.1);
+}
+
+.contact__form form input,
+.contact__form form textarea,
+.contact__form form select {
+  background-color: #f3f3ff;
+  outline: none;
+  border: none;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  color: #858586;
+  font-weight: 540;
+  font-size: 1.1rem;
+
+  resize: vertical;
+}
+
+.contact__form form button {
+  background-color: #ee761c;
+  color: #fff;
+  border: none;
+  outline: none;
+
+  font-size: 1.1rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+@media all and (max-width: 900px) {
+  .container {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .container__map {
+    width: 100%;
+    height: 500px;
+  }
+
+  .contact__form form {
+    width: 100%;
+    padding: 3rem;
+  }
+}

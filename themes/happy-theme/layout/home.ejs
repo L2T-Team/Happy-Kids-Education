@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <div>
+      <div class="carousel">
+        <ul class="slides">
+          <input type="radio" name="radio-buttons" id="img-1" checked />
+          <li class="slide-container">
+            <div class="slide-image">
+              <img src="<%- url_for(site.data.common.heroImgs[0].path)  %>">
+            </div>
+            <div class="slide-content-wrapper">
+              <div class="slide-content">
+                <h1>Welcome to Happy Kids Education!</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur molestias ratione sunt quidem reiciendis atque a ipsum vel provident earum architecto dolor pariatur officiis consectetur, optio impedit. Itaque, dolorum praesentium.</p>
+              </div>
+              <button><a href="<%- url_for('courses/robotics') %>">Find Out More!</a></button>
+            </div>
+            <div class="carousel-controls">
+              <label for="img-3" class="prev-slide">
+                <span>&lsaquo;</span>
+              </label>
+              <label for="img-2" class="next-slide">
+                <span>&rsaquo;</span>
+              </label>
+            </div>
+          </li>
+          <input type="radio" name="radio-buttons" id="img-2" />
+          <li class="slide-container">
+            <div class="slide-image">
+              <img src="<%- url_for(site.data.common.heroImgs[1].path) %>">
+            </div>
+            <div class="carousel-controls">
+              <label for="img-1" class="prev-slide">
+                <span>&lsaquo;</span>
+              </label>
+              <label for="img-3" class="next-slide">
+                <span>&rsaquo;</span>
+              </label>
+            </div>
+          </li>
+          <input type="radio" name="radio-buttons" id="img-3" />
+          <li class="slide-container">
+            <div class="slide-image">
+              <img src="<%- url_for(site.data.common.heroImgs[2].path)  %>">
+            </div>
+            <div class="carousel-controls">
+              <label for="img-2" class="prev-slide">
+                <span>&lsaquo;</span>
+              </label>
+              <label for="img-1" class="next-slide">
+                <span>&rsaquo;</span>
+              </label>
+            </div>
+          </li>
+          <div class="carousel-dots">
+            <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+            <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+            <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+          </div>
+        </ul>
+      </div>
+    </div>
+    <main class="body">
+      <section class="courses flex_card_wrap padding_container bottom_gap">
+        <% for (var i in theme.menu['Courses'].children){ %>
+          <div class="courses_item zoom flex_card_4">
+            <a href="<%- url_for(theme.menu['Courses'].url + theme.menu['Courses'].children[i].url) %>">
+              <img src="<%- url_for(theme.menu['Courses'].children[i].avatar) %>" />
+              <h2><%- i %></h2>
+              <ul>
+                <% for (var h in theme.menu['Courses'].children[i].descriptions){ %>
+                  <li> <%- theme.menu['Courses'].children[i].descriptions[h] %></li>
+                <% } %>
+                </ul>
+            </a>
+          </div>
+        <% } %>
+      </section>
+      <section class="aboutUs padding_container bottom_gap">
+        <img src="<%- url_for('/css/images/about_us.jpg') %>" />
+        <div class="aboutUs__content">
+          <h1>ABOUT US</h1>
+          <p>
+            Welcome to <b>Happy Kids Education</b>, where passion and excellence shape
+            future leaders. We offer holistic STEM education, including
+            robotics, coding, digital art, career planning, and college
+            consulting for a comprehensive learning experience. Our cutting-edge
+            programs foster a love for learning, technology enthusiasm, and
+            creativity, ensuring students develop practical skills for success.
+          </p>
+        </div>
+      </section>
+      <section class="advantages bottom_gap padding_container">
+        <h1>OUR ADVANTAGES</h1>
+        <div class="advantages__items flex_card_wrap">
+          <% for (var i in theme.advantages) { %>
+            <div class="advantages__item flex_card_3">
+              <i class="fa fa-check-square fa-4x" aria-hidden="true"></i>
+              <h4><%- i %></h4>
+              <p>
+                <%- theme.advantages[i] %>
+              </p>
+            </div>
+          <% } %>
+        </div>
+      </section>
+      <section class="gallery bottom_gap">
+        <div class="gallery__content padding_container">
+          <h1>OUR GALLERY</h1>
+          <div class="gallery__items flex_card_wrap">
+            <% for (let i = 0; i < 3; i++) { %>
+              <%- partial('_widget/modal-img', {imgUrl: site.data.common.galleries[i].path, alt: site.data.common.galleries[i].alt}) %>
+            <% } %>
+          </div>
+          <button><a href="<%- url_for('gallery') %>">View All</a></button>
+        </div>
+      </section>
+      <section class="news padding_container bottom_gap">
+        <h1>NEWS</h1>
+        <div class="news__items flex_card_wrap">
+          <% for (var i in site.posts.toArray()) { %>
+            <div class="news__item zoom flex_card_3">
+              <a href="<%- url_for(site.posts.toArray()[i].path) %>">
+                <img src="<%- url_for(site.posts.toArray()[i].featuredImage) %>" />
+                <div class="news__item_content">
+                  <p class="news__item_calendar">
+                    <i class="fa fa-calendar"></i> <%- date(site.posts.toArray()[i].date) %>
+                  </p>
+                  
+                  <h2><%- site.posts.toArray()[i].title %></h2>
+                  <p>
+                    <%- site.posts.toArray()[i]._content %><br>
+                  </p>
+                </div>
+              </a>
+            </div>
+          <% } %>
+        </div>
+      </section>
+      <section class="contact padding_container bottom_gap">
+        <h1>CONTACT US</h1>
+        <%- partial('_partial/contact-container') %>
+      </section>
+    </main>
+  </body>
+</html>

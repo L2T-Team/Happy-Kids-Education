@@ -1,0 +1,116 @@
+# Header
+menu:
+  Home: /
+  About: /about
+  Courses: 
+    url: /courses
+    children:
+      Robotics: 
+        url: /robotics
+        avatar: /css/images/robotic-avatar.png
+        descriptions: 
+          - "Professional programming skills"
+          - "Mastery of mechanical structures"
+          - "Rapid debugging and optimization methods"
+          - "Swift planning of competition strategies"
+        highlights:
+          - "DesA"
+          - "DesB"
+      Coding: 
+        url: /coding
+        avatar: /css/images/coding-avatar.png
+        descriptions:
+          - "Gain an in-depth understanding of programming fundamentals"
+          - "Prepare for AP Computer Science, as well as USACO, ACSL and other competitions"
+      Digital Art: 
+        url: /digital-art
+        avatar: /css/images/digital-art-avatar.png
+        descriptions:
+          - "Enhance critical thinking by analyzing color, composition, and design elements"
+          - "Improve visual communication skills to express and share ideas effectively"
+      Mentorship: 
+        url: /mentorship
+        avatar: /css/images/mentorship-avatar.png
+        descriptions:
+          - "Team of experienced educators"
+          - "Targeted learning approach"
+          - "Personalized guidance for individual academic goals"
+          - "Clear STEM specialization planning"
+  Gallery: /gallery
+  News: /news
+  Contact: /contact
+
+title: Happy Kids Education
+
+advantages:
+  ROBOTICS AND PROGRAMMING COMPETITIONS: A fast track to world-class competitions, widely recognized by
+              top-tier universities.
+  INDEPENDENT LEARNING: We prioritize fostering children's self-directed learning, avoiding forceful parental study methods and promoting growth in freedom.
+  STEAM CAREER PLANNING: We provide clear STEM career planning, offering comprehensive support on the academic journey with a one-stop service.
+  IGNITING LEARNING PASSTION: Through inspiring children's self-learning abilities in a joyful atmosphere, we guide them to actively explore, fostering stronger academic interests.
+  EXPORT INSIGHTS: We host events with industry and academic exports from prestigious universites, giving children valuable opportunities to interact and gain insights for their future development.
+  CRAFTSMAN SPIRIT: We focus on meticulous craftsmanship, dedicated to instilling a craftsman's spirit, nurturing children's creativity and unique perspectives
+  EXPORT GUIDANCE: Our experts priorize outcome-oriented teaching, focusing on goal-oriented learning and offering personalized guidance to help each child achieve academic success.
+
+rss: /atom.xml
+banner: "images/banner.jpg"
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# # Footer
+# copyright: |-
+#   <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a></br>
+#   All website licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></br>
+
+# Footer
+copyright:
+# Need help choosing? Please see...
+# https://creativecommons.org/choose/
+# https://choosealicense.com/
+# You can use html like below...
+# copyright: |-
+#   <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a></br>
+#   All website licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></br>
+
+# Sidebar
+sidebar: right
+widgets:
+- category
+- tag
+- tagcloud
+- archive
+- recent_posts
+
+# display widgets at the bottom of index pages (pagination == 2)
+index_widgets:
+# - category
+# - tagcloud
+# - archive
+
+# Widget behavior
+archive_type: 'monthly'
+show_count: false
+recent_posts_limits: 5
+
+# Miscellaneous
+google_analytics:
+gauges_analytics:
+favicon: data/favicon.png
+twitter:
+fb_admins:
+fb_app_id:
+
+# valine comment system. https://valine.js.org
+valine:
+  enable: false # if you want use valine,please set this value is true
+  appId:  # leancloud application app id
+  appKey:  # leancloud application app key
+  notify: false # valine mail notify (true/false) https://github.com/xCss/Valine/wiki
+  verify: false # valine verify code (true/false)
+  pageSize: 10 # comment list page size
+  avatar: mm # gravatar style https://valine.js.org/#/avatar
+  lang: zh-cn # i18n: zh-cn/en
+  placeholder: Just go go # valine comment input placeholder(like: Please leave your footprints )
+  guest_info: nick,mail,link #valine comment header info

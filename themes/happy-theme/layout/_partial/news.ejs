@@ -1,0 +1,19 @@
+<div class="news__items flex_card_wrap">
+  <% for (var i in site.posts.toArray()) { %>
+    <div class="news__item zoom flex_card_3">
+      <a href="<%- url_for(site.posts.toArray()[i].path) %>">
+        <img src="<%- url_for(site.posts.toArray()[i].featuredImage) %>" />
+        <div class="news__item_content">
+          <p class="news__item_calendar">
+            <i class="fa fa-calendar"></i> <%- date(site.posts.toArray()[i].date) %>
+          </p>
+          
+          <h2><%- site.posts.toArray()[i].title %></h2>
+          <p>
+            <%- site.posts.toArray()[i]._content %><br>
+          </p>
+        </div>
+      </a>
+    </div>
+  <% } %>
+</div>
