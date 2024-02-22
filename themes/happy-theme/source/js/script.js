@@ -147,8 +147,8 @@
     });
   });
 
-  const slideInterval = 1000;  // THE TIMER FOR SLIDER
-  const numberOfSlides = 3;    // NUMBER OF SLIDERS
+  const slideInterval = 2000;  // THE TIMER FOR SLIDER
+  const numberOfSlides = $(".slide-container").length;    // NUMBER OF SLIDERS
   let currentSlide = 0;
 
   function changeSlide(index) {
@@ -166,8 +166,8 @@
     changeSlide(nextSlideIndex);
   }, slideInterval);
 
-  const nextButton = document.querySelector('.next-slide');
-  const prevButton = document.querySelector('.prev-slide');
+  const nextButton = $('.next-slide');
+  const prevButton = $('.prev-slide');
 
   nextButton.addEventListener('click', () => {
     changeSlide((currentSlide % numberOfSlides) + 1);
