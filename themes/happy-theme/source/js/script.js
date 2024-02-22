@@ -146,5 +146,35 @@
       $(this).removeClass("animated pulse");
     });
   });
-  
+
+  const slideInterval = 5000;  // THE TIMER FOR SLIDER
+  const numberOfSlides = 3;    // NUMBER OF SLIDERS
+  let currentSlide = 0;
+
+  function changeSlide(index) {
+    const radioButtons = document.querySelectorAll('input[name="radio-buttons"]');
+
+    radioButtons.forEach(radioButton => radioButton.checked = false);
+
+    radioButtons[index].checked = true;
+
+    currentSlide = index;
+  }
+
+  setInterval(() => {
+    const nextSlideIndex = (currentSlide % numberOfSlides) + 1;
+    changeSlide(nextSlideIndex);
+  }, slideInterval);
+
+  const nextButton = document.querySelector('.next-slide');
+  const prevButton = document.querySelector('.prev-slide');
+
+  nextButton.addEventListener('click', () => {
+    changeSlide((currentSlide % numberOfSlides) + 1);
+  });
+
+  prevButton.addEventListener('click', () => {
+    changeSlide((currentSlide === 0) ? numberOfSlides : currentSlide - 1);
+  });
+
 })(jQuery);
