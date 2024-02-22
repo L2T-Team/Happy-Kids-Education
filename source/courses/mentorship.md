@@ -1,5 +1,5 @@
 ---
-title: Mentorship Courses
+title: Mentorship
 layout: course-listing
 featuredImage: courses/mentorship/mentorship-avatar.png
 key: mentorship
