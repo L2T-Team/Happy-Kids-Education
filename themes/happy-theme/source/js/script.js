@@ -147,7 +147,7 @@
     });
   });
 
-  const slideInterval = 5000;  // THE TIMER FOR SLIDER
+  const slideInterval = 1000;  // THE TIMER FOR SLIDER
   const numberOfSlides = 3;    // NUMBER OF SLIDERS
   let currentSlide = 0;
 
@@ -162,7 +162,7 @@
   }
 
   setInterval(() => {
-    const nextSlideIndex = (currentSlide % numberOfSlides) + 1;
+    const nextSlideIndex = currentSlide === (numberOfSlides - 1) ? 0 : (currentSlide % numberOfSlides) + 1;
     changeSlide(nextSlideIndex);
   }, slideInterval);
 
