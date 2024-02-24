@@ -147,8 +147,10 @@
     });
   });
 
+  // AUTO SLIDERS
+
   const slideInterval = 2000;  // THE TIMER FOR SLIDER
-  const numberOfSlides = $(".slide-container").length;    // NUMBER OF SLIDERS
+  const numberOfSlides = $(".slide-container").length;
   let currentSlide = 0;
 
   function changeSlide(index) {
