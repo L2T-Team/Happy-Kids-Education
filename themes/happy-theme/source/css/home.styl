@@ -1,7 +1,7 @@
 ul.slides {
   display: block;
   position: relative;
-  height: 90vh;
+  height: 100vh;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -162,8 +162,11 @@ input:checked + .slide-container .nav label {
 
 @media only screen and (max-width: 768px) {
  .slide-content p {
-  margin: 1rem 1rem 0;
-}
+    margin: 1rem 1rem 0;
+  }
+  .slide-content h1 { 
+    font-size: var(--h2-font-size);
+  }
 }
 
 /* ======== BODY ========  */
