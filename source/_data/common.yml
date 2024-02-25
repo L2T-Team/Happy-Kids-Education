@@ -1,16 +1,10 @@
 galleries: 
   - path: /css/images/gallery/1.jpg
-    alt: "VEX 1"
   - path: /css/images/gallery/2.jpg
-    alt: "VEX 2"
-  # - path: /css/images/gallery/3.jpg
-  #   alt: "Competition preparing"
-  # - path: /css/images/gallery/4.jpg
-  #   alt: "Collaboration"
   - path: courses/robotics/intro-course-avatar.png
-    alt: "Introduction to Robotics"
 
 heroImgs: 
-  - path: courses/coding/coding-avatar.png
+  - path: gallery/front-door.jpg
   - path: data/about_us.jpg
   - path: data/robotic-avatar.png
+  # - path: gallery/happy-robotics.png

@@ -81,35 +81,35 @@ coding:
       noOfRating: 69
       featuredImage: /courses/coding/java.png
 
-digital-art: 
-  description: | 
-        Our Digital Art Course for kids is an engaging and educational journey into the world of creativity. Tailored for young artists, the course primarily focuses on teaching Photoshop skills.
-        <br><br>Throughout the program, your child will learn the fundamentals of digital art, including essential tools and techniques in Photoshop. They’ll have the opportunity to explore their imagination and express themselves through various projects, fostering their artistic abilities.
-  courses: 
-    video-edit:
-      name: Premier Video Course
-      shortDescription: Explore the art of visual storytelling and enhance narrative skills by editing and refining their own video projectsart projects.
-      longDescription: Fully prepare for the VEX VRC Robotics Competition, delve into advanced mechanical principles and programming design, while concurrently enhancing your background in STEM disciplines.
-      instructor: Mr. Sean
-      age: Any
-      requirements: None
-      level: Easy
-      time: 1h/week
-      location: Remote/In person
-      noOfRating: 24
-      featuredImage: /courses/digital-art/video.png
-    photoshop:
-      name: Photoshop Art Course
-      shortDescription: Cultivate their artistic voice by expressing ideas, emotions, and stories through digital art projects.
-      longDescription: Fully prepare for the VEX VRC Robotics Competition, delve into advanced mechanical principles and programming design, while concurrently enhancing your background in STEM disciplines.
-      age: Any
-      requirements: None
-      level: Easy
-      time: 1h/week
-      location: Remote/In person
-      noOfRating: 58
-      bestseller: true
-      featuredImage: /courses/digital-art/photoshop.png
+# digital-art: 
+#   description: | 
+#         Our Digital Art Course for kids is an engaging and educational journey into the world of creativity. Tailored for young artists, the course primarily focuses on teaching Photoshop skills.
+#         <br><br>Throughout the program, your child will learn the fundamentals of digital art, including essential tools and techniques in Photoshop. They’ll have the opportunity to explore their imagination and express themselves through various projects, fostering their artistic abilities.
+#   courses: 
+#     video-edit:
+#       name: Premier Video Course
+#       shortDescription: Explore the art of visual storytelling and enhance narrative skills by editing and refining their own video projectsart projects.
+#       longDescription: Fully prepare for the VEX VRC Robotics Competition, delve into advanced mechanical principles and programming design, while concurrently enhancing your background in STEM disciplines.
+#       instructor: Mr. Sean
+#       age: Any
+#       requirements: None
+#       level: Easy
+#       time: 1h/week
+#       location: Remote/In person
+#       noOfRating: 24
+#       featuredImage: /courses/digital-art/video.png
+#     photoshop:
+#       name: Photoshop Art Course
+#       shortDescription: Cultivate their artistic voice by expressing ideas, emotions, and stories through digital art projects.
+#       longDescription: Fully prepare for the VEX VRC Robotics Competition, delve into advanced mechanical principles and programming design, while concurrently enhancing your background in STEM disciplines.
+#       age: Any
+#       requirements: None
+#       level: Easy
+#       time: 1h/week
+#       location: Remote/In person
+#       noOfRating: 58
+#       bestseller: true
+#       featuredImage: /courses/digital-art/photoshop.png
 
 mentorship: 
   description: | 

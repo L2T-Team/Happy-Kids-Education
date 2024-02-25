@@ -149,7 +149,7 @@
 
   // AUTO SLIDERS
 
-  const slideInterval = 2000;  // THE TIMER FOR SLIDER
+  const slideInterval = 4000;  // THE TIMER FOR SLIDER
   const numberOfSlides = $(".slide-container").length;
   let currentSlide = 0;
 

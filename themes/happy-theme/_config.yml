@@ -30,7 +30,7 @@ menu:
           - "Explore diverse avenues of creative expression within the digital realm"
       Mentorship: 
         url: /mentorship
-        avatar: /css/images/mentorship-avatar.png
+        avatar: gallery/standford.webp
         descriptions:
           - "Team of experienced educators"
           - "Personalized guidance for individual academic goals"
