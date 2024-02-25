@@ -35,13 +35,13 @@
             </div>
             <div class="carousel-controls">
               <label
-                for="img-<%= (i === 1 ? site.data.common.heroImgs.length : i - 1)  %>"
+                for="img-<%- (i === 1 ? site.data.common.heroImgs.length : i - 1)  %>"
                 class="prev-slide"
               >
                 <span>&lsaquo;</span>
               </label>
               <label
-                for="img-<%= (i === site.data.common.heroImgs.length ? 1 : i + 1) %>"
+                for="img-<%- (i === site.data.common.heroImgs.length ? 1 : i + 1) %>"
                 class="next-slide"
               >
                 <span>&rsaquo;</span>
