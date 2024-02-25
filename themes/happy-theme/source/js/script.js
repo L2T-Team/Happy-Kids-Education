@@ -148,35 +148,39 @@
   });
 
   // AUTO SLIDERS
+  $(document).ready(function () {
+    const slideInterval = 4000;  // THE TIMER FOR SLIDER
+    const numberOfSlides = $(".slide-container").length;
+    let currentSlide = 0;
 
-  const slideInterval = 4000;  // THE TIMER FOR SLIDER
-  const numberOfSlides = $(".slide-container").length;
-  let currentSlide = 0;
+    function changeSlide(index) {
+      const radioButtons = document.querySelectorAll('input[name="radio-buttons"]');
 
-  function changeSlide(index) {
-    const radioButtons = document.querySelectorAll('input[name="radio-buttons"]');
+      radioButtons.forEach(radioButton => radioButton.checked = false);
 
-    radioButtons.forEach(radioButton => radioButton.checked = false);
+      radioButtons[index].checked = true;
 
-    radioButtons[index].checked = true;
+      currentSlide = index;
+    }
 
-    currentSlide = index;
-  }
+    setInterval(() => {
+      const nextSlideIndex = currentSlide === (numberOfSlides - 1) ? 0 : (currentSlide % numberOfSlides) + 1;
+      changeSlide(nextSlideIndex);
+    }, slideInterval);
 
-  setInterval(() => {
-    const nextSlideIndex = currentSlide === (numberOfSlides - 1) ? 0 : (currentSlide % numberOfSlides) + 1;
-    changeSlide(nextSlideIndex);
-  }, slideInterval);
+    const nextButton = $('.next-slide');
+    const prevButton = $('.prev-slide');
 
-  const nextButton = $('.next-slide');
-  const prevButton = $('.prev-slide');
+    nextButton.click(function () {
+      console.log("NUMBER: ", (currentSlide % numberOfSlides) + 1)
+      changeSlide((currentSlide % numberOfSlides) + 1);
+    });
 
-  nextButton.addEventListener('click', () => {
-    changeSlide((currentSlide % numberOfSlides) + 1);
-  });
+    prevButton.click(function () {
+      console.log("NUMBER: ", (currentSlide % numberOfSlides) + 1)
 
-  prevButton.addEventListener('click', () => {
-    changeSlide((currentSlide === 0) ? numberOfSlides : currentSlide - 1);
+      changeSlide((currentSlide === 0) ? numberOfSlides : currentSlide - 1);
+    });
   });
 
 })(jQuery);
