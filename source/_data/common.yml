@@ -2,9 +2,10 @@ galleries:
   - path: /css/images/gallery/1.jpg
   - path: /css/images/gallery/2.jpg
   - path: courses/robotics/intro-course-avatar.png
+  - path: gallery/happy-robotics.png
+
 
 heroImgs: 
   - path: gallery/front-door.jpg
   - path: data/about_us.jpg
   - path: data/robotic-avatar.png
-  # - path: gallery/happy-robotics.png
