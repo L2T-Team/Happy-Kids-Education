@@ -22,12 +22,12 @@ menu:
         descriptions:
           - "Gain an in-depth understanding of programming fundamentals"
           - "Prepare for AP Computer Science, as well as USACO, ACSL and other competitions"
-      Digital Art: 
-        url: /digital-art
-        avatar: /css/images/digital-art-avatar.png
-        descriptions:
-          - "Acquire proficiency in employing a wide array of digital tools and techniques essential for digital art creation"
-          - "Explore diverse avenues of creative expression within the digital realm"
+      # Digital Art: 
+      #   url: /digital-art
+      #   avatar: /css/images/digital-art-avatar.png
+      #   descriptions:
+      #     - "Acquire proficiency in employing a wide array of digital tools and techniques essential for digital art creation"
+      #     - "Explore diverse avenues of creative expression within the digital realm"
       Mentorship: 
         url: /mentorship
         avatar: gallery/standford.webp
