@@ -148,6 +148,12 @@
   color: #282828;
   font-size: var(--h6-font-size);
   margin-bottom: 1rem;
+
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 .course__score {
@@ -172,18 +178,30 @@
 
 .course__detail img {
   width: 20px;
-  margin-right: 0.7rem;
-  margin-bottom: -0.3rem;
+  margin: 0.2rem;
 }
 
 .course__detail_row {
   display: flex;
   justify-content: space-between;
-  align-items: end;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
+.course__detail_item {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.course__detail_item__left {
+  text-align: left;
+}
+
+.course__detail_item__right {
+  text-align: right;
+}
 
 .course__button {
   width: 80% !important;

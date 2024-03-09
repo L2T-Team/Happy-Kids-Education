@@ -45,7 +45,8 @@
               description: site.data.courses[page.key].courses[i].shortDescription,
               age: site.data.courses[page.key].courses[i].age,
               learnTime: site.data.courses[page.key].courses[i].time,
-              location: site.data.courses[page.key].courses[i].location
+              location: site.data.courses[page.key].courses[i].location,
+              price: site.data.courses[page.key].courses[i].price
             }) %>
           <% } else { %>
             <%- partial('_widget/course-card', {
