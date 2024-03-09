@@ -36,7 +36,7 @@
     <% if (site.data.courses[page.key].courses) { %>
       <section class="inner_courses padding_container medium-top-gap flex_card_wrap start bottom_gap">
         <% for (var i in site.data.courses[page.key].courses) { %>
-          <% if (page.key === "robotics") { // only use v2 for robotics page %>
+          <% if (site.data.courses[page.key].v2) { %>
             <%- partial('_widget/course-card-v2', {
               featuredImage: site.data.courses[page.key].courses[i].featuredImage,
               bestseller: site.data.courses[page.key].courses[i].bestseller,
