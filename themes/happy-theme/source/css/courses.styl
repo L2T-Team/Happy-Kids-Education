@@ -102,7 +102,9 @@
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  padding-bottom: 1.5rem;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .inner_course__item a {
@@ -136,7 +138,10 @@
 
 .course__info {
   padding: 1rem 1.5rem;
-  height: 100%;
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .course__title {
@@ -162,8 +167,11 @@
 
 .course__detail {
   margin-top: 1rem;
-  margin-bottom: 1rem;
   color: var(--text-color);
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .course__detail img {
@@ -178,6 +186,11 @@
   align-items: end;
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.course__detail_lastRow {
+  margin-top: auto;
+  padding-top: 2rem;
 }
 
 .course__button {
