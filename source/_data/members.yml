@@ -1,0 +1,38 @@
+sean:
+  name: Mr. Sean
+  department: Math department
+  avatar: /avatars/Sean.png
+  description: |
+    <ul>
+      <li>Current Ph.D. candidate at Carnegie Mellon University</li>
+      <li>Master’s degree in Information Systems Management from Carnegie Mellon University (Ranked first globally)</li>
+      <li>Bachelor’s degree in Data Science from UC Berkeley</li>
+      <li>Previous positions at Lawrence Berkeley National Laboratory and Intel</li>
+      <li>Author of multiple SCI journal papers and top conferences in the field of Human-Computer Interaction and Internet of Things</li>
+      <li>Extensive experience in college counseling, programming and robotics education</li>
+    </ul>
+derek:
+  name: Mr. Derek
+  department: Math department
+  description: |
+    <ul>
+      <li>Master's degree from Harvard/MIT Computational Science and Engineering Cross-Register Program</li>
+      <li>Bachelor’s degree in Applied Mathematics, dual major in Engineering and Physics/Computer Science from UW-Madison</li>
+      <li>Worked at Harvard Nock Lab, LinkedIn, Baidu, and Siemens</li>
+      <li>Currently employed as a Software Engineer specializing in Artificial Intelligence at a leading technology company in the Bay Area</li>
+      <li>Former Teaching Assistant for courses in algorithms, software system development, high-performance computing, and artificial intelligence during undergraduate studies</li>
+      <li>4 years of experience in international education consulting</li>
+      <li>Holds a teaching qualification certificate for high school mathematics in China</li>
+    </ul>
+enoch:
+  name: Mr. Enoch
+  department: Math department
+  avatar: /avatars/EnochLiu.png
+  description: |
+    <ul>
+      <li>Master’s degree in Data Science from Harvard University</li>
+      <li>Bachelor’s degree in Applied Mathematics/Data Science dual major from UC Berkeley</li>
+      <li>Mentored over 20 students in securing offers from prestigious institutions such as Harvard, Stanford, MIT, Princeton, Columbia, Johns Hopkins, UC Berkeley, and UCLA</li>
+      <li>Teaching Assistant for system development course at Harvard University, with extensive programming experience</li>
+      <li>Guided 20+ students in the development of Python libraries</li>
+    </ul>
