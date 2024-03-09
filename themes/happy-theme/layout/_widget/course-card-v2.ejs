@@ -1,0 +1,37 @@
+<div class="inner_course__item zoom flex_card_3">
+  <a href="<%- url_for(courseUrl) %>">
+    <div class="course__top">
+      <img
+        src="<%- url_for(featuredImage) %>"
+        alt="Advanced Robotic Engineering - VEX Competition Edition"
+      />
+
+      <% if (bestseller) { %>
+      <span class="course__label">Bestseller</span>
+      <% } %>
+    </div>
+    <div class="course__info">
+      <h4 class="course__title"><%- title %></h4>
+
+      <p class="course__desc"><%- description %></p>
+      <div class="course__detail">
+        <div class="course__detail_row">
+          <span>
+            <b><img src="<%- url_for('/css/images/svg/person.svg') %>" />Age:</b> <%- age %>
+          </span>
+          <span>
+            <b>Time:</b> <%- learnTime.split(" ")?.[0] %> <img src="<%- url_for('/css/images/svg/clock.svg') %>" />
+          </span>
+        </div>
+        <div class="course__detail_row">
+          <span>
+            <b><img src="<%- url_for('/css/images/svg/location-dot.svg') %>" />Location:</b> <%- location %>
+          </span>
+        </div>
+        <div class="course__detail_row">
+          <!-- <a class="register course__button" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdcHt47Yk35Q-jKQ55DzaJEiuG9hnh6JuoEvGpV-uLTMTkzrw/viewform?usp=sf_link">Redeem your free session!</a> -->
+        </div>
+      </div>
+    </div>
+  </a>
+</div>

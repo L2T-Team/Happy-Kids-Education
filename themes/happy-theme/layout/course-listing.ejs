@@ -34,14 +34,27 @@
     <% if (site.data.courses[page.key].courses) { %>
       <section class="inner_courses padding_container medium-top-gap flex_card_wrap start bottom_gap">
         <% for (var i in site.data.courses[page.key].courses) { %>
-          <%- partial('_widget/course-card', {
-            featuredImage: site.data.courses[page.key].courses[i].featuredImage,
-            bestseller: site.data.courses[page.key].courses[i].bestseller,
-            title: site.data.courses[page.key].courses[i].name,
-            courseUrl: 'courses/' + page.key + '/' + i,
-            description: site.data.courses[page.key].courses[i].shortDescription,
-            noOfRating: site.data.courses[page.key].courses[i].noOfRating
-          }) %>
+          <% if (page.key === "robotics") { // only use v2 for robotics page %>
+            <%- partial('_widget/course-card-v2', {
+              featuredImage: site.data.courses[page.key].courses[i].featuredImage,
+              bestseller: site.data.courses[page.key].courses[i].bestseller,
+              title: site.data.courses[page.key].courses[i].name,
+              courseUrl: 'courses/' + page.key + '/' + i,
+              description: site.data.courses[page.key].courses[i].shortDescription,
+              age: site.data.courses[page.key].courses[i].age,
+              learnTime: site.data.courses[page.key].courses[i].time,
+              location: site.data.courses[page.key].courses[i].location
+            }) %>
+          <% } else { %>
+            <%- partial('_widget/course-card', {
+              featuredImage: site.data.courses[page.key].courses[i].featuredImage,
+              bestseller: site.data.courses[page.key].courses[i].bestseller,
+              title: site.data.courses[page.key].courses[i].name,
+              courseUrl: 'courses/' + page.key + '/' + i,
+              description: site.data.courses[page.key].courses[i].shortDescription,
+              noOfRating: site.data.courses[page.key].courses[i].noOfRating
+            }) %>
+          <% } %>
         <% } %>
       </section>
     <% } %>
