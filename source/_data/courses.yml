@@ -143,37 +143,18 @@ mentorship:
 
 summer-camp:
   v2: true
-  description: | 
-    At Happy Kids Education, we believe in nurturing not just academic success, but holistic growth in every child. Our Mentorship and College Counseling program is designed to guide students towards fulfilling their potential, preparing them for the challenges and opportunities that lie ahead in their educational journey and beyond.
-    <br><br><b>Why Mentorship and College Counseling?</b>
-    <br><br>Navigating the path to college and career success can be overwhelming for students and parents alike. With rapidly evolving educational landscapes and increasing competition, it's crucial for students to receive personalized guidance and support tailored to their unique aspirations, strengths, and circumstances.
-    <h3 class="small-bottom-gap">Our Approach</h3>
-    <p class="description__introduction">
-      <b>1. Personalized Guidance:</b> Our experienced mentors and counselors work closely with each student to understand their interests, strengths, and goals. Through one-on-one sessions, we develop personalized plans to help them achieve academic excellence and personal growth.
-      <br><br><b>2. College Preparation:</b> From selecting the right courses and extracurricular activities to preparing for standardized tests and crafting compelling college applications, we provide comprehensive support at every step of the college admissions process.
-      <br><br><b>3. Career Exploration:</b> We encourage students to explore their interests and passions, offering insights into various career pathways and helping them make informed decisions about their future.
-      <br><br><b>4. Building Skills for Success:</b> Beyond academic achievement, we focus on developing essential skills such as critical thinking, communication, and leadership, empowering students to thrive in college and beyond.
-      <br><br><b>5. Continuous Support:</b> Our commitment to students doesn't end with college acceptance. We continue to support them throughout their college years, offering guidance on course selection, internships, and career planning.
-    </p>
-
-    <h3 class="small-bottom-gap">Why Choose Happy Kids Education?</h3>
-    <p class="description__introduction">
-      <b>1. Experienced Professionals:</b> Our team comprises seasoned educators, counselors, and mentors with extensive experience in guiding students towards academic and personal success.
-      <br><br><b>2. Individualized Attention:</b> We recognize that every student is unique, and our approach is tailored to meet their specific needs and aspirations.
-      <br><br><b>3. Proven Track Record:</b> Our program has helped numerous students gain admission to top colleges and universities, equipping them with the skills and confidence to excel in higher education and beyond.
-      <br><br><b>4. Comprehensive Support:</b> From academic tutoring to college application assistance, we offer a wide range of services to support students at every stage of their educational journey.
-      <br><br><b>5. Holistic Development:</b> At Happy Kids Education, we prioritize holistic growth, nurturing not just academic achievement but also character development, resilience, and self-awareness.
-    </p>
-
-    <h3 class="small-bottom-gap">Invest in Your Child's Future Today</h3>
-    <p class="description__introduction">
-      Give your child the competitive edge they need to succeed in today's fast-paced world. Join Happy Kids Education's Mentorship and College Counseling program and embark on a journey of growth, discovery, and fulfillment.
-      <br><br>Contact us today to learn more and schedule a consultation with one of our experienced mentors. Together, let's unlock your child's full potential and empower them to build a bright and promising future.
-    </p>
+  description: |
+    Join our dynamic summer camp where students delve into the exciting worlds of robotics and coding! Our program offers hands-on learning experiences, equipping students with essential skills and fostering their creativity in these cutting-edge fields!
   courses: 
     vex-iq-camp:
       name: VEX IQ Camp
-      shortDescription: Campers that join the VEX camp will design, build, and program their own robots, engaging in interactive gameplay to familiarize themselves with the VEX IQ gameplay that they will experience during normal tournaments. This hands-on approach prepares them for potential participation in VEX IQ robotics competition teams during the new session.
+      shortDescription: |
+        In our VEX IQ Camp, students will engage in hands-on projects to master the fundamentals of VEX IQ robotics
+        <ul>
+          <li>Mon 6/10/24-Fir 6/14/24</li>
+          <li>Mon 06/17/24-06/21/24</li>
+          <li>Mon06/24/24/-06/28/24</li>
+        </ul>
       age: 6 - 11
       time: 9am-12pm
       location: In Person
@@ -203,11 +184,3 @@ summer-camp:
       location: In Person
       featuredImage: /courses/robotics/intro-course-avatar.png
       price: $499/week
-    english-writing:
-      name: English Writing
-      shortDescription: Updating
-      age: Updating
-      time: 9am-12pm
-      location: In Person
-      featuredImage: /courses/robotics/intro-course-avatar.png
-      price: $299/week
