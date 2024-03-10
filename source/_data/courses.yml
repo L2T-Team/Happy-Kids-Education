@@ -171,16 +171,43 @@ summer-camp:
       <br><br>Contact us today to learn more and schedule a consultation with one of our experienced mentors. Together, let's unlock your child's full potential and empower them to build a bright and promising future.
     </p>
   courses: 
-    intro-to-robotic-engineering:
-      name: Intro to Robotic Engineering
-      shortDescription: Intro to mechanical principles and programming design with VEX V5
-      longDescription: Anticipate a comprehensive learning journey where you’ll gain foundational knowledge of the VEX VRC Robotics Competition. Dive into the intricacies of mechanical principles and programming design, actively fostering a keen interest in STEM disciplines through engaging, hands-on experiences. Our program aims to provide you with practical insights, collaborative projects, and essential technical skills, ensuring a strong foundation for continued exploration and success in the dynamic world of robotics and STEM.
-      age: Any
-      requirements: None
-      level: Easy
-      time: 2h/week
+    vex-iq-camp:
+      name: VEX IQ Camp
+      shortDescription: Campers that join the VEX camp will design, build, and program their own robots, engaging in interactive gameplay to familiarize themselves with the VEX IQ gameplay that they will experience during normal tournaments. This hands-on approach prepares them for potential participation in VEX IQ robotics competition teams during the new session.
+      age: 6 - 11
+      time: 9am-12pm
       location: In Person
-      noOfRating: 238
       featuredImage: /courses/robotics/intro-course-avatar.png
-      url: /courses/robotics/intro-to-robotic-engineering
-      price: $369/week
+      price: $399/week
+    beginner-coding-class:
+      name: Beginner Coding Class
+      shortDescription: Coders that join out coding class will learn basic computer programming through “Scratch”. Creating interactive stories, projects, and games. It's the perfect starter class for the summer for coding, fostering computational thinking in a fun and creative environment that may help if you child would like to code harder materials. (Python, Java, C++)
+      age: 6 - 12
+      time: 1pm-4pm
+      location: In Person
+      featuredImage: /courses/robotics/intro-course-avatar.png
+      price: $366/week
+    coding-for-vex-robots:
+      name: Coding for VEX Robots
+      shortDescription: Campers write complex code for a complex competition robot. They will learn to develop, test, and deploy the code on a pre-build robot for a mini tournament. Pre-requisite for all VRC team members.
+      age: 12 - 16
+      time: 9am-12pm
+      location: In Person
+      featuredImage: /courses/robotics/intro-course-avatar.png
+      price: $445/week
+    vex-vrc:
+      name: VEX VRC
+      shortDescription: In this class, students will do hands on experiments and build their very own bot. These insights can help them gain knowledgeable insight on how teams on the field will work together and the learning process of building a vex bot
+      age: 11 - 15
+      time: 1pm-4pm
+      location: In Person
+      featuredImage: /courses/robotics/intro-course-avatar.png
+      price: $499/week
+    english-writing:
+      name: English Writing
+      shortDescription: Updating
+      age: Updating
+      time: 9am-12pm
+      location: In Person
+      featuredImage: /courses/robotics/intro-course-avatar.png
+      price: $299/week
