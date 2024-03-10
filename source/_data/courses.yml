@@ -1,12 +1,12 @@
 robotics:
   v2: true
-  description: Welcome to the VEX Robotics Class at Happy Kids Robotics, where we spark the curiosity of students spanning from elementary to high school, leading them on an exciting adventure into the dynamic world of robotics. Our meticulously crafted program is designed to instill a profound passion for teamwork, cultivate innovative thinking, and nurture problem-solving skills, offering students an engaging platform to apply scientific and engineering principles. Embracing a project-oriented approach, VEX Robotics holds widespread acknowledgment from prestigious universities, amplifying its value as a comprehensive educational experience.
+  description: Our Robotics course places a strong emphasis on hands-on practice rather than theory, igniting a profound passion. We provide unlimited equipment resources, enabling students of all ages to participate in major Robotics competitions such as VEX Robotics after a brief training period. Our teaching program is meticulously crafted by a team of instructors with over 10 years of teaching and robot fabrication experience, ensuring the delivery of top-quality courses.
   highlights:
-    TEAMWORK AND COLLABORATION: Immerse yourself in the importance of collaboration as our VEX Robotics Class encourages students to tackle challenging projects together, refining their teamwork skills along the way.
-    APPLIED SCIENCE AND ENGINEERING: Embark on a hands-on journey, moving beyond theoretical concepts to apply scientific and engineering principles in practical activities, fostering a tangible understanding of these foundational ideas.
+    TEAMWORK AND COMMUNICATION ENHANCEMENT:
+    SCIENCE AND ENGINEERING FOUNDATION: Embark on a hands-on journey, moving beyond theoretical concepts to apply scientific and engineering principles in practical activities, fostering a tangible understanding of these foundational ideas.
     RECOGNITION BY PRESTIGIOUS SCHOOLS: VEX Robotics holds widespread recognition among major prestigious schools, serving as a valuable asset to students’ educational portfolios and showcasing their commitment to excellence.
-    SKILL ENHANCEMENT: Our program extends beyond robotics, enriching children’s logical abilities, engineering basics, and programming skills, establishing a robust foundation for their academic and professional endeavors.
-    STAND OUT IN APPLICATIONS: Participation in the VEX Robotics Class not only enriches students’ skill sets but also positions them uniquely in high school and college applications, highlighting their dedication to innovation and continuous learning.
+    COMPREHENSIVE SKILL DEVELOPMENT: Our program extends beyond robotics, enriching children’s logical abilities, engineering basics, and programming skills, establishing a robust foundation for their academic and professional endeavors.
+    APPLICATIONS STANDOUT: Participation in the VEX Robotics Class not only enriches students’ skill sets but also positions them uniquely in high school and college applications, highlighting their dedication to innovation and continuous learning.
   cta: Join us in the exploration of robotics excellence at Happy Kids Education, where students not only construct robots but also lay the groundwork for success in future academic and professional pursuits. Discover the transformative power of VEX robotics as we nurture the engineers and innovators of tomorrow!
   courses: 
     intro-to-robotic-engineering:
