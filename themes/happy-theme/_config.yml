@@ -11,10 +11,9 @@ menu:
         url: /robotics
         avatar: /css/images/robotic-avatar.png
         descriptions: 
-          - "Professional programming skills"
-          - "Mastery of mechanical structures"
-          - "Rapid debugging and optimization methods"
-          - "Swift planning of competition strategies"
+          - "<b>Quick progress</b>: Fast-forward through theory and participate in high-standard competitions"
+          - "<b>Programming skill</b>: Learn from expert teachers in Robotics"
+          - "<b>Ample support</b>: Get enough and extra materials for projects"
         highlights:
           - "DesA"
           - "DesB"
@@ -22,8 +21,10 @@ menu:
         url: /coding
         avatar: /css/images/coding-avatar.png
         descriptions:
-          - "Gain an in-depth understanding of programming fundamentals"
-          - "Prepare for AP Computer Science, as well as USACO, ACSL and other competitions"
+          - "<b>Personalized learning</b>: Customized curriculum and goals"
+          - "<b>Practical projects</b>: Learn by doing a lot of hand-on projects"
+          - "<b>Quality syllabus</b>: Customized from renowned experts"
+          - "<b>Expert instructors</b>: Highly qualified faculty with master's degrees or higher"
       # Digital Art: 
       #   url: /digital-art
       #   avatar: /css/images/digital-art-avatar.png
@@ -34,9 +35,10 @@ menu:
         url: /mentorship
         avatar: gallery/standford.webp
         descriptions:
-          - "Team of experienced educators"
-          - "Personalized guidance for individual academic goals"
-          - "Strategizing STEM career paths for targeted advancement"
+          - "<b>Parents' allies</b>: Peace of mind and long-term expert support"
+          - "<b>Expert instructors</b>: Highly qualified faculty with master's degrees or higher"
+          - "<b>University prep</b>: Standout your portfolio and skills"
+          - "<b>STEM exploration</b>: Career advice from specialists"
   Gallery: /gallery
   News: /news
   Contact: /contact
