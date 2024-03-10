@@ -1,138 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div>
-      <div class="carousel">
-        <ul class="slides">
-          <% for (let i = 1; i <= site.data.common.heroImgs.length; i++) { %>
-          <input type="radio" name="radio-buttons" id="img-<%= i %>" <% if (i
-          === 1) { %> checked <% } %> />
-          <li class="slide-container">
-            <div class="slide-image">
-              <img
-                src="<%- url_for(site.data.common.heroImgs[i - 1].path) %>"
-              />
-            </div>
-            <div class="slide-content-wrapper">
-              <div class="slide-content">
-                <h1>Welcome to Happy Kids Education!</h1>
-                <p>
-                  At Happy Kids Education, we integrate passion with academic
-                  excellence to nurture the future leaders of tomorrow. We
-                  provide a comprehensive solution for students aspiring to
-                  pursue careers in the STEM field. Our guiding principle
-                  remains: "Try harder, and try smarter."
-                </p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div>
+    <div class="carousel">
+      <ul class="slides">
+        <% for (let i=1; i <=site.data.common.heroImgs.length; i++) { %>
+          <input type="radio" name="radio-buttons" id="img-<%= i %>" <% if (i===1) { %> checked <% } %> />
+            <li class="slide-container">
+              <div class="slide-image">
+                <img src="<%- url_for(site.data.common.heroImgs[i - 1].path) %>" />
               </div>
-              <button>
-                <a href="<%- url_for('about') %>">Find Out More!</a>
-              </button>
-            </div>
-            <div class="carousel-controls">
-              <label
-                for="img-<%- (i === 1 ? site.data.common.heroImgs.length : i - 1)  %>"
-                class="prev-slide"
-              >
-                <span>&lsaquo;</span>
-              </label>
-              <label
-                for="img-<%- (i === site.data.common.heroImgs.length ? 1 : i + 1) %>"
-                class="next-slide"
-              >
-                <span>&rsaquo;</span>
-              </label>
-            </div>
-          </li>
-          <% } %>
-          <div class="carousel-dots">
-            <% for (let i = 1; i <= site.data.common.heroImgs.length; i++) { %>
-            <label
-              for="img-<%= i %>"
-              class="carousel-dot"
-              id="img-dot-<%= i %>"
-            >
-            </label>
+              <div class="slide-content-wrapper">
+                <div class="slide-content">
+                  <h1>Welcome to Happy Kids Education!</h1>
+                  <p>
+                    At Happy Kids Education, STEM isn't confined to a subject - it's an integral part of our school culture. We foster a STEM mindset that ignites curiosity, fuels creativity, and propels every student toward a brilliant future.
+                    <br>Join us on this transformative journey!
+
+                  </p>
+                </div>
+                <button>
+                  <a href="<%- url_for('about') %>">Find Out More!</a>
+                </button>
+              </div>
+              <div class="carousel-controls">
+                <label for="img-<%- (i === 1 ? site.data.common.heroImgs.length : i - 1)  %>" class="prev-slide">
+                  <span>&lsaquo;</span>
+                </label>
+                <label for="img-<%- (i === site.data.common.heroImgs.length ? 1 : i + 1) %>" class="next-slide">
+                  <span>&rsaquo;</span>
+                </label>
+              </div>
+            </li>
             <% } %>
-          </div>
-        </ul>
-      </div>
+              <div class="carousel-dots">
+                <% for (let i=1; i <=site.data.common.heroImgs.length; i++) { %>
+                  <label for="img-<%= i %>" class="carousel-dot" id="img-dot-<%= i %>">
+                  </label>
+                  <% } %>
+              </div>
+      </ul>
     </div>
-    <main class="body">
-      <section class="courses flex_card_wrap padding_container bottom_gap">
-        <% for (var i in theme.menu['Courses'].children){ %>
+  </div>
+  <main class="body">
+    <section class="courses flex_card_wrap padding_container bottom_gap">
+      <% for (var i in theme.menu['Courses'].children){ %>
         <div class="courses_item zoom flex_card_3">
-          <a
-            href="<%- url_for(theme.menu['Courses'].url + theme.menu['Courses'].children[i].url) %>"
-          >
-            <img
-              src="<%- url_for(theme.menu['Courses'].children[i].avatar) %>"
-            />
+          <a href="<%- url_for(theme.menu['Courses'].url + theme.menu['Courses'].children[i].url) %>">
+            <img src="<%- url_for(theme.menu['Courses'].children[i].avatar) %>" />
             <h2><%- i %></h2>
             <ul>
-              <% for (var h in theme.menu['Courses'].children[i].descriptions){
-              %>
-              <li><%- theme.menu['Courses'].children[i].descriptions[h] %></li>
-              <% } %>
+              <% for (var h in theme.menu['Courses'].children[i].descriptions){ %>
+                <li><%- theme.menu['Courses'].children[i].descriptions[h] %></li>
+                <% } %>
             </ul>
           </a>
         </div>
         <% } %>
-      </section>
-      <section class="aboutUs padding_container bottom_gap">
-        <img src="<%- url_for('/css/images/about_us.jpg') %>" />
-        <div class="aboutUs__content">
-          <h1>ABOUT US</h1>
-          <p>
-            Welcome to <b>Happy Kids Education</b>, where passion and excellence
-            shape future leaders. We offer holistic STEM education, including
-            robotics, coding, digital art, career planning, and college
-            consulting for a comprehensive learning experience. Our cutting-edge
-            programs foster a love for learning, technology enthusiasm, and
-            creativity, ensuring students develop practical skills for success.
-          </p>
-        </div>
-      </section>
-      <section class="advantages bottom_gap padding_container">
-        <h1>OUR ADVANTAGES</h1>
-        <div class="advantages__items flex_card_wrap">
-          <% for (var i in theme.advantages) { %>
+    </section>
+    <section class="aboutUs padding_container bottom_gap">
+      <img src="<%- url_for('/css/images/about_us.jpg') %>" />
+      <div class="aboutUs__content">
+        <h1>ABOUT US</h1>
+        <p>
+          Welcome to <b>Happy Kids Education</b>, where we foster future leaders. By joining our school, children will receive the essential foundation to succeed. Moreover, our curriculums are realistic and personalized, ensuring that each child has their own development path. Our ultimate goal is to create a complete roadmap for children, where they can grow academically and enjoy real-world competitions and projects.
+        </p>
+      </div>
+    </section>
+    <section class="advantages bottom_gap padding_container">
+      <h1>OUR ADVANTAGES</h1>
+      <div class="advantages__items flex_card_wrap">
+        <% for (var i in theme.advantages) { %>
           <div class="advantages__item flex_card_3">
             <i class="fa fa-check-square fa-4x" aria-hidden="true"></i>
             <h4><%- i %></h4>
             <p><%- theme.advantages[i] %></p>
           </div>
           <% } %>
+      </div>
+    </section>
+    <section class="gallery bottom_gap">
+      <div class="gallery__content padding_container">
+        <h1>OUR GALLERY</h1>
+        <div class="gallery__items flex_card_wrap">
+          <% for (let i=0; i < 3; i++) { %> <%- partial('_widget/modal-img', {imgUrl: site.data.common.galleries[i].path, alt: site.data.common.galleries[i].alt}) %>
+              <% } %>
         </div>
-      </section>
-      <section class="gallery bottom_gap">
-        <div class="gallery__content padding_container">
-          <h1>OUR GALLERY</h1>
-          <div class="gallery__items flex_card_wrap">
-            <% for (let i = 0; i < 3; i++) { %> <%- partial('_widget/modal-img',
-            {imgUrl: site.data.common.galleries[i].path, alt:
-            site.data.common.galleries[i].alt}) %> <% } %>
-          </div>
-          <button><a href="<%- url_for('gallery') %>">View All</a></button>
-        </div>
-      </section>
-      <section class="news padding_container bottom_gap">
-        <h1>NEWS</h1>
-        <div class="news__items flex_card_wrap">
-          <% for (var i in site.posts.toArray()) { %>
+        <button><a href="<%- url_for('gallery') %>">View All</a></button>
+      </div>
+    </section>
+    <section class="news padding_container bottom_gap">
+      <h1>NEWS</h1>
+      <div class="news__items flex_card_wrap">
+        <% for (var i in site.posts.toArray()) { %>
           <div class="news__item zoom flex_card_3">
             <a href="<%- url_for(site.posts.toArray()[i].path) %>">
-              <img
-                src="<%- url_for(site.posts.toArray()[i].featuredImage) %>"
-              />
+              <img src="<%- url_for(site.posts.toArray()[i].featuredImage) %>" />
               <div class="news__item_content">
                 <p class="news__item_calendar">
-                  <i class="fa fa-calendar"></i> <%-
-                  date(site.posts.toArray()[i].date) %>
+                  <i class="fa fa-calendar"></i> <%- date(site.posts.toArray()[i].date) %>
                 </p>
 
                 <h2><%- site.posts.toArray()[i].title %></h2>
@@ -141,12 +114,13 @@
             </a>
           </div>
           <% } %>
-        </div>
-      </section>
-      <section class="contact padding_container bottom_gap">
-        <h1>CONTACT US</h1>
-        <%- partial('_partial/contact-container') %>
-      </section>
-    </main>
-  </body>
+      </div>
+    </section>
+    <section class="contact padding_container bottom_gap">
+      <h1>CONTACT US</h1>
+      <%- partial('_partial/contact-container') %>
+    </section>
+  </main>
+</body>
+
 </html>

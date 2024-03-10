@@ -1,0 +1,11 @@
+<body>
+    <div class="secondary-hero small-bottom-gap">
+        <% if (page.featuredImage) { %>
+            <img src="<%- url_for(page.featuredImage) %>" alt="about" />
+        <% } %>
+        <h1><%- page.title %></h1>
+    </div>
+    <section class="padding_container bottom_gap">
+        <%- partial('_partial/members') %>
+    </section>
+</body>

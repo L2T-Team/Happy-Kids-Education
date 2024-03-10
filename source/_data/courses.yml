@@ -1,11 +1,12 @@
-robotics: 
-  description: Welcome to the VEX Robotics Class at Happy Kids Robotics, where we spark the curiosity of students spanning from elementary to high school, leading them on an exciting adventure into the dynamic world of robotics. Our meticulously crafted program is designed to instill a profound passion for teamwork, cultivate innovative thinking, and nurture problem-solving skills, offering students an engaging platform to apply scientific and engineering principles. Embracing a project-oriented approach, VEX Robotics holds widespread acknowledgment from prestigious universities, amplifying its value as a comprehensive educational experience.
+robotics:
+  v2: true
+  description: Our Robotics course places a strong emphasis on hands-on practice rather than theory, igniting a profound passion. We provide unlimited equipment resources, enabling students of all ages to participate in major Robotics competitions such as VEX Robotics after a brief training period. Our teaching program is meticulously crafted by a team of instructors with over 10 years of teaching and robot fabrication experience, ensuring the delivery of top-quality courses.
   highlights:
-    TEAMWORK AND COLLABORATION: Immerse yourself in the importance of collaboration as our VEX Robotics Class encourages students to tackle challenging projects together, refining their teamwork skills along the way.
-    APPLIED SCIENCE AND ENGINEERING: Embark on a hands-on journey, moving beyond theoretical concepts to apply scientific and engineering principles in practical activities, fostering a tangible understanding of these foundational ideas.
+    TEAMWORK AND COMMUNICATION ENHANCEMENT:
+    SCIENCE AND ENGINEERING FOUNDATION: Embark on a hands-on journey, moving beyond theoretical concepts to apply scientific and engineering principles in practical activities, fostering a tangible understanding of these foundational ideas.
     RECOGNITION BY PRESTIGIOUS SCHOOLS: VEX Robotics holds widespread recognition among major prestigious schools, serving as a valuable asset to students’ educational portfolios and showcasing their commitment to excellence.
-    SKILL ENHANCEMENT: Our program extends beyond robotics, enriching children’s logical abilities, engineering basics, and programming skills, establishing a robust foundation for their academic and professional endeavors.
-    STAND OUT IN APPLICATIONS: Participation in the VEX Robotics Class not only enriches students’ skill sets but also positions them uniquely in high school and college applications, highlighting their dedication to innovation and continuous learning.
+    COMPREHENSIVE SKILL DEVELOPMENT: Our program extends beyond robotics, enriching children’s logical abilities, engineering basics, and programming skills, establishing a robust foundation for their academic and professional endeavors.
+    APPLICATIONS STANDOUT: Participation in the VEX Robotics Class not only enriches students’ skill sets but also positions them uniquely in high school and college applications, highlighting their dedication to innovation and continuous learning.
   cta: Join us in the exploration of robotics excellence at Happy Kids Education, where students not only construct robots but also lay the groundwork for success in future academic and professional pursuits. Discover the transformative power of VEX robotics as we nurture the engineers and innovators of tomorrow!
   courses: 
     intro-to-robotic-engineering:
@@ -139,4 +140,67 @@ mentorship:
       Give your child the competitive edge they need to succeed in today's fast-paced world. Join Happy Kids Education's Mentorship and College Counseling program and embark on a journey of growth, discovery, and fulfillment.
       <br><br>Contact us today to learn more and schedule a consultation with one of our experienced mentors. Together, let's unlock your child's full potential and empower them to build a bright and promising future.
     </p>
-  instructors: true
+
+summer-camp:
+  v2: true
+  description: |
+    Join our dynamic summer camp where students delve into the exciting worlds of robotics and coding! Our program offers hands-on learning experiences, equipping students with essential skills and fostering their creativity in these cutting-edge fields!
+  courses: 
+    vex-iq-camp:
+      name: VEX IQ Camp
+      shortDescription: |
+        In our VEX IQ Camp, students will engage in hands-on projects to master the fundamentals of VEX IQ robotics
+        <ul>
+          <li>Mon 06/10/24 - Fri 06/14/24</li>
+          <li>Mon 06/17/24 - Fri 06/21/24</li>
+          <li>Mon 06/24/24 - Fri 06/28/24</li>
+        </ul>
+      age: 6 - 11
+      time: 9am-12pm
+      location: In Person
+      featuredImage: courses\summer-camp\vex-iq.png
+      price: $399/week
+    beginner-coding-class:
+      name: Beginner Coding Class
+      shortDescription: | 
+        Coders that join out coding class will learn basic computer programming through “Scratch”
+        <ul>
+          <li>Mon 06/10/24 - Fri 06/14/24</li>
+          <li>Mon 06/17/24 - Fri 06/21/24</li>
+          <li>Mon 06/24/24 - Fri 06/28/24</li>
+        </ul>
+      age: 6 - 12
+      time: 1pm-4pm
+      location: In Person
+      featuredImage: courses\coding\scratch.png
+      price: $366/week
+    coding-for-vex-robots:
+      name: Coding for VEX Robots
+      shortDescription: | 
+        Campers write complex code for a complex competition robot
+        <ul>
+          <li>Mon 07/01/24 - Fri 07/05/24</li>
+          <li>Mon 07/08/24 - Fri 07/12/24</li>
+          <li>Mon 07/15/24 - Fri 07/19/24</li>
+          <li>Mon 07/22/24 - Fri 07/26/24</li>
+        </ul>
+      age: 12 - 16
+      time: 9am-12pm
+      location: In Person
+      featuredImage: courses\summer-camp\coding-vex-robots.png
+      price: $445/week
+    vex-vrc:
+      name: VEX VRC
+      shortDescription: |
+        In this class, students will do hands on experiments and build their very own bot.
+        <ul>
+          <li>Mon 07/01/24 - Fri 07/05/24</li>
+          <li>Mon 07/08/24 - Fri 07/12/24</li>
+          <li>Mon 07/15/24 - Fri 07/19/24</li>
+          <li>Mon 07/22/24 - Fri 07/26/24</li>
+        </ul>
+      age: 11 - 15
+      time: 1pm-4pm
+      location: In Person
+      featuredImage: courses\summer-camp\vex-v5.jpeg
+      price: $499/week

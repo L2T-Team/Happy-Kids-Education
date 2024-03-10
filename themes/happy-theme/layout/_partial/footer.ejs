@@ -18,18 +18,18 @@
     </div>
     <div class="footer__column flex_card_4" id="footer-services">
       <h3 class="footer__column_title">SERVICES</h3>
-      <a href="./robotics.html">Robotics</a>
-      <a href="./coding.html">Coding</a>
-      <a href="./digital.html">Digital Art</a>
-      <a href="./mentorship.html">Mentorship</a>
+      <a href="<%- url_for('/courses/robotics') %>">Robotics</a>
+      <a href="<%- url_for('/courses/coding') %>">Coding</a>
+      <a href="<%- url_for('/courses/mentorship') %>">Mentorship</a>
     </div>
     <div class="footer__column flex_card_4" id="footer-links">
       <h3 class="footer__column_title">USEFULL LINKS</h3>
-      <a href="./home.html">Home</a>
-      <a href="./about.html">About</a>
-      <a href="./gallery.html">Gallery</a>
-      <a href="./news.html">News</a>
-      <a href="./contact.html">Contact</a>
+      <a href="<%- url_for('') %>">Home</a>
+      <a href="<%- url_for('/about') %>">About</a>
+      <a href="<%- url_for('/our-team') %>">Our Team</a>
+      <a href="<%- url_for('/gallery') %>">Gallery</a>
+      <a href="<%- url_for('/news') %>">News</a>
+      <a href="<%- url_for('/contact') %>">Contact</a>
     </div>
   </div>
   <div class="footer__contact flex_card_wrap">
