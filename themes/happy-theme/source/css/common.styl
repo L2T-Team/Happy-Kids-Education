@@ -63,65 +63,6 @@ p {
   gap: 1rem;
 }
 
-@media only screen and (max-width: 768px) {
-  .flex_card_2 {
-    width: 100%;
-  }
-  .flex_card_3 {
-    width: 100%;
-  }
-  .flex_card_4 {
-    width: 100%;
-  }
-  .flex_card_5 {
-    width: calc(50% - 1rem);
-  }
-  .bottom_gap {
-    margin-bottom: var(--small-gap);
-  }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 768px) and (max-width: 1200px) {
-  .flex_card_3 {
-    width: calc(50% - 1rem);
-  }
-  .flex_card_4 {
-    width: calc(50% - 1rem);
-  }
-  .flex_card_5 {
-    width: calc(33.333% - 1rem);
-  }
-  .bottom_gap {
-    margin-bottom: var(--medium-gap);
-  }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .flex_card_2 {
-    width: calc(50% - 1rem);
-  }
-  .flex_card_3 {
-    width: calc(33.333% - 1rem);
-  }
-  .flex_card_4 {
-    width: calc(25% - 1rem);
-  }
-  .flex_card_5 {
-    width: calc(20% - 1rem);
-  }
-
-  .bottom_gap {
-    margin-bottom: var(--huge-gap);
-  }
-
-  .flex_card_wrap {
-    justify-content: space-between;
-  }
-}
-
-
 /* ======== CAROUSEL ========  */
 carousel-indicators {
   z-index: 999;
