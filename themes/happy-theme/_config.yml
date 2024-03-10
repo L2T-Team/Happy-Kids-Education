@@ -17,6 +17,17 @@ menu:
         highlights:
           - "DesA"
           - "DesB"
+      Summer Camp: 
+        url: /summer-camp
+        avatar: gallery/img-22.jpg
+        descriptions: 
+          - "<b>Fun and learning</b>: Enjoy a dynamic summer camp with robotics and coding activities"
+          - "<b>Hands-on experience</b>: Build, program, and test your own robots and apps"
+          - "<b>Essential skills</b>: Develop your logical thinking, problem-solving, and creativity"
+          - "<b>Experienced instructors</b>: Learn from passionate and experienced teachers in STEM fields"
+        highlights:
+          - "DesA"
+          - "DesB"
       Coding: 
         url: /coding
         avatar: /css/images/coding-avatar.png
