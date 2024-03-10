@@ -12,7 +12,7 @@
   <div class="course__info">
     <h4 class="course__title"><%- title %></h4>
 
-    <p class="course__desc"><%- description %></p>
+    <div class="course__desc"><%- description %></div>
     <div class="course__detail">
       <div class="course__detail_row">
         <span class="course__detail_item course__detail_item__left">
@@ -25,14 +25,10 @@
         </span>
       </div>
       <div class="course__detail_row">
-        <span class="course__detail_item course__detail_item__left">
-          <img src="<%- url_for('/css/images/svg/location-dot.svg') %>" />
-          <span><b>Location: </b><%- location %></span>
-        </span>
         <% if (price) {%>
-          <span class="course__detail_item course__detail_item__right">
-            <span><b>Price: </b><%- price %></span>
+          <span class="course__detail_item course__detail_item__left">
             <img src="<%- url_for('/css/images/svg/money-bill-1.svg') %>" />
+            <span><b>Price: </b><%- price %></span>
           </span>
         <% } %>
       </div>

@@ -151,36 +151,56 @@ summer-camp:
       shortDescription: |
         In our VEX IQ Camp, students will engage in hands-on projects to master the fundamentals of VEX IQ robotics
         <ul>
-          <li>Mon 6/10/24-Fir 6/14/24</li>
-          <li>Mon 06/17/24-06/21/24</li>
-          <li>Mon06/24/24/-06/28/24</li>
+          <li>Mon 06/10/24 - Fri 06/14/24</li>
+          <li>Mon 06/17/24 - Fri 06/21/24</li>
+          <li>Mon 06/24/24 - Fri 06/28/24</li>
         </ul>
       age: 6 - 11
       time: 9am-12pm
       location: In Person
-      featuredImage: /courses/robotics/intro-course-avatar.png
+      featuredImage: courses\summer-camp\vex-iq.png
       price: $399/week
     beginner-coding-class:
       name: Beginner Coding Class
-      shortDescription: Coders that join out coding class will learn basic computer programming through “Scratch”. Creating interactive stories, projects, and games. It's the perfect starter class for the summer for coding, fostering computational thinking in a fun and creative environment that may help if you child would like to code harder materials. (Python, Java, C++)
+      shortDescription: | 
+        Coders that join out coding class will learn basic computer programming through “Scratch”
+        <ul>
+          <li>Mon 06/10/24 - Fri 06/14/24</li>
+          <li>Mon 06/17/24 - Fri 06/21/24</li>
+          <li>Mon 06/24/24 - Fri 06/28/24</li>
+        </ul>
       age: 6 - 12
       time: 1pm-4pm
       location: In Person
-      featuredImage: /courses/robotics/intro-course-avatar.png
+      featuredImage: courses\coding\scratch.png
       price: $366/week
     coding-for-vex-robots:
       name: Coding for VEX Robots
-      shortDescription: Campers write complex code for a complex competition robot. They will learn to develop, test, and deploy the code on a pre-build robot for a mini tournament. Pre-requisite for all VRC team members.
+      shortDescription: | 
+        Campers write complex code for a complex competition robot
+        <ul>
+          <li>Mon 07/01/24 - Fri 07/05/24</li>
+          <li>Mon 07/08/24 - Fri 07/12/24</li>
+          <li>Mon 07/15/24 - Fri 07/19/24</li>
+          <li>Mon 07/22/24 - Fri 07/26/24</li>
+        </ul>
       age: 12 - 16
       time: 9am-12pm
       location: In Person
-      featuredImage: /courses/robotics/intro-course-avatar.png
+      featuredImage: courses\summer-camp\coding-vex-robots.png
       price: $445/week
     vex-vrc:
       name: VEX VRC
-      shortDescription: In this class, students will do hands on experiments and build their very own bot. These insights can help them gain knowledgeable insight on how teams on the field will work together and the learning process of building a vex bot
+      shortDescription: |
+        In this class, students will do hands on experiments and build their very own bot.
+        <ul>
+          <li>Mon 07/01/24 - Fri 07/05/24</li>
+          <li>Mon 07/08/24 - Fri 07/12/24</li>
+          <li>Mon 07/15/24 - Fri 07/19/24</li>
+          <li>Mon 07/22/24 - Fri 07/26/24</li>
+        </ul>
       age: 11 - 15
       time: 1pm-4pm
       location: In Person
-      featuredImage: /courses/robotics/intro-course-avatar.png
+      featuredImage: courses\summer-camp\vex-v5.jpeg
       price: $499/week
