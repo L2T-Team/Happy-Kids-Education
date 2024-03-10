@@ -2,8 +2,8 @@
 menu:
   Home: /
   Summer Camp: /courses/summer-camp
-  Our Team: /our-team
   About: /about
+  Our Team: /our-team
   Courses: 
     url: /courses
     children:
