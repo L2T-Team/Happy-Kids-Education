@@ -158,7 +158,7 @@ summer-camp:
       age: 6 - 11
       time: 9am-12pm
       location: In Person
-      featuredImage: courses\summer-camp\vex-iq.png
+      featuredImage: courses/summer-camp/vex-iq.png
       price: $399/week
     beginner-coding-class:
       name: Beginner Coding Class
@@ -172,7 +172,7 @@ summer-camp:
       age: 6 - 12
       time: 1pm-4pm
       location: In Person
-      featuredImage: courses\coding\scratch.png
+      featuredImage: courses/coding/scratch.png
       price: $366/week
     coding-for-vex-robots:
       name: Coding for VEX Robots
@@ -187,7 +187,7 @@ summer-camp:
       age: 12 - 16
       time: 9am-12pm
       location: In Person
-      featuredImage: courses\summer-camp\coding-vex-robots.png
+      featuredImage: courses/summer-camp/coding-vex-robots.png
       price: $445/week
     vex-vrc:
       name: VEX VRC
@@ -202,5 +202,5 @@ summer-camp:
       age: 11 - 15
       time: 1pm-4pm
       location: In Person
-      featuredImage: courses\summer-camp\vex-v5.jpeg
+      featuredImage: courses/summer-camp/vex-v5.jpeg
       price: $499/week
