@@ -1,7 +1,9 @@
 # Header
 menu:
   Home: /
+  Summer Camp: /courses/summer-camp
   About: /about
+  Our Team: /our-team
   Courses: 
     url: /courses
     children:
