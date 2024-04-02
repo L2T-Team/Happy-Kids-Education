@@ -9,33 +9,10 @@ menu:
     children:
       Robotics: 
         url: /robotics
-        avatar: /css/images/robotic-avatar.png
-        descriptions: 
-          - "<b>Quick progress</b>: Fast-forward through theory and participate in high-standard competitions"
-          - "<b>Programming skill</b>: Learn from expert teachers in Robotics"
-          - "<b>Ample support</b>: Get enough and extra materials for projects"
-        highlights:
-          - "DesA"
-          - "DesB"
       Summer Camp: 
         url: /summer-camp
-        avatar: gallery/img-22.jpg
-        descriptions: 
-          - "<b>Fun and learning</b>: Enjoy a dynamic summer camp with robotics and coding activities"
-          - "<b>Hands-on experience</b>: Build, program, and test your own robots and apps"
-          - "<b>Essential skills</b>: Develop your logical thinking, problem-solving, and creativity"
-          - "<b>Experienced instructors</b>: Learn from passionate and experienced teachers in STEM fields"
-        highlights:
-          - "DesA"
-          - "DesB"
       Coding: 
         url: /coding
-        avatar: /css/images/coding-avatar.png
-        descriptions:
-          - "<b>Personalized learning</b>: Customized curriculum and goals"
-          - "<b>Practical projects</b>: Learn by doing a lot of hand-on projects"
-          - "<b>Quality syllabus</b>: Customized from renowned experts"
-          - "<b>Expert instructors</b>: Highly qualified faculty with master's degrees or higher"
       # Digital Art: 
       #   url: /digital-art
       #   avatar: /css/images/digital-art-avatar.png
@@ -44,12 +21,6 @@ menu:
       #     - "Explore diverse avenues of creative expression within the digital realm"
       Mentorship: 
         url: /mentorship
-        avatar: gallery/standford.webp
-        descriptions:
-          - "<b>Parents' allies</b>: Peace of mind and long-term expert support"
-          - "<b>Expert instructors</b>: Highly qualified faculty with master's degrees or higher"
-          - "<b>University prep</b>: Standout your portfolio and skills"
-          - "<b>STEM exploration</b>: Career advice from specialists"
   Gallery: /gallery
   News: /news
   Contact: /contact
