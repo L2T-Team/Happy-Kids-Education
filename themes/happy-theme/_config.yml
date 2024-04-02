@@ -4,23 +4,30 @@ menu:
   About: /about
   Our Team: /our-team
   Summer Camp: /courses/summer-camp
-  Courses: 
-    url: /courses
+  Services:
     children:
-      Robotics: 
-        url: /robotics
-      Summer Camp: 
-        url: /summer-camp
-      Coding: 
-        url: /coding
-      # Digital Art: 
-      #   url: /digital-art
-      #   avatar: /css/images/digital-art-avatar.png
-      #   descriptions:
-      #     - "Acquire proficiency in employing a wide array of digital tools and techniques essential for digital art creation"
-      #     - "Explore diverse avenues of creative expression within the digital realm"
-      Mentorship: 
-        url: /mentorship
+      Courses: 
+        url: /services/courses
+        children:
+          Robotics: 
+            url: /courses/robotics
+          Summer Camp: 
+            url: /courses/summer-camp
+          Coding: 
+            url: /courses/coding
+          # Digital Art: 
+          #   url: /digital-art
+          #   avatar: /css/images/digital-art-avatar.png
+          #   descriptions:
+          #     - "Acquire proficiency in employing a wide array of digital tools and techniques essential for digital art creation"
+          #     - "Explore diverse avenues of creative expression within the digital realm"
+          Mentorship: 
+            url: /courses/mentorship
+      Schools: /services/schools
+      Summer Applications: /services/summer-applications
+      Life Settlement: /services/life-settlement
+      Improvement: /services/improvement
+      Research/Internship: /services/research-internship
   Gallery: /gallery
   News: /news
   Contact: /contact
