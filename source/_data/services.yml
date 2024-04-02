@@ -1,0 +1,84 @@
+schools:
+  name: Middle/High/College School
+  url: /services/shools
+  avatar: /css/images/robotic-avatar.png
+  descriptions: 
+    - "<b>Quick progress</b>: Fast-forward through theory and participate in high-standard competitions"
+    - "<b>Programming skill</b>: Learn from expert teachers in Robotics"
+    - "<b>Ample support</b>: Get enough and extra materials for projects"
+summer-applications:
+  name: Summer applications
+  url: /services/summer-applications
+  avatar: /css/images/robotic-avatar.png
+  descriptions: 
+    - "<b>Quick progress</b>: Fast-forward through theory and participate in high-standard competitions"
+    - "<b>Programming skill</b>: Learn from expert teachers in Robotics"
+    - "<b>Ample support</b>: Get enough and extra materials for projects"
+life-settlement:
+  name: US life settlement
+  url: /services/life-settlement
+  avatar: /css/images/robotic-avatar.png
+  descriptions: 
+    - "<b>Quick progress</b>: Fast-forward through theory and participate in high-standard competitions"
+    - "<b>Programming skill</b>: Learn from expert teachers in Robotics"
+    - "<b>Ample support</b>: Get enough and extra materials for projects"
+improvement:
+  name: Background/Portfolio improvement
+  url: /services/improvement
+  avatar: /css/images/robotic-avatar.png
+  descriptions: 
+    - "<b>Quick progress</b>: Fast-forward through theory and participate in high-standard competitions"
+    - "<b>Programming skill</b>: Learn from expert teachers in Robotics"
+    - "<b>Ample support</b>: Get enough and extra materials for projects"
+research-internship:
+  name: Research/Internship
+  url: /services/research-internship
+  avatar: /css/images/robotic-avatar.png
+  descriptions: 
+    - "<b>Quick progress</b>: Fast-forward through theory and participate in high-standard competitions"
+    - "<b>Programming skill</b>: Learn from expert teachers in Robotics"
+    - "<b>Ample support</b>: Get enough and extra materials for projects"
+courses:
+  name: Online courses
+  url: /services/courses
+  avatar: /css/images/robotic-avatar.png
+  descriptions: 
+    - "<b>Quick progress</b>: Fast-forward through theory and participate in high-standard competitions"
+    - "<b>Programming skill</b>: Learn from expert teachers in Robotics"
+    - "<b>Ample support</b>: Get enough and extra materials for projects"
+  items:
+    robotics:
+      name: Robotics
+      url: /courses/robotics
+      avatar: /css/images/robotic-avatar.png
+      descriptions: 
+        - "<b>Quick progress</b>: Fast-forward through theory and participate in high-standard competitions"
+        - "<b>Programming skill</b>: Learn from expert teachers in Robotics"
+        - "<b>Ample support</b>: Get enough and extra materials for projects"
+    summer-camp:
+      name: Summer Camp
+      url: /courses/summer-camp
+      avatar: gallery/img-22.jpg
+      descriptions: 
+        - "<b>Fun and learning</b>: Enjoy a dynamic summer camp with robotics and coding activities"
+        - "<b>Hands-on experience</b>: Build, program, and test your own robots and apps"
+        - "<b>Essential skills</b>: Develop your logical thinking, problem-solving, and creativity"
+        - "<b>Experienced instructors</b>: Learn from passionate and experienced teachers in STEM fields"
+    coding:
+      name: Coding
+      url: /courses/coding
+      avatar: /css/images/coding-avatar.png
+      descriptions:
+        - "<b>Personalized learning</b>: Customized curriculum and goals"
+        - "<b>Practical projects</b>: Learn by doing a lot of hand-on projects"
+        - "<b>Quality syllabus</b>: Customized from renowned experts"
+        - "<b>Expert instructors</b>: Highly qualified faculty with master's degrees or higher"
+    mentorship:
+      name: Mentorship
+      url: /courses/mentorship
+      avatar: gallery/standford.webp
+      descriptions:
+        - "<b>Parents' allies</b>: Peace of mind and long-term expert support"
+        - "<b>Expert instructors</b>: Highly qualified faculty with master's degrees or higher"
+        - "<b>University prep</b>: Standout your portfolio and skills"
+        - "<b>STEM exploration</b>: Career advice from specialists"
