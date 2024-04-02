@@ -7,7 +7,6 @@ menu:
   Services:
     children:
       Courses: 
-        url: /services/courses
         children:
           Robotics: 
             url: /courses/robotics
