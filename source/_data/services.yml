@@ -1,6 +1,6 @@
 schools:
   name: Middle/High/College School
-  url: /services/shools
+  url: /services/schools
   avatar: /css/images/robotic-avatar.png
   descriptions: 
     - "<b>Quick progress</b>: Fast-forward through theory and participate in high-standard competitions"
@@ -39,7 +39,7 @@ research-internship:
     - "<b>Programming skill</b>: Learn from expert teachers in Robotics"
     - "<b>Ample support</b>: Get enough and extra materials for projects"
 courses:
-  name: Online courses
+  name: Courses
   url: /services/courses
   avatar: /css/images/robotic-avatar.png
   descriptions: 
