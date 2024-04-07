@@ -35,7 +35,7 @@ life-settlement:
     - "<b>Programming skill</b>: Learn from expert teachers in Robotics"
     - "<b>Ample support</b>: Get enough and extra materials for projects"
 improvement:
-  name: Background/Portfolio improvement
+  name: Portfolio improvement
   url: /services/improvement
   avatar: /css/images/robotic-avatar.png
   descriptions:
