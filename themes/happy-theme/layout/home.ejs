@@ -57,8 +57,8 @@
             <img src="<%- url_for(site.data.services[i].avatar) %>" />
             <h2><%- site.data.services[i].name %></h2>
             <ul>
-              <% for (var h in site.data.services[i].descriptions) { %>
-                <li><%- site.data.services[i].descriptions[h] %></li>
+              <% for (var h in site.data.services[i].advantages) { %>
+                <li><%- site.data.services[i].advantages[h] %></li>
               <% } %>
             </ul>
           </a>
