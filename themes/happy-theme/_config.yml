@@ -4,41 +4,29 @@ menu:
   About: /about
   Our Team: /our-team
   Summer Camp: /courses/summer-camp
-  Courses: 
-    url: /courses
+  Services:
     children:
-      Robotics: 
-        url: /robotics
-        avatar: /css/images/robotic-avatar.png
-        descriptions: 
-          - "<b>Quick progress</b>: Fast-forward through theory and participate in high-standard competitions"
-          - "<b>Programming skill</b>: Learn from expert teachers in Robotics"
-          - "<b>Ample support</b>: Get enough and extra materials for projects"
-        highlights:
-          - "DesA"
-          - "DesB"
-      Coding: 
-        url: /coding
-        avatar: /css/images/coding-avatar.png
-        descriptions:
-          - "<b>Personalized learning</b>: Customized curriculum and goals"
-          - "<b>Practical projects</b>: Learn by doing a lot of hand-on projects"
-          - "<b>Quality syllabus</b>: Customized from renowned experts"
-          - "<b>Expert instructors</b>: Highly qualified faculty with master's degrees or higher"
-      # Digital Art: 
-      #   url: /digital-art
-      #   avatar: /css/images/digital-art-avatar.png
-      #   descriptions:
-      #     - "Acquire proficiency in employing a wide array of digital tools and techniques essential for digital art creation"
-      #     - "Explore diverse avenues of creative expression within the digital realm"
-      Mentorship: 
-        url: /mentorship
-        avatar: gallery/standford.webp
-        descriptions:
-          - "<b>Parents' allies</b>: Peace of mind and long-term expert support"
-          - "<b>Expert instructors</b>: Highly qualified faculty with master's degrees or higher"
-          - "<b>University prep</b>: Standout your portfolio and skills"
-          - "<b>STEM exploration</b>: Career advice from specialists"
+      Courses: 
+        children:
+          Robotics: 
+            url: /courses/robotics
+          Summer Camp: 
+            url: /courses/summer-camp
+          Coding: 
+            url: /courses/coding
+          # Digital Art: 
+          #   url: /digital-art
+          #   avatar: /css/images/digital-art-avatar.png
+          #   descriptions:
+          #     - "Acquire proficiency in employing a wide array of digital tools and techniques essential for digital art creation"
+          #     - "Explore diverse avenues of creative expression within the digital realm"
+          Mentorship: 
+            url: /courses/mentorship
+      Schools: /services/schools
+      Summer Applications: /services/summer-applications
+      Life Settlement: /services/life-settlement
+      Improvement: /services/improvement
+      Research/Internship: /services/research-internship
   Gallery: /gallery
   News: /news
   Contact: /contact

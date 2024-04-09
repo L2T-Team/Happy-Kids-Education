@@ -58,25 +58,24 @@ nav a:hover {
 nav ul ul {
   display: none;
   position: absolute;
-  // padding-top: 0.5rem;
 }
 
 nav ul li:hover > ul {
   display: inherit;
+  position: absolute;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 nav ul ul li {
   display: list-item;
   position: relative;
-
   padding: 0.5rem 1rem;
 }
 
-nav ul ul ul li {
-  position: relative;
-  top: -60px;
-  left: 170px;
+nav ul ul ul {
+  position: absolute;
+  top: 0;
+  left: 100%;
 }
 
 li > a:only-child:after {
@@ -124,7 +123,7 @@ li > a:only-child:after {
     cursor: pointer;
   }
 
-  .toggle:hover {
+  .toggle {
     color: #282828;
   }
 
@@ -148,13 +147,9 @@ li > a:only-child:after {
     padding: 0 0px;
   }
 
-  nav ul ul ul a {
-    padding: 0 80px;
-  }
-
   nav ul ul {
     float: none;
-    position: static;
+    position: static !important;
     color: #ffffff;
     margin: 0;
   }

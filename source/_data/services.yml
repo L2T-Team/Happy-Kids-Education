@@ -1,0 +1,104 @@
+schools:
+  name: Middle/High/College School
+  url: /services/schools
+  avatar: /css/images/robotic-avatar.png
+  descriptions:
+   - "<p>Welcome to Happy Kids Education, where we blend passion with educational excellence to shape the future leaders of tomorrow. Our commitment at Happy Kids Education is deeply rooted in a holistic approach, integrating STEM education components such as robotics, coding, digital art, career planning, and college consulting to offer a comprehensive and enriching educational experience.</p>"
+   - "<p>Happy Kids Education specializes in fostering a genuine love for learning through cutting-edge programs that extend beyond the confines of traditional education. We are dedicated to igniting students’ enthusiasm for technology, nurturing their creativity, and guiding them towards academic success. Our unwavering emphasis on hands-on practice ensures that students not only acquire theoretical knowledge but also develop practical skills, forming a robust foundation for their future endeavors.</p>"
+   - "<p>With an exceptional team of educators, academic researchers, and industry professionals, we are dedicated to creating a dynamic and stimulating environment that fosters joyful learning. Our educators possess outstanding credentials, having affiliations with prestigious institutions such as Carnegie Mellon University, Harvard University, and UC Berkeley. Our mission is to nurture the inherent abilities of young minds, empowering them to thrive in our rapidly evolving world. Whether students are immersing themselves in the captivating world of robotics, exploring the intricacies of coding, expressing creativity through digital art, or seeking expert guidance in career planning and college consulting, Happy Kids Education stands as the ultimate destination for comprehensive and forward-thinking education.<br><br> Join us on this transformative journey as we empower students for a bright future. At Happy Kids Education, we strongly believe in unlocking the full potential of every child and preparing them for success in the ever-changing landscape of the 21st century. Together, let’s embark on the path to knowledge, creativity, and a prosperous tomorrow.</p>"
+  advantages:
+    - "<b>Quick progress</b>: Fast-forward through theory and participate in high-standard competitions"
+    - "<b>Programming skill</b>: Learn from expert teachers in Robotics"
+    - "<b>Ample support</b>: Get enough and extra materials for projects"
+summer-applications:
+  name: Summer applications
+  url: /services/summer-applications
+  avatar: /css/images/robotic-avatar.png
+  descriptions:
+   - "<p>Welcome to Happy Kids Education, where we blend passion with educational excellence to shape the future leaders of tomorrow. Our commitment at Happy Kids Education is deeply rooted in a holistic approach, integrating STEM education components such as robotics, coding, digital art, career planning, and college consulting to offer a comprehensive and enriching educational experience.</p>"
+   - "<p>Happy Kids Education specializes in fostering a genuine love for learning through cutting-edge programs that extend beyond the confines of traditional education. We are dedicated to igniting students’ enthusiasm for technology, nurturing their creativity, and guiding them towards academic success. Our unwavering emphasis on hands-on practice ensures that students not only acquire theoretical knowledge but also develop practical skills, forming a robust foundation for their future endeavors.</p>"
+   - "<p>With an exceptional team of educators, academic researchers, and industry professionals, we are dedicated to creating a dynamic and stimulating environment that fosters joyful learning. Our educators possess outstanding credentials, having affiliations with prestigious institutions such as Carnegie Mellon University, Harvard University, and UC Berkeley. Our mission is to nurture the inherent abilities of young minds, empowering them to thrive in our rapidly evolving world. Whether students are immersing themselves in the captivating world of robotics, exploring the intricacies of coding, expressing creativity through digital art, or seeking expert guidance in career planning and college consulting, Happy Kids Education stands as the ultimate destination for comprehensive and forward-thinking education.<br><br> Join us on this transformative journey as we empower students for a bright future. At Happy Kids Education, we strongly believe in unlocking the full potential of every child and preparing them for success in the ever-changing landscape of the 21st century. Together, let’s embark on the path to knowledge, creativity, and a prosperous tomorrow.</p>"
+  advantages:
+    - "<b>Quick progress</b>: Fast-forward through theory and participate in high-standard competitions"
+    - "<b>Programming skill</b>: Learn from expert teachers in Robotics"
+    - "<b>Ample support</b>: Get enough and extra materials for projects"
+life-settlement:
+  name: US life settlement
+  url: /services/life-settlement
+  avatar: /css/images/robotic-avatar.png
+  descriptions:
+   - "<p>Welcome to Happy Kids Education, where we blend passion with educational excellence to shape the future leaders of tomorrow. Our commitment at Happy Kids Education is deeply rooted in a holistic approach, integrating STEM education components such as robotics, coding, digital art, career planning, and college consulting to offer a comprehensive and enriching educational experience.</p>"
+   - "<p>Happy Kids Education specializes in fostering a genuine love for learning through cutting-edge programs that extend beyond the confines of traditional education. We are dedicated to igniting students’ enthusiasm for technology, nurturing their creativity, and guiding them towards academic success. Our unwavering emphasis on hands-on practice ensures that students not only acquire theoretical knowledge but also develop practical skills, forming a robust foundation for their future endeavors.</p>"
+   - "<p>With an exceptional team of educators, academic researchers, and industry professionals, we are dedicated to creating a dynamic and stimulating environment that fosters joyful learning. Our educators possess outstanding credentials, having affiliations with prestigious institutions such as Carnegie Mellon University, Harvard University, and UC Berkeley. Our mission is to nurture the inherent abilities of young minds, empowering them to thrive in our rapidly evolving world. Whether students are immersing themselves in the captivating world of robotics, exploring the intricacies of coding, expressing creativity through digital art, or seeking expert guidance in career planning and college consulting, Happy Kids Education stands as the ultimate destination for comprehensive and forward-thinking education.<br><br> Join us on this transformative journey as we empower students for a bright future. At Happy Kids Education, we strongly believe in unlocking the full potential of every child and preparing them for success in the ever-changing landscape of the 21st century. Together, let’s embark on the path to knowledge, creativity, and a prosperous tomorrow.</p>"
+  advantages:
+    - "<b>Quick progress</b>: Fast-forward through theory and participate in high-standard competitions"
+    - "<b>Programming skill</b>: Learn from expert teachers in Robotics"
+    - "<b>Ample support</b>: Get enough and extra materials for projects"
+improvement:
+  name: Portfolio improvement
+  url: /services/improvement
+  avatar: /css/images/robotic-avatar.png
+  descriptions:
+   - "<p>Welcome to Happy Kids Education, where we blend passion with educational excellence to shape the future leaders of tomorrow. Our commitment at Happy Kids Education is deeply rooted in a holistic approach, integrating STEM education components such as robotics, coding, digital art, career planning, and college consulting to offer a comprehensive and enriching educational experience.</p>"
+   - "<p>Happy Kids Education specializes in fostering a genuine love for learning through cutting-edge programs that extend beyond the confines of traditional education. We are dedicated to igniting students’ enthusiasm for technology, nurturing their creativity, and guiding them towards academic success. Our unwavering emphasis on hands-on practice ensures that students not only acquire theoretical knowledge but also develop practical skills, forming a robust foundation for their future endeavors.</p>"
+   - "<p>With an exceptional team of educators, academic researchers, and industry professionals, we are dedicated to creating a dynamic and stimulating environment that fosters joyful learning. Our educators possess outstanding credentials, having affiliations with prestigious institutions such as Carnegie Mellon University, Harvard University, and UC Berkeley. Our mission is to nurture the inherent abilities of young minds, empowering them to thrive in our rapidly evolving world. Whether students are immersing themselves in the captivating world of robotics, exploring the intricacies of coding, expressing creativity through digital art, or seeking expert guidance in career planning and college consulting, Happy Kids Education stands as the ultimate destination for comprehensive and forward-thinking education.<br><br> Join us on this transformative journey as we empower students for a bright future. At Happy Kids Education, we strongly believe in unlocking the full potential of every child and preparing them for success in the ever-changing landscape of the 21st century. Together, let’s embark on the path to knowledge, creativity, and a prosperous tomorrow.</p>"
+  advantages:
+    - "<b>Quick progress</b>: Fast-forward through theory and participate in high-standard competitions"
+    - "<b>Programming skill</b>: Learn from expert teachers in Robotics"
+    - "<b>Ample support</b>: Get enough and extra materials for projects"
+research-internship:
+  name: Research/Internship
+  url: /services/research-internship
+  avatar: /css/images/robotic-avatar.png
+  descriptions:
+   - "<p>Welcome to Happy Kids Education, where we blend passion with educational excellence to shape the future leaders of tomorrow. Our commitment at Happy Kids Education is deeply rooted in a holistic approach, integrating STEM education components such as robotics, coding, digital art, career planning, and college consulting to offer a comprehensive and enriching educational experience.</p>"
+   - "<p>Happy Kids Education specializes in fostering a genuine love for learning through cutting-edge programs that extend beyond the confines of traditional education. We are dedicated to igniting students’ enthusiasm for technology, nurturing their creativity, and guiding them towards academic success. Our unwavering emphasis on hands-on practice ensures that students not only acquire theoretical knowledge but also develop practical skills, forming a robust foundation for their future endeavors.</p>"
+   - "<p>With an exceptional team of educators, academic researchers, and industry professionals, we are dedicated to creating a dynamic and stimulating environment that fosters joyful learning. Our educators possess outstanding credentials, having affiliations with prestigious institutions such as Carnegie Mellon University, Harvard University, and UC Berkeley. Our mission is to nurture the inherent abilities of young minds, empowering them to thrive in our rapidly evolving world. Whether students are immersing themselves in the captivating world of robotics, exploring the intricacies of coding, expressing creativity through digital art, or seeking expert guidance in career planning and college consulting, Happy Kids Education stands as the ultimate destination for comprehensive and forward-thinking education.<br><br> Join us on this transformative journey as we empower students for a bright future. At Happy Kids Education, we strongly believe in unlocking the full potential of every child and preparing them for success in the ever-changing landscape of the 21st century. Together, let’s embark on the path to knowledge, creativity, and a prosperous tomorrow.</p>"
+  advantages:
+    - "<b>Quick progress</b>: Fast-forward through theory and participate in high-standard competitions"
+    - "<b>Programming skill</b>: Learn from expert teachers in Robotics"
+    - "<b>Ample support</b>: Get enough and extra materials for projects"
+courses:
+  name: Courses
+  url: /services/courses
+  avatar: /css/images/robotic-avatar.png
+  advantages:
+    - "<b>Quick progress</b>: Fast-forward through theory and participate in high-standard competitions"
+    - "<b>Programming skill</b>: Learn from expert teachers in Robotics"
+    - "<b>Ample support</b>: Get enough and extra materials for projects"
+  items:
+    robotics:
+      name: Robotics
+      url: /courses/robotics
+      avatar: /css/images/robotic-avatar.png
+      advantages:
+        - "<b>Quick progress</b>: Fast-forward through theory and participate in high-standard competitions"
+        - "<b>Programming skill</b>: Learn from expert teachers in Robotics"
+        - "<b>Ample support</b>: Get enough and extra materials for projects"
+    summer-camp:
+      name: Summer Camp
+      url: /courses/summer-camp
+      avatar: gallery/img-22.jpg
+      advantages:
+        - "<b>Fun and learning</b>: Enjoy a dynamic summer camp with robotics and coding activities"
+        - "<b>Hands-on experience</b>: Build, program, and test your own robots and apps"
+        - "<b>Essential skills</b>: Develop your logical thinking, problem-solving, and creativity"
+        - "<b>Experienced instructors</b>: Learn from passionate and experienced teachers in STEM fields"
+    coding:
+      name: Coding
+      url: /courses/coding
+      avatar: /css/images/coding-avatar.png
+      advantages:
+        - "<b>Personalized learning</b>: Customized curriculum and goals"
+        - "<b>Practical projects</b>: Learn by doing a lot of hand-on projects"
+        - "<b>Quality syllabus</b>: Customized from renowned experts"
+        - "<b>Expert instructors</b>: Highly qualified faculty with master's degrees or higher"
+    mentorship:
+      name: Mentorship
+      url: /courses/mentorship
+      avatar: gallery/standford.webp
+      advantages:
+        - "<b>Parents' allies</b>: Peace of mind and long-term expert support"
+        - "<b>Expert instructors</b>: Highly qualified faculty with master's degrees or higher"
+        - "<b>University prep</b>: Standout your portfolio and skills"
+        - "<b>STEM exploration</b>: Career advice from specialists"
