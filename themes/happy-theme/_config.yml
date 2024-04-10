@@ -22,11 +22,9 @@ menu:
           #     - "Explore diverse avenues of creative expression within the digital realm"
           Mentorship: 
             url: /courses/mentorship
-      Schools: /services/schools
-      Summer Applications: /services/summer-applications
-      Life Settlement: /services/life-settlement
-      Improvement: /services/improvement
-      Research/Internship: /services/research-internship
+      College/Grad School Application: /services/school-application
+      Middle/High School Application: /services/private-school-application
+      Background Improvement: /services/improvement
   Gallery: /gallery
   News: /news
   Contact: /contact

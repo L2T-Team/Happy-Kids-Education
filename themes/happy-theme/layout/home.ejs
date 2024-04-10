@@ -52,7 +52,7 @@
   <main class="body">
     <section class="courses flex_card_wrap padding_container bottom_gap">
       <% for (var i in site.data.services) { %>
-        <div class="courses_item zoom flex_card_3" >
+        <div class="courses_item zoom flex_card_2" >
           <a href="<%- url_for(site.data.services[i].url) %>">
             <img src="<%- url_for(site.data.services[i].avatar) %>" />
             <h2><%- site.data.services[i].name %></h2>
