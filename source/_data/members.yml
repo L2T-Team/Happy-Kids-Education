@@ -1,0 +1,107 @@
+sean:
+  name: Sean Li
+  department: Founder, CEO
+  avatar: /avatars/Sean.png
+  description: |
+    <ul>
+      <li>Ph.D. in Machine Learning and Information Systems, Carnegie Mellon University</li>
+      <li>Master of Information Systems Management, Carnegie Mellon University</li>
+      <li>B.A. in Data Science, University of California, Berkeley</li>
+      <li>Previous positions held at Intel, Lawrence Berkeley National Laboratory, and others</li>
+      <li>Author of multiple SCI journal papers and presented at top conferences</li>
+      <li>Research: Economic Privacy, Human-Computer Interaction</li>
+      <li>Extensive experience college counseling, programming and robotics education</li>
+    
+    </ul>
+tienchunghu:
+  name: Tien-Chung Hu
+  department: Math Department, Research Department, Counseling Department
+  avatar: /avatars/TienChungHu.jpg
+  description: |
+    <ul>
+      <li>Professor of Mathematics at National Tsing Hua University</li>
+      <li>Committee Member of the Taiwan Math Olympiad</li>
+      <li>Ph.D. in Statistics, University of Georgia</li>
+      <li>Author of hundreds of Published Papers and Preprints</li>
+    </ul>
+anthony_greblick:
+  name: Anthony Greblick
+  department: English Department, Counseling Department
+  avatar: /avatars/Anthony.jpg
+  description: |
+    <ul>
+      <li>Ph.D. in Linguistics, University of Southern California</li>
+      <li>B.A. in Linguistics, Yale University</li>
+      <li>Brings over 30 years of teaching and tutoring experience, specializing in English, expository writing, critical reading, and standardized testing</li>
+      <li>Offers over 25 years of admissions consulting and essay guidance experience, particularly in MBA, JD, and Ph.D. programs</li>
+      <li>Previously served as an Assistant Professor of English and Communications at Shepherd University and as an admissions advisor at Kaplan</li>
+      <li>Personally authored and guided numerous students to successful applications to top-tier schools</li>
+      <li>Demonstrates a rich vocabulary and deep understanding of correct grammar, style, and usage</li>
+      <li>Fluent in six languages: Spanish, French, German, Russian, Italian, and Portuguese</li>
+      <li>Member of the International Society for Humor Studies (ISHS) and the American Mensa Society (IQ 161)</li>
+      <li>Serves on the Three Stooges Big Screen Event Selection Committee as a member of the Alex Theatre Film Society, contributing annual reviews for Three Stooges Magazine</li>
+    </ul>
+ruben_yuriar:
+  name: Ruben Yuriar
+  department: Computer Science department, Math department, Robotics Department
+  avatar: /avatars/no-avatar.png
+  description: |
+    <ul>
+      <li>Current high school teacher in Los Angeles</li>
+      <li>Previously lecturer at California State Polytechnic University, Pomona</li>
+      <li>Brings extensive experience in math, programming, and robotics education</li>
+      <li>Dedicated to inspiring students' interest in mathematics and fostering success in STEM fields</li>
+      <li>Guides students to participate in various levels of mathematical competitions such as the AMC, achieving outstanding results</li>
+      <li>Emphasizes a hands-on learning approach with real-world applications</li>
+      <li>Provides personalized support to each student to ensure they reach their full potential</li>
+      <li>Committed to preparing students for future academic and career endeavors</li>
+    </ul>
+ecky_fan:
+  name: Ecky Fan
+  department: English department
+  avatar: /avatars/EckyFan.jpg
+  description: |
+    <ul>
+      <li>Master's degree in Applied Linguistics at Tianjin Foreign Studies University</li>
+      <li>B.A. in English Education </li>
+      <li>Extensive tutoring experience in Toefl and SAT,SSAT tests</li>
+      <li>Previously the head of Tutoring Department at AW education Group and Tiandao Education </li>
+      <li>Author of the book: SSAT Full Score Preparation</li>
+    </ul>
+enoch:
+  name: Enoch Liu
+  department: Computer Science department, Counseling Department
+  avatar: /avatars/EnochLiu.png
+  description: |
+    <ul>
+      <li>Master's degree in Data Science from Harvard University</li>
+      <li>Bachelor's degree in Applied Mathematics/Data Science dual major from UC Berkeley</li>
+      <li>Mentored over 20 students in securing offers from prestigious institutions such as Harvard, Stanford, MIT, Princeton, Columbia, Johns Hopkins, UC Berkeley, and UCLA</li>
+      <li>Teaching Assistant for system development course at Harvard University, with extensive programming experience</li>
+      <li>Guided 20+ students in the development of Python libraries</li>
+    </ul>
+derek:
+  name: Derek
+  department: Computer Science department, Counseling Department
+  description: |
+    <ul>
+      <li>Current Software Engineer specializing in Artificial Intelligence at a leading technology company in the Bay Area</li>
+      <li>Master's degree from Harvard/MIT Computational Science and Engineering Cross-Register Program</li>
+      <li>Bachelor's degree in Applied Mathematics, dual major in Engineering and Physics/Computer Science from UW-Madison</li>
+      <li>Previous Positions at Harvard Nock Lab, LinkedIn, Baidu, and Siemens</li>
+      <li>Former Teaching Assistant for courses in algorithms, software system development, high-performance computing, and artificial intelligence</li>
+      <li>4 years of experience in international education consulting</li>
+      <li>Holds a teaching qualification certificate for high school mathematics in China</li>
+    </ul>
+raymond: 
+  name: Raymond Rodriguez
+  department: English Department
+  avatar: /avatars/Raymond.jpg
+  description: |
+    <ul>
+      <li>B.A in Education Sciences, UC Irvine</li>
+      <li>Committed to creating an engaging learning environment for students</li>
+      <li>Focuses on equipping students with both personal and academic skills for success</li>
+      <li>Currently teaching at Orion International Academy</li>
+      <li>Has taught Creative Writing, Middle School Science, Biology, English 10, and World History</li>
+    </ul>

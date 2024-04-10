@@ -1,0 +1,206 @@
+robotics:
+  v2: true
+  description: Our Robotics course places a strong emphasis on hands-on practice rather than theory, igniting a profound passion. We provide unlimited equipment resources, enabling students of all ages to participate in major Robotics competitions such as VEX Robotics after a brief training period. Our teaching program is meticulously crafted by a team of instructors with over 10 years of teaching and robot fabrication experience, ensuring the delivery of top-quality courses.
+  highlights:
+    TEAMWORK AND COMMUNICATION ENHANCEMENT:
+    SCIENCE AND ENGINEERING FOUNDATION: Embark on a hands-on journey, moving beyond theoretical concepts to apply scientific and engineering principles in practical activities, fostering a tangible understanding of these foundational ideas.
+    RECOGNITION BY PRESTIGIOUS SCHOOLS: VEX Robotics holds widespread recognition among major prestigious schools, serving as a valuable asset to students’ educational portfolios and showcasing their commitment to excellence.
+    COMPREHENSIVE SKILL DEVELOPMENT: Our program extends beyond robotics, enriching children’s logical abilities, engineering basics, and programming skills, establishing a robust foundation for their academic and professional endeavors.
+    APPLICATIONS STANDOUT: Participation in the VEX Robotics Class not only enriches students’ skill sets but also positions them uniquely in high school and college applications, highlighting their dedication to innovation and continuous learning.
+  cta: Join us in the exploration of robotics excellence at Happy Kids Education, where students not only construct robots but also lay the groundwork for success in future academic and professional pursuits. Discover the transformative power of VEX robotics as we nurture the engineers and innovators of tomorrow!
+  courses: 
+    intro-to-robotic-engineering:
+      name: Intro to Robotic Engineering
+      shortDescription: Intro to mechanical principles and programming design with VEX V5
+      longDescription: Anticipate a comprehensive learning journey where you’ll gain foundational knowledge of the VEX VRC Robotics Competition. Dive into the intricacies of mechanical principles and programming design, actively fostering a keen interest in STEM disciplines through engaging, hands-on experiences. Our program aims to provide you with practical insights, collaborative projects, and essential technical skills, ensuring a strong foundation for continued exploration and success in the dynamic world of robotics and STEM.
+      age: Any
+      requirements: None
+      level: Easy
+      time: 2h/week
+      location: In Person
+      noOfRating: 238
+      featuredImage: /courses/robotics/intro-course-avatar.png
+      url: /courses/robotics/intro-to-robotic-engineering
+    advanced-robotic-engineering:
+      name: Advanced Robotic Engineering - VEX Competition Edition
+      shortDescription: Let's bring your skills to the VEX VRC competition!
+      longDescription: In this comprehensive course, you will immerse yourself in the dynamic world of competitive robotics, crafting your own robot tailored for active participation in the VEX VRC competition. From conceptualization to realization, the program takes you through the entire process of designing and optimizing your robot, integrating advanced mechanical principles and sophisticated programming design. This hands-on experience not only sharpens your technical skills but also empowers you to navigate the challenges of the VEX VRC competition with confidence and innovation. Gain a profound understanding of intricate mechanical concepts, refine your programming expertise, and emerge ready to excel in the dynamic and evolving field of robotics engineering.
+      age: 12-18
+      requirements: Successful completion of the Intro to Robotic Engineering course or enrollment for students in 9th grade and above.
+      level: Medium - Hard
+      time: 5h/week with Unlimited free training time
+      location: In Person 
+      noOfRating: 56
+      bestseller: true
+      featuredImage: /courses/robotics/intro-course-avatar.png
+
+coding: 
+  description: Our coding courses cover a spectrum ranging from foundational coding, including Scratch and MIT App Inventor, to more advanced languages like Python and Java. Suitable for students at all levels, these courses provide a comprehensive understanding of programming fundamentals, preparing you for challenging competitions such as AP Computer Science, USACO, ACSL, and more.
+  courses: 
+    scratch:
+      name: Scratch
+      shortDescription: Create animations, games, or interactive stories to learn event-driven coding
+      longDescription: Join our Scratch Coding Course for an immersive coding experience suitable for learners of all ages. Gain a solid understanding of Scratch programming, allowing you to create interactive stories, games, and animations. Explore coding principles in-depth, fostering a genuine passion for computer science and technology through hands-on, engaging experiences. This meticulously designed program provides practical insights, encourages collaborative projects, and equips you with essential coding skills, establishing a robust foundation for continued exploration and success in the dynamic world of programming and STEM.
+      age: Any
+      requirements: None
+      level: Easy
+      time: 1h/week
+      location: Remote/In person
+      noOfRating: 89
+      featuredImage: /courses/coding/scratch.png
+    mit-app:
+      name: MIT App Inventor
+      shortDescription: Let's create some Android applications with MIT App Inventor!
+      longDescription: Explore the exciting world of Android app development with our MIT App Inventor Course, tailored for learners of all ages. Dive into the fundamentals of creating mobile applications without the need for complex coding, allowing you to design and build your own Android apps. Delve into the unique features of MIT App Inventor, fostering a genuine passion for mobile app development and technology through hands-on, interactive experiences. This meticulously crafted program provides practical insights, encourages collaborative app projects, and equips you with essential app development skills, establishing a strong foundation for continued exploration and success in the dynamic realm of programming and STEM.
+      age: Any
+      requirements: None
+      level: Easy - Medium
+      time: 2h/week
+      location: On Site
+      noOfRating: 49
+      featuredImage: /courses/coding/mit.png
+    python:
+      name: Python
+      shortDescription: Industry level programming - Structure and Interpretation of Computer Programs
+      longDescription: Embark on an exciting coding journey with our specially tailored Python Programming Course, designed specifically for middle school students and beyond. Explore the core principles of Python programming, utilizing it to unravel the structure and interpretation of computer programs. Immerse yourself in the intricacies of Python, fostering a genuine passion for coding and technology through hands-on, interactive experiences. This meticulously crafted program provides practical insights, encourages collaborative coding projects, and equips participants with essential programming skills. It establishes a strong foundation for ongoing exploration and success in the dynamic fields of computer science and STEM.
+      age: Middle School and Up
+      requirements: None
+      level: Medium - Hard
+      time: 2h/week
+      location: Remote/In person
+      noOfRating: 23
+      featuredImage: /courses/coding/python.png
+    java:
+      name: Java
+      shortDescription: Industry level programming - Data Structure and Object Oriented Programming
+      longDescription: Embark on an exciting coding journey with our specially tailored Java Programming Course, designed specifically for middle school students and beyond. Explore the core principles of Java programming, utilizing it to unravel the structure and interpretation of computer programs. Immerse yourself in the intricacies of Java, fostering a genuine passion for coding and technology through hands-on, interactive experiences. This meticulously crafted program provides practical insights, encourages collaborative coding projects, and equips participants with essential programming skills. It establishes a strong foundation for ongoing exploration and success in the dynamic fields of computer science and STEM.
+      age: High School
+      requirements: None
+      level: Hard
+      time: 2h/week
+      location: Remote/In person
+      noOfRating: 69
+      featuredImage: /courses/coding/java.png
+
+# digital-art: 
+#   description: | 
+#         Our Digital Art Course for kids is an engaging and educational journey into the world of creativity. Tailored for young artists, the course primarily focuses on teaching Photoshop skills.
+#         <br><br>Throughout the program, your child will learn the fundamentals of digital art, including essential tools and techniques in Photoshop. They’ll have the opportunity to explore their imagination and express themselves through various projects, fostering their artistic abilities.
+#   courses: 
+#     video-edit:
+#       name: Premier Video Course
+#       shortDescription: Explore the art of visual storytelling and enhance narrative skills by editing and refining their own video projectsart projects.
+#       longDescription: Fully prepare for the VEX VRC Robotics Competition, delve into advanced mechanical principles and programming design, while concurrently enhancing your background in STEM disciplines.
+#       instructor: Mr. Sean
+#       age: Any
+#       requirements: None
+#       level: Easy
+#       time: 1h/week
+#       location: Remote/In person
+#       noOfRating: 24
+#       featuredImage: /courses/digital-art/video.png
+#     photoshop:
+#       name: Photoshop Art Course
+#       shortDescription: Cultivate their artistic voice by expressing ideas, emotions, and stories through digital art projects.
+#       longDescription: Fully prepare for the VEX VRC Robotics Competition, delve into advanced mechanical principles and programming design, while concurrently enhancing your background in STEM disciplines.
+#       age: Any
+#       requirements: None
+#       level: Easy
+#       time: 1h/week
+#       location: Remote/In person
+#       noOfRating: 58
+#       bestseller: true
+#       featuredImage: /courses/digital-art/photoshop.png
+
+mentorship: 
+  description: | 
+    At Happy Kids Education, we believe in nurturing not just academic success, but holistic growth in every child. Our Mentorship and College Counseling program is designed to guide students towards fulfilling their potential, preparing them for the challenges and opportunities that lie ahead in their educational journey and beyond.
+    <br><br><b>Why Mentorship and College Counseling?</b>
+    <br><br>Navigating the path to college and career success can be overwhelming for students and parents alike. With rapidly evolving educational landscapes and increasing competition, it's crucial for students to receive personalized guidance and support tailored to their unique aspirations, strengths, and circumstances.
+    <h3 class="small-bottom-gap">Our Approach</h3>
+    <p class="description__introduction">
+      <b>1. Personalized Guidance:</b> Our experienced mentors and counselors work closely with each student to understand their interests, strengths, and goals. Through one-on-one sessions, we develop personalized plans to help them achieve academic excellence and personal growth.
+      <br><br><b>2. College Preparation:</b> From selecting the right courses and extracurricular activities to preparing for standardized tests and crafting compelling college applications, we provide comprehensive support at every step of the college admissions process.
+      <br><br><b>3. Career Exploration:</b> We encourage students to explore their interests and passions, offering insights into various career pathways and helping them make informed decisions about their future.
+      <br><br><b>4. Building Skills for Success:</b> Beyond academic achievement, we focus on developing essential skills such as critical thinking, communication, and leadership, empowering students to thrive in college and beyond.
+      <br><br><b>5. Continuous Support:</b> Our commitment to students doesn't end with college acceptance. We continue to support them throughout their college years, offering guidance on course selection, internships, and career planning.
+    </p>
+
+    <h3 class="small-bottom-gap">Why Choose Happy Kids Education?</h3>
+    <p class="description__introduction">
+      <b>1. Experienced Professionals:</b> Our team comprises seasoned educators, counselors, and mentors with extensive experience in guiding students towards academic and personal success.
+      <br><br><b>2. Individualized Attention:</b> We recognize that every student is unique, and our approach is tailored to meet their specific needs and aspirations.
+      <br><br><b>3. Proven Track Record:</b> Our program has helped numerous students gain admission to top colleges and universities, equipping them with the skills and confidence to excel in higher education and beyond.
+      <br><br><b>4. Comprehensive Support:</b> From academic tutoring to college application assistance, we offer a wide range of services to support students at every stage of their educational journey.
+      <br><br><b>5. Holistic Development:</b> At Happy Kids Education, we prioritize holistic growth, nurturing not just academic achievement but also character development, resilience, and self-awareness.
+    </p>
+
+    <h3 class="small-bottom-gap">Invest in Your Child's Future Today</h3>
+    <p class="description__introduction">
+      Give your child the competitive edge they need to succeed in today's fast-paced world. Join Happy Kids Education's Mentorship and College Counseling program and embark on a journey of growth, discovery, and fulfillment.
+      <br><br>Contact us today to learn more and schedule a consultation with one of our experienced mentors. Together, let's unlock your child's full potential and empower them to build a bright and promising future.
+    </p>
+
+summer-camp:
+  v2: true
+  description: |
+    Join our dynamic summer camp where students delve into the exciting worlds of robotics and coding! Our program offers hands-on learning experiences, equipping students with essential skills and fostering their creativity in these cutting-edge fields!
+  courses: 
+    vex-iq-camp:
+      name: VEX IQ Camp
+      shortDescription: |
+        In our VEX IQ Camp, students will engage in hands-on projects to master the fundamentals of VEX IQ robotics
+        <ul>
+          <li>Mon 06/10/24 - Fri 06/14/24</li>
+          <li>Mon 06/17/24 - Fri 06/21/24</li>
+          <li>Mon 06/24/24 - Fri 06/28/24</li>
+        </ul>
+      age: 6 - 11
+      time: 9am-12pm
+      location: In Person
+      featuredImage: courses/summer-camp/vex-iq.png
+      price: $399/week
+    beginner-coding-class:
+      name: Beginner Coding Class
+      shortDescription: | 
+        Coders that join out coding class will learn basic computer programming through “Scratch”
+        <ul>
+          <li>Mon 06/10/24 - Fri 06/14/24</li>
+          <li>Mon 06/17/24 - Fri 06/21/24</li>
+          <li>Mon 06/24/24 - Fri 06/28/24</li>
+        </ul>
+      age: 6 - 12
+      time: 1pm-4pm
+      location: In Person
+      featuredImage: courses/coding/scratch.png
+      price: $366/week
+    coding-for-vex-robots:
+      name: Coding for VEX Robots
+      shortDescription: | 
+        Campers write complex code for a complex competition robot
+        <ul>
+          <li>Mon 07/01/24 - Fri 07/05/24</li>
+          <li>Mon 07/08/24 - Fri 07/12/24</li>
+          <li>Mon 07/15/24 - Fri 07/19/24</li>
+          <li>Mon 07/22/24 - Fri 07/26/24</li>
+        </ul>
+      age: 12 - 16
+      time: 9am-12pm
+      location: In Person
+      featuredImage: courses/summer-camp/coding-vex-robots.png
+      price: $445/week
+    vex-vrc:
+      name: VEX VRC
+      shortDescription: |
+        In this class, students will do hands on experiments and build their very own bot.
+        <ul>
+          <li>Mon 07/01/24 - Fri 07/05/24</li>
+          <li>Mon 07/08/24 - Fri 07/12/24</li>
+          <li>Mon 07/15/24 - Fri 07/19/24</li>
+          <li>Mon 07/22/24 - Fri 07/26/24</li>
+        </ul>
+      age: 11 - 15
+      time: 1pm-4pm
+      location: In Person
+      featuredImage: courses/summer-camp/vex-v5.jpeg
+      price: $499/week

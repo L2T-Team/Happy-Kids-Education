@@ -1,0 +1,103 @@
+# Header
+menu:
+  Home: /
+  About: /about
+  Our Team: /our-team
+  Summer Camp: /courses/summer-camp
+  Services:
+    children:
+      Courses: 
+        children:
+          Robotics: 
+            url: /courses/robotics
+          Summer Camp: 
+            url: /courses/summer-camp
+          Coding: 
+            url: /courses/coding
+          # Digital Art: 
+          #   url: /digital-art
+          #   avatar: /css/images/digital-art-avatar.png
+          #   descriptions:
+          #     - "Acquire proficiency in employing a wide array of digital tools and techniques essential for digital art creation"
+          #     - "Explore diverse avenues of creative expression within the digital realm"
+          Mentorship: 
+            url: /courses/mentorship
+      College/Grad School Application: /services/school-application
+      Middle/High School Application: /services/private-school-application
+      Background Improvement: /services/improvement
+  Gallery: /gallery
+  News: /news
+  Contact: /contact
+
+title: Happy Kids Education
+
+advantages:
+  STEM CAREER PLANNING: Planning your STEM career with our experts
+  PARENTAL PARTNERSHIP: Accompanying with parents to enhance learning and growth
+  CUSTOMIZED TASKS: Providing personalized tasks and resources in all areas
+  NEXT-LEVEL GROWTH: Helping your kid boost their skill and confidence, and surpass their expectations
+  HOLISTIC DEVELOPMENT: Tailoring hands-on learning environment to fully boost curiosity, innovation and problem-solving
+  CLEAR CAREER PATH: Helping students explore their professional choices and plan their career goals
+
+rss: /atom.xml
+banner: "images/banner.jpg"
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# # Footer
+# copyright: |-
+#   <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a></br>
+#   All website licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></br>
+
+# Footer
+copyright:
+# Need help choosing? Please see...
+# https://creativecommons.org/choose/
+# https://choosealicense.com/
+# You can use html like below...
+# copyright: |-
+#   <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a></br>
+#   All website licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></br>
+
+# Sidebar
+sidebar: right
+widgets:
+- category
+- tag
+- tagcloud
+- archive
+- recent_posts
+
+# display widgets at the bottom of index pages (pagination == 2)
+index_widgets:
+# - category
+# - tagcloud
+# - archive
+
+# Widget behavior
+archive_type: 'monthly'
+show_count: false
+recent_posts_limits: 5
+
+# Miscellaneous
+google_analytics:
+gauges_analytics:
+favicon: data/favicon.png
+twitter:
+fb_admins:
+fb_app_id:
+
+# valine comment system. https://valine.js.org
+valine:
+  enable: false # if you want use valine,please set this value is true
+  appId:  # leancloud application app id
+  appKey:  # leancloud application app key
+  notify: false # valine mail notify (true/false) https://github.com/xCss/Valine/wiki
+  verify: false # valine verify code (true/false)
+  pageSize: 10 # comment list page size
+  avatar: mm # gravatar style https://valine.js.org/#/avatar
+  lang: zh-cn # i18n: zh-cn/en
+  placeholder: Just go go # valine comment input placeholder(like: Please leave your footprints )
+  guest_info: nick,mail,link #valine comment header info

@@ -1,0 +1,37 @@
+<% const makeNavbarItem = (key, item) => {%>
+  <% if (item.children) {%>
+    <li>
+      <label for="drop--<%- key.replace(/\s/g, "-") %>" class="toggle"><%- key %></label>
+      <a href="#"><%- key %></a>
+      <input type="checkbox" id="drop--<%- key.replace(/\s/g, "-") %>" />
+      <ul>
+        <% for (var i in item.children) { %>
+          <% makeNavbarItem(i, item.children[i]) %>
+        <% } %>
+      </ul>
+    </li>
+  <% } else {%>
+    <li><a href="<%- url_for(typeof item === 'object' ? item.url : item) %>"><%- key %></a></li>
+  <% } %>
+<% } %>
+
+
+<nav>
+  <a href="/">
+    <img class="nav__logo" src="<%- url_for('css/images/logo.png') %>" alt="logo" />
+  </a>
+  <label for="drop" class="toggle menu_label">
+    <svg viewBox="0 0 100 80" width="35" height="20">
+      <rect width="100" height="15" rx="10"></rect>
+      <rect y="30" width="100" height="15" rx="10"></rect>
+      <rect y="60" width="100" height="15" rx="10"></rect>
+    </svg>
+  </label>
+  <input type="checkbox" id="drop" />
+
+  <ul class="menu">
+    <% for (var i in theme.menu) { %>
+      <% makeNavbarItem(i, theme.menu[i]) %>
+    <% } %>
+  </ul>
+</nav>

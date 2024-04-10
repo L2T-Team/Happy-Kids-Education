@@ -1,0 +1,26 @@
+<ul class="teachers flex_card_wrap">
+  <% for (var i in site.data.members) {%>
+    <li class="teacher-item flex_card_2">
+      <div class="teacher-info">
+        <% if (site.data.members[i].avatar) { %>
+          <img
+            class="teacher-cover"
+            src="<%- url_for(site.data.members[i].avatar) %>"
+            alt=""
+          />
+        <% } else { %>
+          <img
+            class="teacher-cover"
+            src="<%- url_for('/avatars/no-avatar.png') %>"
+            alt=""
+          />
+        <% } %>
+        <div>
+          <h3 class="teacher-title"><%- site.data.members[i].name %></h3>
+          <h4 class="teacher-department"><%- site.data.members[i].department %></h4>
+        </div>
+      </div>
+      <section class="teacher-desc"><%- site.data.members[i].description %></section>
+    </li>
+  <% } %>
+</ul>

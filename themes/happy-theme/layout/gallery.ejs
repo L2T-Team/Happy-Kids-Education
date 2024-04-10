@@ -1,0 +1,6 @@
+<%- partial('_widget/hero', {title: page.title, featuredImage: page.featuredImage}) %>
+<section class="cards flex_card_wrap padding_container bottom_gap">
+  <% for (var i in site.data.common.galleries) { %>
+    <%- partial('_widget/modal-img', {imgUrl: site.data.common.galleries[i].path, alt: site.data.common.galleries[i].alt}) %>
+  <% } %>
+</section>
