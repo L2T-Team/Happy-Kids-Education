@@ -7,11 +7,12 @@ menu:
   Services:
     children:
       Courses: 
+        url: /services/courses
         children:
           Robotics: 
             url: /courses/robotics
-          Summer Camp: 
-            url: /courses/summer-camp
+          # Summer Camp: 
+          #   url: /courses/summer-camp
           Coding: 
             url: /courses/coding
           # Digital Art: 
@@ -20,8 +21,6 @@ menu:
           #   descriptions:
           #     - "Acquire proficiency in employing a wide array of digital tools and techniques essential for digital art creation"
           #     - "Explore diverse avenues of creative expression within the digital realm"
-          Mentorship: 
-            url: /courses/mentorship
       Consulting: /services/consulting
       Competition Teams: /services/competition-teams
       Background Improvement: /services/improvement

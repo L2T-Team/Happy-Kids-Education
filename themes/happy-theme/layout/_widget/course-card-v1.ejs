@@ -1,4 +1,4 @@
-<div class="inner_course__item zoom flex_card_3">
+<div class="inner_course__item zoom flex_card_<%- locals.colNumber ?? 3 %>">
   <a href="<%- url_for(courseUrl) %>">
     <div class="course__top">
       <img src="<%- url_for(featuredImage) %>" alt="Advanced Robotic Engineering - VEX Competition Edition" />

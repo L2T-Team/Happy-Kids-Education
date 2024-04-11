@@ -1,11 +1,11 @@
-<div class="inner_course__item zoom flex_card_3">
+<div class="inner_course__item zoom flex_card_<%- locals.colNumber ?? 3 %>">
   <div class="course__top">
     <img
       src="<%- url_for(featuredImage) %>"
       alt="Advanced Robotic Engineering - VEX Competition Edition"
     />
 
-    <% if (bestseller) { %>
+    <% if (locals.bestseller) { %>
     <span class="course__label">Bestseller</span>
     <% } %>
   </div>
@@ -25,10 +25,10 @@
         </span>
       </div>
       <div class="course__detail_row">
-        <% if (price) {%>
+        <% if (locals.price) {%>
           <span class="course__detail_item course__detail_item__left">
             <img src="<%- url_for('/css/images/svg/money-bill-1.svg') %>" />
-            <span><b>Price: </b><%- price %></span>
+            <span><b>Price: </b><%- locals.price %></span>
           </span>
         <% } %>
       </div>

@@ -2,7 +2,7 @@
   <% if (item.children) {%>
     <li>
       <label for="drop--<%- key.replace(/\s/g, "-") %>" class="toggle"><%- key %></label>
-      <a href="#"><%- key %></a>
+      <a href="<%- item.url %>"><%- key %></a>
       <input type="checkbox" id="drop--<%- key.replace(/\s/g, "-") %>" />
       <ul>
         <% for (var i in item.children) { %>

@@ -1,37 +1,40 @@
 <body>
   <div class="secondary-hero small-bottom-gap">
-    <% if (site.data.services?.[page.key]?.avatar) { %>
-      <img src="<%- url_for(site.data.services[page.key].avatar) %>" />
+    <% if (site.data.services?.[page.key]?.featuredImage) { %>
+      <img src="<%- url_for(site.data.services[page.key].featuredImage) %>" />
     <% } %>
     <h1><%- page.title %></h1>
   </div>
   <main class="page-body">
-    <div class="courses-listing-info padding_container bottom_gap">
-      <h2 class="title"><%- page.title %></h2>
-    </div>
     <% if (site.data.services[page.key]?.descriptions) {%>
       <div class="padding_container bottom_gap">
         <% for (var i in site.data.services[page.key].descriptions) { %>
           <%- site.data.services[page.key].descriptions[i] %>
-          <br>
+          <br />
         <% } %>
       </div>
-      <%- partial('_widget/advantages') %>
     <% } %>
     <% if (site.data.services[page.key]?.items) { %>
       <section class="courses flex_card_wrap padding_container bottom_gap">
         <% for (var i in site.data.services[page.key].items) { %>
-          <div class="courses_item zoom flex_card_2 <%- (i === "summer-camp" ? "highlighted_card" : "") %>" >
-            <a href="<%- url_for(site.data.services[page.key].items[i].url) %>">
-              <img src="<%- url_for(site.data.services[page.key].items[i].avatar) %>" />
-              <h2><%- site.data.services[page.key].items[i].name %></h2>
-              <ul>
-                <% for (var h in site.data.services[page.key].items[i].advantages) { %>
-                  <li><%- site.data.services[page.key].items[i].advantages[h] %></li>
-                <% } %>
-              </ul>
-            </a>
-          </div>
+          <% if (site.data.services[page.key].items[i].v === 0) { %>
+            <%- partial('_widget/course-card-v0', {
+              title: site.data.services[page.key].items[i].name,
+              courseUrl: site.data.services[page.key].items[i].url,
+              featuredImage: site.data.services[page.key].items[i].featuredImage,
+              advantages: site.data.services[page.key].items[i].advantages,
+            }) %>
+          <% } %>
+          <% if (site.data.services[page.key].items[i].v === 2) { %>
+            <%- partial('_widget/course-card-v2', {
+              title: site.data.services[page.key].items[i].name,
+              courseUrl: site.data.services[page.key].items[i].url,
+              featuredImage: site.data.services[page.key].items[i].featuredImage,
+              description: site.data.services[page.key].items[i].description,
+              age: site.data.services[page.key].items[i].age,
+              learnTime: site.data.services[page.key].items[i].time,
+            }) %>
+          <% } %>
         <% } %>
       </section>
     <% } %>

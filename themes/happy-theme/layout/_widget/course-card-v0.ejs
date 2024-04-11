@@ -1,0 +1,11 @@
+<div class="courses_item zoom flex_card_<%- locals.colNumber ?? 3 %>" >
+    <a href="<%- url_for(courseUrl) %>">
+      <img src="<%- url_for(featuredImage) %>" />
+      <h2><%- title %></h2>
+      <ul>
+        <% for (var h in advantages) { %>
+          <li><%- advantages[h] %></li>
+        <% } %>
+      </ul>
+    </a>
+</div>
