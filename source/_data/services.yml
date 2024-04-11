@@ -1,6 +1,6 @@
 consulting:
   name: Consulting
-  url: /services/school-application
+  url: /services/consulting
   avatar: /services/assets/standford.jpg
   descriptions:
    - "<p>Welcome to Happy Kids Education, where we blend passion with educational excellence to shape the future leaders of tomorrow. Our commitment at Happy Kids Education is deeply rooted in a holistic approach, integrating STEM education components such as robotics, coding, digital art, career planning, and college consulting to offer a comprehensive and enriching educational experience.</p>"
@@ -26,7 +26,7 @@ improvement:
     - "<b>Internship Placement</b>: Access exclusive internships aligned with your interests."
 competition-teams:
   name: Competition Teams
-  url: /services/private-school-application
+  url: /services/competition-teams
   avatar: /services/assets/phillips-exeter.jpg
   descriptions:
     - "<p>Welcome to Happy Kids Education, where we blend passion with educational excellence to shape the future leaders of tomorrow. Our commitment at Happy Kids Education is deeply rooted in a holistic approach, integrating STEM education components such as robotics, coding, digital art, career planning, and college consulting to offer a comprehensive and enriching educational experience.</p>"
