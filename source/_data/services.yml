@@ -52,45 +52,45 @@ competition-teams:
     - "<b>Elite STEM Competition Teams</b>: Join our top-tier teams covering various STEM competitions and receive expert guidance to compete at the highest level."
     - "<b>Skills Development</b>: Hone your abilities in robotics, coding, math and more while thriving in a supportive, collaborative environment driven by passion."
   items:
-    robotics:
+    vex-iq:
       v: 2
-      name: Competition Robotics
-      featuredImage: /css/images/robotic-avatar.png
+      name:  VEX IQ Competition Team
+      featuredImage: /services/assets/competitions/vexiq.png
       description: Intro to mechanical principles and programming design with...
       age: Any
       time: 2h/week
     robotics2:
       v: 2
-      name: Competition Robotics2
-      featuredImage: /css/images/robotic-avatar.png
+      name: VEX VRC Competition Team
+      featuredImage: /services/assets/competitions/vexvrc.png
       description: Intro to mechanical principles and programming design with...
       age: Any
       time: 2h/week
     robotics3:
       v: 2
-      name: Competition Robotics4
-      featuredImage: /css/images/robotic-avatar.png
+      name: MIT App Inventor Competition Team
+      featuredImage: /courses/coding/mit.png
       description: Intro to mechanical principles and programming design with...
       age: Any
       time: 2h/week
     robotics4:
       v: 2
-      name: Competition Robotics4
-      featuredImage: /css/images/robotic-avatar.png
+      name: USACO Competition Team
+      featuredImage: /services/assets/competitions/usaco.png
       description: Intro to mechanical principles and programming design with...
       age: Any
       time: 2h/week
     robotics5:
       v: 2
-      name: Competition Robotics5
-      featuredImage: /css/images/robotic-avatar.png
+      name: AMC Competition Team
+      featuredImage: /services/assets/competitions/amc.png
       description: Intro to mechanical principles and programming design with...
       age: Any
       time: 2h/week
     robotics6:
       v: 2
-      name: Competition Robotics6
-      featuredImage: /css/images/robotic-avatar.png
+      name: IMO Competition Team
+      featuredImage: /services/assets/competitions/imo.png
       description: Intro to mechanical principles and programming design with...
       age: Any
       time: 2h/week

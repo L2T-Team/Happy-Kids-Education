@@ -19,7 +19,7 @@ robotics:
       time: 2h/week
       location: In Person
       noOfRating: 238
-      featuredImage: /courses/robotics/intro-course-avatar.png
+      featuredImage: /courses/summer-camp/vex-iq.png
       url: /courses/robotics/intro-to-robotic-engineering
     advanced-robotic-engineering:
       name: Advanced Robotic Engineering - VEX Competition Edition
@@ -32,7 +32,7 @@ robotics:
       location: In Person 
       noOfRating: 56
       bestseller: true
-      featuredImage: /courses/robotics/intro-course-avatar.png
+      featuredImage: /courses/summer-camp/vex-v5.jpeg
 
 coding: 
   v2: true
