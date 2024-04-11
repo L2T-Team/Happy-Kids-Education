@@ -10,17 +10,6 @@ consulting:
    - "<b>Maximized Advantages</b>: Holistic career, application, and background enhancement planning to maximize students' strengths."
    - "<b>Customized Track</b>: Tailored to meet each student's interests."
    - "<b>Guided Journey</b>: Step-by-step guidance provided until admission."
-competition-teams:
-  name: Competition Teams
-  url: /services/private-school-application
-  avatar: /services/assets/phillips-exeter.jpg
-  descriptions:
-   - "<p>Welcome to Happy Kids Education, where we blend passion with educational excellence to shape the future leaders of tomorrow. Our commitment at Happy Kids Education is deeply rooted in a holistic approach, integrating STEM education components such as robotics, coding, digital art, career planning, and college consulting to offer a comprehensive and enriching educational experience.</p>"
-   - "<p>Happy Kids Education specializes in fostering a genuine love for learning through cutting-edge programs that extend beyond the confines of traditional education. We are dedicated to igniting students’ enthusiasm for technology, nurturing their creativity, and guiding them towards academic success. Our unwavering emphasis on hands-on practice ensures that students not only acquire theoretical knowledge but also develop practical skills, forming a robust foundation for their future endeavors.</p>"
-   - "<p>With an exceptional team of educators, academic researchers, and industry professionals, we are dedicated to creating a dynamic and stimulating environment that fosters joyful learning. Our educators possess outstanding credentials, having affiliations with prestigious institutions such as Carnegie Mellon University, Harvard University, and UC Berkeley. Our mission is to nurture the inherent abilities of young minds, empowering them to thrive in our rapidly evolving world. Whether students are immersing themselves in the captivating world of robotics, exploring the intricacies of coding, expressing creativity through digital art, or seeking expert guidance in career planning and college consulting, Happy Kids Education stands as the ultimate destination for comprehensive and forward-thinking education.<br><br> Join us on this transformative journey as we empower students for a bright future. At Happy Kids Education, we strongly believe in unlocking the full potential of every child and preparing them for success in the ever-changing landscape of the 21st century. Together, let’s embark on the path to knowledge, creativity, and a prosperous tomorrow.</p>"
-  advantages:
-   - "<b>Elite STEM Competition Teams</b>: Join our top-tier teams covering various STEM competitions and receive expert guidance to compete at the highest level."
-   - "<b>Skills Development</b>: Hone your abilities in robotics, coding, math and more while thriving in a supportive, collaborative environment driven by passion."
 improvement:
   name: Background Improvement
   url: /services/improvement
@@ -35,6 +24,17 @@ improvement:
     - "<b>Project Support</b>: Receive expert mentorship to develop and showcase impactful projects highlighting your skills."
     - "<b>Research Guidance</b>: Explore research opportunities with experienced professionals' guidance."
     - "<b>Internship Placement</b>: Access exclusive internships aligned with your interests."
+competition-teams:
+  name: Competition Teams
+  url: /services/private-school-application
+  avatar: /services/assets/phillips-exeter.jpg
+  descriptions:
+    - "<p>Welcome to Happy Kids Education, where we blend passion with educational excellence to shape the future leaders of tomorrow. Our commitment at Happy Kids Education is deeply rooted in a holistic approach, integrating STEM education components such as robotics, coding, digital art, career planning, and college consulting to offer a comprehensive and enriching educational experience.</p>"
+    - "<p>Happy Kids Education specializes in fostering a genuine love for learning through cutting-edge programs that extend beyond the confines of traditional education. We are dedicated to igniting students’ enthusiasm for technology, nurturing their creativity, and guiding them towards academic success. Our unwavering emphasis on hands-on practice ensures that students not only acquire theoretical knowledge but also develop practical skills, forming a robust foundation for their future endeavors.</p>"
+    - "<p>With an exceptional team of educators, academic researchers, and industry professionals, we are dedicated to creating a dynamic and stimulating environment that fosters joyful learning. Our educators possess outstanding credentials, having affiliations with prestigious institutions such as Carnegie Mellon University, Harvard University, and UC Berkeley. Our mission is to nurture the inherent abilities of young minds, empowering them to thrive in our rapidly evolving world. Whether students are immersing themselves in the captivating world of robotics, exploring the intricacies of coding, expressing creativity through digital art, or seeking expert guidance in career planning and college consulting, Happy Kids Education stands as the ultimate destination for comprehensive and forward-thinking education.<br><br> Join us on this transformative journey as we empower students for a bright future. At Happy Kids Education, we strongly believe in unlocking the full potential of every child and preparing them for success in the ever-changing landscape of the 21st century. Together, let’s embark on the path to knowledge, creativity, and a prosperous tomorrow.</p>"
+  advantages:
+    - "<b>Elite STEM Competition Teams</b>: Join our top-tier teams covering various STEM competitions and receive expert guidance to compete at the highest level."
+    - "<b>Skills Development</b>: Hone your abilities in robotics, coding, math and more while thriving in a supportive, collaborative environment driven by passion."
 courses:
   name: Courses
   url: /services/courses
