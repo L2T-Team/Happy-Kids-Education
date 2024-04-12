@@ -56,44 +56,44 @@ competition-teams:
       v: 2
       name:  VEX IQ Competition Team
       featuredImage: /services/assets/competitions/vexiq.png
-      description: Intro to mechanical principles and programming design with...
-      age: Any
-      time: 2h/week
+      description:
+      age: 8-14
+      time: 10h/week
     robotics2:
       v: 2
       name: VEX VRC Competition Team
       featuredImage: /services/assets/competitions/vexvrc.png
-      description: Intro to mechanical principles and programming design with...
-      age: Any
-      time: 2h/week
+      description:
+      age: 12-18
+      time: 10h/week
     robotics3:
       v: 2
       name: MIT App Inventor Competition Team
       featuredImage: /courses/coding/mit.png
-      description: Intro to mechanical principles and programming design with...
+      description:
       age: Any
-      time: 2h/week
+      time: 1h/week
     robotics4:
       v: 2
       name: USACO Competition Team
       featuredImage: /services/assets/competitions/usaco.png
-      description: Intro to mechanical principles and programming design with...
-      age: Any
-      time: 2h/week
+      description:
+      age: 14-18
+      time: NA
     robotics5:
       v: 2
       name: AMC Competition Team
       featuredImage: /services/assets/competitions/amc.png
-      description: Intro to mechanical principles and programming design with...
+      description:
       age: Any
-      time: 2h/week
+      time: NA
     robotics6:
       v: 2
       name: IMO Competition Team
       featuredImage: /services/assets/competitions/imo.png
-      description: Intro to mechanical principles and programming design with...
+      description:
       age: Any
-      time: 2h/week
+      time: NA
 
 courses:
   name: Courses
@@ -110,26 +110,27 @@ courses:
       url: /courses/robotics
       featuredImage: /css/images/robotic-avatar.png
       advantages:
-        - "<b>Quick progress</b>: Fast-forward through theory and participate in high-standard competitions"
-        - "<b>Programming skill</b>: Learn from expert teachers in Robotics"
-        - "<b>Ample support</b>: Get enough and extra materials for projects"
+        - "<b>Fast Paced</b>: Accelerate learning with high-standard competitions"
+        - "<b>Engineering Pathways</b>: Lay the groundwork for a future in engineering"
+        - "<b>Programming skill</b>: Enhance programming skills through hands-on practice"
+        - "<b>Ample support</b>: Access extensive free resources for projects"
     summer-camp:
       v: 0
       name: Summer Camp
       url: /courses/summer-camp
       featuredImage: gallery/img-22.jpg
       advantages:
-        - "<b>Fun and learning</b>: Enjoy a dynamic summer camp with robotics and coding activities"
-        - "<b>Hands-on experience</b>: Build, program, and test your own robots and apps"
-        - "<b>Essential skills</b>: Develop your logical thinking, problem-solving, and creativity"
-        - "<b>Experienced instructors</b>: Learn from passionate and experienced teachers in STEM fields"
+        - "<b>Engaging Summer Fun</b>: Dive into robotics and coding at our dynamic summer camp"
+        - "<b>Practical Robotics</b>: Construct, code, and evaluate your robots and applications"
+        - "<b>Core Competencies</b>: Enhance your logical thinking, problem-solving abilities, and creativity"
+        - "<b>Expert Teaching</b>: Gain knowledge from dedicated and skilled STEM educators"
     coding:
       v: 0
       name: Coding
       url: /courses/coding
       featuredImage: /css/images/coding-avatar.png
       advantages:
-        - "<b>Personalized learning</b>: Customized curriculum and goals"
-        - "<b>Practical projects</b>: Learn by doing a lot of hand-on projects"
-        - "<b>Quality syllabus</b>: Customized from renowned experts"
-        - "<b>Expert instructors</b>: Highly qualified faculty with master's degrees or higher"
+        - "<b>Customized Learning</b>: Tailored curriculum to fit individual goals"
+        - "<b>Active Projects</b>: Master programming skills through extensive hands-on experience"
+        - "<b>Expert-Designed Syllabus</b>: Curriculum crafted by renowned specialists"
+        - "<b>Skilled Faculty</b>: Learn from highly educated instructors with advanced degrees"
