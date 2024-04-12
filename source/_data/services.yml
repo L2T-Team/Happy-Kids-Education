@@ -79,21 +79,21 @@ competition-teams:
       featuredImage: /services/assets/competitions/usaco.png
       description:
       age: 14-18
-      time: NA
+      time: As needed
     robotics5:
       v: 2
       name: AMC Competition Team
       featuredImage: /services/assets/competitions/amc.png
       description:
       age: Any
-      time: NA
+      time: As needed
     robotics6:
       v: 2
       name: IMO Competition Team
       featuredImage: /services/assets/competitions/imo.png
       description:
       age: Any
-      time: NA
+      time: As needed
 
 courses:
   name: Courses
