@@ -154,13 +154,12 @@
     let currentSlide = 0;
 
     function changeSlide(index) {
-      const radioButtons = document.querySelectorAll('input[name="radio-buttons"]');
-
-      radioButtons.forEach(radioButton => radioButton.checked = false);
-
-      radioButtons[index].checked = true;
-
-      currentSlide = index;
+      try {
+        const radioButtons = document.querySelectorAll('input[name="radio-buttons"]');
+        radioButtons.forEach(radioButton => radioButton.checked = false);
+        radioButtons[index].checked = true;
+        currentSlide = index;
+      } catch (error) {}
     }
 
     setInterval(() => {

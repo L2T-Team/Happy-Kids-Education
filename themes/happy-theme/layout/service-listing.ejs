@@ -1,0 +1,42 @@
+<body>
+  <div class="secondary-hero small-bottom-gap">
+    <% if (site.data.services?.[page.key]?.featuredImage) { %>
+      <img src="<%- url_for(site.data.services[page.key].featuredImage) %>" />
+    <% } %>
+    <h1><%- page.title %></h1>
+  </div>
+  <main class="page-body">
+    <% if (site.data.services[page.key]?.descriptions) {%>
+      <div class="padding_container bottom_gap">
+        <% for (var i in site.data.services[page.key].descriptions) { %>
+          <%- site.data.services[page.key].descriptions[i] %>
+          <br />
+        <% } %>
+      </div>
+    <% } %>
+    <% if (site.data.services[page.key]?.items) { %>
+      <section class="courses flex_card_wrap padding_container bottom_gap">
+        <% for (var i in site.data.services[page.key].items) { %>
+          <% if (site.data.services[page.key].items[i].v === 0) { %>
+            <%- partial('_widget/course-card-v0', {
+              title: site.data.services[page.key].items[i].name,
+              courseUrl: site.data.services[page.key].items[i].url,
+              featuredImage: site.data.services[page.key].items[i].featuredImage,
+              advantages: site.data.services[page.key].items[i].advantages,
+            }) %>
+          <% } %>
+          <% if (site.data.services[page.key].items[i].v === 2) { %>
+            <%- partial('_widget/course-card-v2', {
+              title: site.data.services[page.key].items[i].name,
+              courseUrl: site.data.services[page.key].items[i].url,
+              featuredImage: site.data.services[page.key].items[i].featuredImage,
+              description: site.data.services[page.key].items[i].description,
+              age: site.data.services[page.key].items[i].age,
+              learnTime: site.data.services[page.key].items[i].time,
+            }) %>
+          <% } %>
+        <% } %>
+      </section>
+    <% } %>
+  </main>
+</body>

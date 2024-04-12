@@ -10,7 +10,7 @@
           
           <h2><%- site.posts.toArray()[i].title %></h2>
           <p>
-            <%- site.posts.toArray()[i]._content %><br>
+            <%- site.posts.toArray()[i].content.split('\n')?.[0] ?? site.posts.toArray()[i].content %><br>
           </p>
         </div>
       </a>

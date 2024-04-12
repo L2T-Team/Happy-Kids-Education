@@ -1,0 +1,36 @@
+<div class="inner_course__item zoom flex_card_<%- locals.colNumber ?? 3 %>">
+  <a href="<%- url_for(courseUrl) %>">
+    <div class="course__top">
+      <img src="<%- url_for(featuredImage) %>" alt="Advanced Robotic Engineering - VEX Competition Edition" />
+
+      <% if (bestseller) { %>
+        <span class="course__label">Bestseller</span>
+      <% } %>
+    </div>
+    <div class="course__info">
+      <h4 class="course__title">
+        <%- title %>
+      </h4>
+
+      <p class="course__desc">
+        <%- description %>
+      </p>
+      <div class="course__score">
+        <span class="course__score_text">5.0</span>
+
+        <span class="course__score_star">
+          <i class="fa fa-solid fa-star"></i>
+
+          <i class="fa fa-solid fa-star"></i>
+
+          <i class="fa fa-solid fa-star"></i>
+
+          <i class="fa fa-solid fa-star"></i>
+
+          <i class="fa fa-solid fa-star"></i>
+        </span>
+        <span class="course__students">(<%- noOfRating %>)</span>
+      </div>
+    </div>
+  </a>
+</div>

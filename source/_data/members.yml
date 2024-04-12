@@ -8,7 +8,7 @@ sean:
       <li>Master of Information Systems Management, Carnegie Mellon University</li>
       <li>B.A. in Data Science, University of California, Berkeley</li>
       <li>Previous positions held at Intel, Lawrence Berkeley National Laboratory, and others</li>
-      <li>Author of multiple SCI journal papers and top conference papers</li>
+      <li>Author of multiple SCI journal papers and presented at top conferences</li>
       <li>Research: Economic Privacy, Human-Computer Interaction</li>
       <li>Extensive experience college counseling, programming and robotics education</li>
     
@@ -43,12 +43,12 @@ anthony_greblick:
     </ul>
 ruben_yuriar:
   name: Ruben Yuriar
-  department: Computer Science Department, Math Department, Robotics Department
+  department: Computer Science department, Math department, Robotics Department
   avatar: /avatars/no-avatar.png
   description: |
     <ul>
       <li>Current high school teacher in Los Angeles</li>
-      <li>Previous lecturer at California State Polytechnic University, Pomona</li>
+      <li>Previously lecturer at California State Polytechnic University, Pomona</li>
       <li>Brings extensive experience in math, programming, and robotics education</li>
       <li>Dedicated to inspiring students' interest in mathematics and fostering success in STEM fields</li>
       <li>Guides students to participate in various levels of mathematical competitions such as the AMC, achieving outstanding results</li>
@@ -58,19 +58,19 @@ ruben_yuriar:
     </ul>
 ecky_fan:
   name: Ecky Fan
-  department: English Department
+  department: English department
   avatar: /avatars/EckyFan.jpg
   description: |
     <ul>
       <li>Master's degree in Applied Linguistics at Tianjin Foreign Studies University</li>
       <li>B.A. in English Education </li>
       <li>Extensive tutoring experience in Toefl and SAT,SSAT tests</li>
-      <li>Previous head of Tutoring Department at AW education Group and Tiandao Education </li>
+      <li>Previously the head of Tutoring Department at AW education Group and Tiandao Education </li>
       <li>Author of the book: SSAT Full Score Preparation</li>
     </ul>
 enoch:
   name: Enoch Liu
-  department: Computer Science Department, Counseling Department
+  department: Computer Science department, Counseling Department
   avatar: /avatars/EnochLiu.png
   description: |
     <ul>
@@ -82,7 +82,7 @@ enoch:
     </ul>
 derek:
   name: Derek
-  department: Computer Science Department, Counseling Department
+  department: Computer Science department, Counseling Department
   description: |
     <ul>
       <li>Current Software Engineer specializing in Artificial Intelligence at a leading technology company in the Bay Area</li>
@@ -92,4 +92,16 @@ derek:
       <li>Former Teaching Assistant for courses in algorithms, software system development, high-performance computing, and artificial intelligence</li>
       <li>4 years of experience in international education consulting</li>
       <li>Holds a teaching qualification certificate for high school mathematics in China</li>
+    </ul>
+raymond: 
+  name: Raymond Rodriguez
+  department: English Department
+  avatar: /avatars/Raymond.jpg
+  description: |
+    <ul>
+      <li>B.A in Education Sciences, UC Irvine</li>
+      <li>Dedicated to fostering an engaging learning atmosphere for all students</li>
+      <li>Prioritizes developing both personal and academic skills essential for success</li>
+      <li>Current high school teacher in Los Angeles</li>
+      <li>Teaching experience includes Creative Writing, Middle School Science, Biology, English 10, and World History</li>
     </ul>
