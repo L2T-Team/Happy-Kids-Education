@@ -32,6 +32,6 @@ galleries:
 
 heroImgs: 
   - path: gallery/img-1.jpg
-  - path: data/about_us.jpg
+  - path: gallery/img-0.jpg
   - path: data/robotic-avatar.png
   - path: gallery/happy-robotics.png
